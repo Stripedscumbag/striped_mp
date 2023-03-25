@@ -1,0 +1,4 @@
+30000001 = {
+	name = "Cabbage"
+	used_for_random = no
+}

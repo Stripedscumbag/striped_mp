@@ -1,0 +1,6 @@
+936.1.1 = {
+	holding_dynasty = 30000006
+	holder = 260572 #character 
+	liege = d_holstein
+}
+1066.1.1 = { holder = 0 liege = 0 }

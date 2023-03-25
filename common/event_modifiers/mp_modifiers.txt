@@ -1,0 +1,12 @@
+increased_holding = {
+	icon = 24
+}
+
+no_jews = {
+	icon = 64
+}
+
+borrowed_from_jews = {
+	icon = 24
+	church_opinion = -30
+}

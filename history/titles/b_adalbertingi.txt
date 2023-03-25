@@ -1,0 +1,5 @@
+769.1.1 = {
+	holding_dynasty = 1044065 #Adalbertingi - Dynastic Palace
+	holder = 190275 #character 
+	liege = d_genoa
+}

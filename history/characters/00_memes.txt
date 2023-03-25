@@ -1,0 +1,61 @@
+30000001 = {
+	name = "Mihemed Rejeb Weli"
+	dynasty = 0
+	religion = pagan 
+	culture = kurdish 
+	dna = chcdb0haa00
+ 	properties = r00jcf00000000000000000000000000000000
+	1.1.2={
+		birth=yes
+	}
+	learning=60
+	diplomacy=15
+	stewardship=13
+	intrigue=40
+	martial=30
+	61.1.1 = {
+		add_trait=immortal
+	}
+	add_trait = genius
+	add_trait = stutter
+	add_trait = lisp
+	add_trait = strong
+	add_trait = brave
+	add_trait = just
+	add_trait = adventurer
+	769.1.1 = {
+		health = 100
+	}
+	867.1.1 = {
+		health = 20
+	}
+	936.1.1 = {
+		health = 20
+	}
+	1066.1.1 = {
+		health = 20
+	}
+	1337.1.1 = {
+		health = 20
+	}
+}
+30000002 = {
+	name = "Swimmer"
+	dynasty = 30000001
+	religion = orthodox
+	culture = georgian
+	martial = 8
+	diplomacy = 0
+	intrigue = 4
+	learning = 6
+	stewardship = 5
+	add_trait = poet
+	add_trait = gardener
+	add_trait = proud
+	add_trait = cannibal_trait
+	1048.1.1 = {
+		birth = yes
+		employer = 9952
+	}
+	1101.1.1 = { death = yes }
+}

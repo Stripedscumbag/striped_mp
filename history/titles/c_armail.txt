@@ -1,0 +1,213 @@
+644.1.1={
+	liege=d_baluchistan
+}
+
+765.1.1={
+	holder=188605
+}
+
+861.1.1={
+	holder = 163164 # Amr of Makran
+} 
+
+# Independence for most of the 900s under b Ahmad family and Kharijites
+
+936.1.1 = {
+	holder = 261113
+	liege = 0
+}
+
+1010.1.1={
+	liege = k_afghanistan
+	holder = 188544 # Ma'dan Ma'danid
+}
+1025.1.1={
+	holder = 188545 # Isa 
+}
+1029.1.1={
+	liege = 0 # Isa's rebellion
+}
+1031.1.1={
+	liege = k_afghanistan
+	holder = 188546 # Abu'l-'Askar Husayn
+}
+1068.1.1={
+	holder = 188547 # ? Ma'danid
+}
+1090.1.1={
+	holder = 188548 # ? Ma'danid
+}
+1105.1.1={
+	holder = 188549 # ? Ma'danid
+}
+1118.1.1={
+	liege = d_zabulistan
+}
+1130.1.1={
+	holder = 188550 # ? Ma'danid
+}
+1150.1.1={
+	holder = 144141 # Ghiyath Ghurid
+}
+1186.1.1=
+{
+	holder = 93147
+}
+1192.1.1=
+{
+	holder = 93148
+}
+1206.1.1=
+{
+	holder = 93149
+}
+1215.1.1=
+{
+	liege="d_sistan"
+	holder=93277
+}
+1221.1.1=
+{
+	liege="d_turkestan"
+	holder = 93053
+}
+1225.1.1=
+{
+	liege="d_sistan"
+	holder=93278
+}
+1226.1.1=
+{
+	holder=93285
+}
+1255.1.1=
+{
+
+	holder=93287
+}
+1318.1.1=
+{
+	holder=93288
+}
+1331.1.1=
+{
+	holder=93291
+}711.1.1={
+	liege=k_sindh
+}
+
+# 711-747: Umayyad governors
+# 747-768: Abbasid governors
+
+768.1.1={
+	holder=188533 # Hisham ibn 'Amr al-Taghlibi
+}
+
+# 768-854: Abbasid governors
+
+855.1.1={
+	holder = 175050
+}
+
+913.1.1={
+	holder = 261107 # Umar II
+}
+
+## To be filled
+
+1011.1.1= {
+	holder = 188349 # Khafif I
+}
+1026.1.1={
+	holder = 188350 # Soomra
+}
+1053.1.1={
+	holder = 188351 # Bhoongar I
+	liege = k_sindh
+}
+1068.1.1={
+	holder = 188352 # Doda I
+}
+1092.1.1={
+	holder = 188353 # Zainab Tari
+}
+1102.1.1={
+	holder = 188354 # Sanghar
+}
+1107.1.1={
+	holder = 188357 # Khafif II
+}
+1140.1.1={
+	holder = 188358 # Umar I
+}
+1180.1.1={
+	holder = 188359 # Doda II
+}
+
+ # To be filled
+
+1182.1.1={
+	holder = 144142
+	liege=d_kabul
+}
+1186.1.1={
+	liege=k_sindh
+}
+1203.1.1={
+	holder=170300
+}
+1228.5.30={
+	holder = 170193 #Iltutmish
+	liege=e_rajastan
+}
+1236.5.1={
+	holder = 170194 #Firuz I
+}
+1236.11.20={
+	holder = 170195 #Raziyya
+}
+1239.10.1={
+	holder = 170198 #Bahram
+}
+1242.5.15={
+	holder = 170199 #Masud
+}
+1246.6.11={
+	holder = 170201 #Mahmud
+}
+1266.2.19={
+	holder = 170204 #Ghiyasuddin Balban
+}
+1286.1.1={
+	holder = 170213 #Muizz ud-din Qaiqabad
+}
+1290.10.1={
+	holder = 170243 #Jalal ud din Firuz Khilji
+}
+1296.7.21={
+	holder = 170245 #Ibrahim
+}
+1296.11.1={
+	holder = 170246 #Ala-ud-din Muhammad
+}
+1316.1.3={
+	holder = 170247 #Umar
+}
+1316.4.1={
+	holder = 170248 #Mubarak
+}
+1318.1.1={
+	holder = 170250 #Mahmud
+}
+1318.6.1={
+	holder = 170248 #Mubarak
+}
+1320.6.1={
+	holder = 170251 #Husraw Kushru
+}
+1320.10.1={
+	holder = 170257 #Ghiyath al-Din Tughluq
+}
+1325.2.1={
+	holder = 170258 #Muhammad
+}

@@ -1,0 +1,34 @@
+#769 genoa
+b_adalbertingi = {
+	culture = lombard
+	religion = catholic
+}
+#867 genoa
+b_pizza_italiano = {
+	culture = italian
+	religion = catholic
+}
+#936 genoa
+b_mamarrona = {
+	culture = italian
+	religion = catholic
+}
+#867 pisa
+b_di_livorno = {
+	culture = italian
+	religion = catholic
+}
+#936 pisa
+b_pisa_pizza = {
+	culture = italian
+	religion = catholic
+}
+#1066 ancona
+b_ancona_bologna = {
+	culture = italian
+	religion = catholic
+}
+b_swampmarsch = {
+	culture = german
+	religion = catholic
+}
