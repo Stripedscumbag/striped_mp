@@ -10,3 +10,7 @@ borrowed_from_jews = {
 	icon = 24
 	church_opinion = -30
 }
+
+byz_dejure_cb_cooldown = {
+	icon = 28
+}
