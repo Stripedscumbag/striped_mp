@@ -14,3 +14,14 @@ borrowed_from_jews = {
 byz_dejure_cb_cooldown = {
 	icon = 28
 }
+
+cabbage_sage = {
+	icon = 52
+	stewardship = 1
+	learning = 1
+}
+
+cabbage_blessing = {
+	icon = 6
+	local_tax_modifier = 0.15
+}

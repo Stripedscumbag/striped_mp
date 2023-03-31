@@ -1,0 +1,74 @@
+decisions = {
+	
+	cabbage_quest = {
+		is_high_prio = yes
+		ai = no
+		
+		potential = {
+			has_landed_title = c_kartli
+			NOT = { has_global_flag = cabbage_quest_completed_good }
+			NOT = { has_character_flag = cabbage_quest_ongoing }
+			NOT = { has_character_flag = cabbage_quest_content }
+			has_game_rule = { name = MEME_GAME_RULE value = RULE_MEMES_OPT1 }
+		}
+		
+		allow = {
+			culture = georgian
+			wealth = 300
+			piety = 100
+			age >= 12
+			b_narikala = {
+				has_building = cabbage_temple_1
+			}
+		}
+		
+		effect = {
+			character_event = { id = CAB.1 days = 1 }
+			set_character_flag = cabbage_quest_ongoing
+			wealth = -100
+		}
+	}
+}
+
+title_decisions = {
+	
+	cabbage_bloodline_effect_decision = {
+		filter = owned
+		ai = no
+		
+		potential = {
+			location = {
+				NOT = { has_province_modifier = cabbage_blessing }
+			}
+			
+		}
+		
+		allow = {
+			owner = {
+				show_scope_change = no
+				piety = 200
+			}
+			owner = {
+				show_scope_change = no
+				any_owned_bloodline = {
+					has_bloodline_flag = cabbage_bloodlineflag
+					bloodline_is_active_for = PREV
+				}
+			}
+		}
+		
+		effect = {
+			location = {
+				add_province_modifier = {
+					name = cabbage_blessing
+					years = 10 
+				}
+			}
+			owner = {
+				show_scope_change = no
+				piety = -200
+			}
+		}
+		
+	}
+}
