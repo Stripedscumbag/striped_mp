@@ -3,7 +3,7 @@ castle = {
 		desc = cabbage_temple_desc
 		potential = {
 			FROMFROM = { title = b_narikala }
-			has_game_rule = { name = MEME_GAME_RULE value = RULE_MEMES_OPT1 }
+			has_game_rule = { name = meme_game_rule value = enabled }
 		}
 		add_number_to_name = no
 		trigger = {

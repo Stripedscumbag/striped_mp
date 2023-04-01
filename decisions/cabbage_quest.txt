@@ -9,7 +9,7 @@ decisions = {
 			NOT = { has_global_flag = cabbage_quest_completed_good }
 			NOT = { has_character_flag = cabbage_quest_ongoing }
 			NOT = { has_character_flag = cabbage_quest_content }
-			has_game_rule = { name = MEME_GAME_RULE value = RULE_MEMES_OPT1 }
+			has_game_rule = { name = meme_game_rule value = enabled }
 		}
 		
 		allow = {
@@ -40,14 +40,6 @@ title_decisions = {
 			location = {
 				NOT = { has_province_modifier = cabbage_blessing }
 			}
-			
-		}
-		
-		allow = {
-			owner = {
-				show_scope_change = no
-				piety = 200
-			}
 			owner = {
 				show_scope_change = no
 				any_owned_bloodline = {
@@ -55,6 +47,14 @@ title_decisions = {
 					bloodline_is_active_for = PREV
 				}
 			}
+		}
+		
+		allow = {
+			owner = {
+				show_scope_change = no
+				piety = 200
+			}
+			
 		}
 		
 		effect = {
