@@ -56,6 +56,73 @@
 	1048.1.1 = {
 		birth = yes
 		employer = 9952
+		effect = {
+			set_graphical_culture = cabbage
+		}
 	}
 	1101.1.1 = { death = yes }
+}
+30000003 = {
+	name="Striped"
+	dynasty = 30000002
+	easter_egg=yes
+	dna = cedcbkfcbcx 
+	
+	martial=8
+	diplomacy=2
+	intrigue=2
+	stewardship=8
+	learning = 8
+	disallow_random_add_traits = yes
+	
+	religion = catholic
+	culture = dutch
+	
+	add_trait = brilliant_strategist
+	add_trait = wroth
+	add_trait = cruel
+	add_trait = cynical
+	
+	1050.1.1={
+		birth = yes
+	}
+	1066.1.1={
+		employer = 106520
+		effect = {
+			add_claim = d_holland
+		}
+		effect = {
+			set_graphical_culture = duck_culture
+		}
+	}
+	1100.9.16={
+		death = yes
+	}
+}
+30000004 = {
+	name = "Zlatan"
+	dna = aefgcpbabb
+	properties = aj00jd0000000000000000000
+	religion = bogomilist
+	secret_religion = yazidi
+	culture = bosnian
+	random_traits = no
+	trait = flamboyant_schemer
+	trait = trickster
+	trait = stubborn
+	trait = just
+	trait = fat
+	trait = sympathy_islam
+	trait = cynical
+	1048.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		effect = { give_nickname = nick_the_black }
+		effect = { add_claim = d_bosnia }
+		employer = 20381
+	}
+	1100.1.1 = {
+		death = yes
+	}
 }
