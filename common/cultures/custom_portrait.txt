@@ -20,5 +20,7 @@ custom_portrait = {
 		prefix = no # The patronym is added as a suffix
 
 		disinherit_from_blinding = yes
+		used_for_random = no
+		allow_in_ruler_designer = no
 	}
 }

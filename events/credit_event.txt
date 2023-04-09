@@ -1,0 +1,16 @@
+namespace = CREDIT
+
+narrative_event = {
+	id = CREDIT.1
+	title = CREDIT_TITLE
+	desc = CREDIT_DESC
+	picture = GFX_evt_credit_event
+	is_triggered_only = yes
+	
+	ai = no
+	
+	option = {
+		name = OPTA_CREDIT
+		prestige = 0.01
+	}
+}

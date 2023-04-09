@@ -1175,7 +1175,7 @@ pagan_group = {
 		intermarry = slavic_pagan
 		
 		dislike_tribal_organization = yes
-		can_demand_religious_conversion = no
+		can_demand_religious_conversion = yes
 	}	
 	
 	tengri_pagan_reformed = { # Mongols
@@ -1283,7 +1283,7 @@ pagan_group = {
 		
 		intermarry = buddhist
 		intermarry = zoroastrian_group
-		can_demand_religious_conversion = no
+		can_demand_religious_conversion = yes
 	}
 	
 	baltic_pagan_reformed = {
@@ -1410,7 +1410,7 @@ pagan_group = {
 		hard_to_convert = yes
 		
 		dislike_tribal_organization = yes
-		can_demand_religious_conversion = no
+		can_demand_religious_conversion = yes
 		intermarry = norse_pagan
 		intermarry = slavic_pagan
 		intermarry = baltic_pagan_reformed
@@ -1548,7 +1548,7 @@ pagan_group = {
 		religious_clothing_priest = 3
 		
 		dislike_tribal_organization = yes
-		can_demand_religious_conversion = no
+		can_demand_religious_conversion = yes
 
 		intermarry = norse_pagan
 		intermarry = slavic_pagan
@@ -1642,7 +1642,7 @@ pagan_group = {
 		religious_clothing_priest = 3
 		
 		dislike_tribal_organization = yes
-		can_demand_religious_conversion = no
+		can_demand_religious_conversion = yes
 	}
 
 	slavic_pagan_reformed = {
@@ -1774,7 +1774,7 @@ pagan_group = {
 		religious_clothing_priest = 3
 		
 		dislike_tribal_organization = yes
-		can_demand_religious_conversion = no
+		can_demand_religious_conversion = yes
 
 		intermarry = baltic_pagan
 		intermarry = norse_pagan
@@ -1913,7 +1913,7 @@ pagan_group = {
 		religious_clothing_priest = 16
 		
 		dislike_tribal_organization = yes
-		can_demand_religious_conversion = no
+		can_demand_religious_conversion = yes
 	}
 
 	zun_pagan_reformed = {
@@ -2013,7 +2013,7 @@ pagan_group = {
 		intermarry = zoroastrian_group
 		
 		dislike_tribal_organization = yes
-		can_demand_religious_conversion = no
+		can_demand_religious_conversion = yes
 	}
 	
 	hellenic_pagan_reformed = {
@@ -2084,7 +2084,7 @@ pagan_group = {
 		religious_clothing_head = 12
 		religious_clothing_priest = 11
 		
-		can_demand_religious_conversion = no
+		can_demand_religious_conversion = yes
 	}
 	
 	bon_reformed = {
@@ -2227,7 +2227,7 @@ pagan_group = {
 		reformed = bon_reformed
 		
 		dislike_tribal_organization = yes
-		can_demand_religious_conversion = no
+		can_demand_religious_conversion = yes
 	}
 }
 
