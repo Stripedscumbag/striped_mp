@@ -25,3 +25,11 @@ cabbage_blessing = {
 	icon = 6
 	local_tax_modifier = 0.15
 }
+
+angevin_fervor = {
+	icon = 10
+	martial = 2
+	diplomacy = 2
+	archers_offensive = 0.2
+	monthly_character_prestige = 0.5
+}

@@ -9,8 +9,47 @@ narrative_event = {
 	
 	ai = no
 	
+	trigger = {
+		is_multiplayer_host_character = yes
+	}
+	
+	immediate = {
+		c_30000003 = {
+			save_event_target_as = striped_portait
+		}
+	}
+	
+	potrait = event_target:striped_portait
+	
 	option = {
 		name = OPTA_CREDIT
 		prestige = 0.01
+	}
+	
+	option = {
+		name = OPTB_CREDIT
+		prestige = 0.01
+		narrative_event = { id = CREDIT.2 }
+	}
+	
+	after = {
+		any_player = {
+			limit = { is_multiplayer_host_character = no }
+			narrative_event = { id = CREDIT.1 }
+		}
+	}
+}
+
+narrative_event = {
+	id = CREDIT.2
+	title = CREDIT_TITLE2
+	desc = CREDIT_DESC2
+	picture = GFX_evt_credit_event
+	is_triggered_only = yes
+	
+	potrait = event_target:striped_portait
+	
+	option = {
+		name = OPTA_CREDIT
 	}
 }

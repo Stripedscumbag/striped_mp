@@ -1,0 +1,189 @@
+decisions = {
+	
+	form_algeria = {
+		is_high_prio = yes
+		only_rulers = yes
+		
+		potential = {
+			OR = {
+				culture = maghreb_arabic
+				culture = bedouin_arabic
+				culture = andalusian_arabic
+			}
+			LOWER_REAL_TIER_THAN = KING
+		}
+		
+		allow = {
+			completely_controls = d_alger
+			completely_controls = d_kabylia
+			completely_controls = d_mzab
+			completely_controls = d_tlemcen
+			completely_controls = d_tahert
+			independent = yes
+			wealth = 250
+			prestige = 500
+		}
+		
+		effect = {
+			wealth = -250
+			prestige = 500
+			
+			hidden_effect = {
+				d_alger = { de_jure_liege = k_algeria }
+				d_kabylia = { de_jure_liege = k_algeria }
+				d_mzab = { de_jure_liege = k_algeria }
+				d_tlemcen = { de_jure_liege = k_algeria }
+				d_tahert = { de_jure_liege = k_algeria }	
+			}
+			
+			primary_title = {
+				save_event_target_as = formable
+			}
+			
+			k_algeria = {
+				show_scope_change = no
+				grant_title = ROOT
+				copy_title_laws = event_target:formable
+			}
+		}
+	}
+	
+	form_angevin_empire = {
+		is_high_prio = yes
+		only_rulers = yes
+		
+		potential = {
+			has_landed_title = k_england
+			OR = {
+				culture = english
+				culture = norman
+				culture = french
+				NOT = { has_global_flag = angevin_formed }
+			}
+		}
+		
+		allow = {
+			has_landed_title = k_england
+			completely_controls = d_normandy
+			completely_controls = d_anjou
+			completely_controls = d_aquitaine
+			completely_controls = d_poitou
+			independent = yes
+			wealth = 500
+			prestige = 2000
+		}
+		
+		effect = {
+			wealth = -500
+			prestige = 1000
+			
+			add_claim = d_valois
+			add_claim = d_berry
+			add_claim = d_champagne
+			add_claim = d_blois
+			add_claim = d_picardie
+			
+			add_character_modifier = {
+				name = angevin_fervor
+				duration = -1
+			}
+			
+			k_england = {
+				set_coa = k_angevin_empire
+			}
+			
+			set_global_flag = angevin_formed
+		}
+	}
+	
+	england_flag = {
+		ai = no
+		potential = {
+			has_global_flag = angevin_formed
+			has_landed_title = k_england
+			NOT = { has_global_flag = flag_england }
+		}
+		
+		allow = { war = no }
+		
+		effect = {
+			reset_coa = k_england
+			set_global_flag = flag_england
+		}
+	}
+	
+	form_rum = {
+		is_high_prio = yes
+		only_rulers = yes
+		
+		potential = {
+			culture = turkish
+			LOWER_REAL_TIER_THAN = KING
+			NOT = { start_date = 1077.1.1 }
+			NOT = { has_global_flag = rum_formed }
+			any_realm_province = {
+				is_capital = yes
+				OR = {
+					de_jure_liege_or_above = k_armenia
+					de_jure_liege_or_above = k_anatolia
+				}
+			}
+		}
+		
+		allow = {
+			wealth = 300
+			num_of_duke_titles = 3
+			independent = yes
+		}
+		
+		effect = {
+			wealth = -300
+			prestige = 500
+			
+			primary_title = {
+				save_event_target_as = formable
+			}
+			
+			activate_title = {
+				title = k_rum
+				status = yes
+			}
+			
+			k_rum = {
+				show_scope_change = no
+				grant_title = ROOT
+				copy_title_laws = event_target:formable
+			}
+			set_global_flag = rum_formed
+		}
+	}
+}
+
+targetted_decisions = {
+	
+	nerf_wali = {
+		ai = no
+		
+		from_potential = {
+			is_multiplayer_host_character = yes
+			NOT = { has_global_flag = wali_nerfed }
+		}
+		
+		potential = {
+			character = c_30000001
+		}
+		
+		allow = {
+			always = yes
+		}
+		
+		effect = {
+			change_learning = -55
+			change_diplomacy = -10
+			change_stewardship = -8
+			change_intrigue = -35
+			change_martial = -30
+			set_global_flag = wali_nerfed
+		}
+	}
+}

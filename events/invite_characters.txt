@@ -1,0 +1,81 @@
+namespace = INV
+
+character_event = {
+	id = INV.1
+	title = TITLE_INV1
+	desc = DESC_INV1
+	picture = GFX_evt_emissary_byzantine
+	is_triggered_only = yes
+	
+	option = {
+		name = OPTA_INV1
+		trigger = {
+			OR = {
+				NOT = {
+					any_courtier_or_vassal = {
+						has_job_title = diplomat
+					}
+				}
+				job_chancellor = {
+					diplomacy <= 10
+				}
+			}
+		}
+		event_target:invited_diplomat = {
+			give_job_title = job_chancellor
+		}
+	}
+	
+	option = {
+		name = OPTB_INV1
+	}
+	
+	option = {
+		name = OPTC_INV1
+		hidden_tooltip = {
+			event_target:invited_diplomat = {
+				death = yes
+			}
+		}
+	}
+}
+
+character_event = {
+	id = INV.2
+	title = TITLE_INV2
+	desc = DESC_INV2
+	picture = GFX_evt_emissary_byzantine
+	is_triggered_only = yes
+	
+	option = {
+		name = OPTA_INV1
+		trigger = {
+			OR = {
+				NOT = {
+					any_courtier_or_vassal = {
+						has_job_title = spymaster
+					}
+				}
+				job_chancellor = {
+					intrigue <= 10
+				}
+			}
+		}
+		event_target:invited_spy = {
+			give_job_title = job_spymaster
+		}
+	}
+	
+	option = {
+		name = OPTB_INV1
+	}
+	
+	option = {
+		name = OPTC_INV1
+		hidden_tooltip = {
+			event_target:invited_diplomat = {
+				death = yes
+			}
+		}
+	}
+}
