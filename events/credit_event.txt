@@ -11,6 +11,7 @@ narrative_event = {
 	
 	trigger = {
 		is_multiplayer_host_character = yes
+		multiplayer = no
 	}
 	
 	immediate = {
