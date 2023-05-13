@@ -1,0 +1,15 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+custom_gift;Custom Gift;;;;;;;;;;;;;x
+custom_gift_desc;[Root.GetBestName] Give a Custom sum of money to other lords around Europe, Asia and the Middle East.;;;;;;;;;;;;;x
+DESC_Custom_gift;[From.GetBestName] Give a Custom sum of money to other lords around Europe, Asia and the Middle East.;;;;;;;;;;;;;x
+OPTA_CG1;Gift 10 Gold;;;;;;;;;;;;;x
+OPTB_CG1;Gift 20 Gold;;;;;;;;;;;;;x
+OPTC_CG1;Gift 40 Gold;;;;;;;;;;;;;x
+OPTA_CG2;Gift 50 Gold;;;;;;;;;;;;;x
+OPTB_CG2;Gift 100 Gold;;;;;;;;;;;;;x
+OPTC_CG2;Gift 200 Gold;;;;;;;;;;;;;x
+EXIT;Exit;;;;;;;;;;;;;x
+NEXT;Next;;;;;;;;;;;;;x
+BACK;Back;;;;;;;;;;;;;x
+DESC_Custom_gift_received;[From.GetBestName] has graciously decided to sent us a sum of [Root.cg_var.GetValue]¤ out of their own treasury.;;;;;;;;;;;;;x
+RECEIVED;We thank them for their donation.;;;;;;;;;;;;;x
