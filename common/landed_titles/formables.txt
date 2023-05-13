@@ -2,6 +2,8 @@ k_algeria = {
 	color = { 0 145 2 }
 	color2 = { 255 255 255 }
 	
+	capital = 831
+	
 	culture = maghreb_arabic
 }
 
@@ -11,4 +13,13 @@ k_angevin_empire = { #used for flag
 	
 	culture = english
 	
+}
+
+k_danelaw = {
+	color = { 220 90 40 }
+	color2 = { 255 255 255 }
+	
+	capital = 57
+	
+	culture = anglo_norse
 }

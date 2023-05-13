@@ -1,0 +1,57 @@
+namespace = NOR
+
+narrative_event = {
+	id = NOR.1
+	title = TITLE_NOR1
+	desc = DESC_NOR1
+	picture = GFX_evt_longships_at_sea_oldgods
+	is_triggered_only = yes
+	border = GFX_event_narrative_frame_religion
+	
+	option = {
+		name = OPTA_NOR1
+		culture = anglo_norse
+		custom_tooltip = {
+			text = became_anglo_norse_tt
+			any_child = {
+				culture = anglo_norse
+				any_child = { #grand children
+					culture = anglo_norse
+				}
+			}
+			capital_scope = {
+				culture = anglo_norse
+			}
+			random_demesne_province = {
+				limit = {
+					culture = norse
+					is_capital = no
+				}
+				culture = anglo_norse
+			}
+			set_global_flag = anglo_norse_enabled
+		}
+		fail_trigger_effect = {
+			if = {
+				limit = {
+					NOT = { has_trait = viking }
+				}
+				add_trait = viking
+			}
+		}
+	}
+	
+	option = {
+		name = OPTB_NOR1
+		custom_tooltip = { text = stayed_norse_tt }
+		fail_trigger_effect = {
+			if = {
+				limit = {
+					NOT = { has_trait = viking }
+				}
+				add_trait = viking
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

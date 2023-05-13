@@ -35,7 +35,7 @@ CREDIT_DESC;Thank you for playing with this mod! It is still new and alot of cha
 OPTA_CREDIT;Exit;;;;;;;;;;;;;x
 OPTB_CREDIT;See Changelog;;;;;;;;;;;;;x
 CREDIT_TITLE2;Changelog;;;;;;;;;;;;;x
-CREDIT_DESC2;\n \n * Unreformed Feudal Pagans also get access to Seniority Succesion. \n * Can now invite new Diplomacy and Intrigue characters into court \n * Community of Basil gets 5% tax modifier at rank 4. \n * New flavour decisions and events \n \n If you want to help mod, join the discord (discord.gg/Y8tR8Nyg9E). Otherwise all credits go to me: Striped#7789 \n Also subscribe to my YT channel found on my discord profile!;;;;;;;;;;;;;x
+CREDIT_DESC2;\n \n * Added a Kingdom of the Danelaw. \n * Added Anglo-Norse culture \n * Alfred the Great starts with event spawns. \n * Integrated and improved upon the Custom Gifts mod \n \n If you want to help mod, join the discord(.gg/Y8tR8Nyg9E). Otherwise all credits go to me: Striped#7789 \n Also subscribe to my YT channel found on my discord profile!;;;;;;;;;;;;;x
 TITLE_INV1;Invited Diplomat;;;;;;;;;;;;;x
 DESC_INV1;The diplomat you ordered has arrived at your court. What will you plan to do with him?;;;;;;;;;;;;;x
 OPTA_INV1;I will offer him a job.;;;;;;;;;;;;;x
@@ -43,3 +43,7 @@ OPTB_INV1;He is welcome to stay.;;;;;;;;;;;;;x
 OPTC_INV1;Have him vanish.;;;;;;;;;;;;;x
 TITLE_INV2;Invited Spy;;;;;;;;;;;;;x
 DESC_INV2;The spy you ordered has arrived at your court. What will you plan to do with him?;;;;;;;;;;;;;x
+TITLE_NOR1;Formation of the Danelaw;;;;;;;;;;;;;x
+DESC_NOR1;With the invasion of England by the Norsemen we have found ourselves settled on the lands of the Saxons. Ever since we departed from Scandinavia many brave warriors came along to find fame and riches, however there were also men who found their way onto the land that the Saxons had left behind. Finding ourselves in a period of peace we have decided to officially form the Danelaw on the lands that we first made contact with. \n \nNot so long after settling down have our men gone around and pillaged Britannia and beyond, finding themselves kidnapping many slaves. Some even find true love in their property and are embracing certain traditions that the Saxons once used to practice on these lands. It is up to me to embrace this new way of life that has spawned itself within my realm.;;;;;;;;;;;;;x
+OPTA_NOR1;The time for a Anglo-Norse king has come.;;;;;;;;;;;;;x
+OPTB_NOR1;Surely it's nothing.;;;;;;;;;;;;;x

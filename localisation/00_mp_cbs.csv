@@ -1,0 +1,6 @@
+﻿byz_dejure_desc;It is time to take bake lands that were once lost during unstable times. The Imperial borders shall be restored!;;;;;;;;;;;;;x
+enforce_danegeld_cb;Enforce Danegeld;;;;;;;;;;;;;x
+enforce_danegeld_cb_desc;By enforcing the Danegeld we get payed what we would normally have to raid for, saving us many precious warriors.;;;;;;;;;;;;;x
+CB_DANEGELD;Enforce the Danegeld;;;;;;;;;;;;;x
+WAR_DANEGELD;War to make $DEFENDER$ pay the Danegeld;;;;;;;;;;;;;x
+TRIBUTARY_DANEGELD_TRIBUTE;Heregeld;;;;;;;;;;;;;x

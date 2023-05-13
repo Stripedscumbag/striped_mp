@@ -1,3 +1,4 @@
+namespace = TOG
 character_event = {
 	id = TOG.3004
 	desc = EVTDESC_TOG_3004
