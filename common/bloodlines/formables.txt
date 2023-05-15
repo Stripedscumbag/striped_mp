@@ -1,0 +1,11 @@
+plc_bloodline = {
+	picture = GFX_bloodlines_symbol_horse
+	allow_bastards = yes
+	combat_rating = 5
+	polish_opinion = 5
+	lithuanian_opinion = 5
+	religion_flex = -0.2
+	plc_jew_effect = 1
+	inheritance = patrilineal
+	flags = { created_bloodline plc_bloodlineflag }
+}

@@ -1,0 +1,86 @@
+create_random_skilled_jew = {
+	random_list = {
+		20 = {
+			create_random_diplomat = {
+				culture = ashkenazi
+				religion = jewish
+				random_traits = yes
+				dynasty = random
+				female = no
+				attributes = {
+					martial = 2
+					diplomacy = 11
+					stewardship = 2
+					intrigue = 2
+					learning = 2
+				}
+			}
+		}
+		20 = {
+			create_random_soldier = {
+				culture = ashkenazi
+				religion = jewish
+				random_traits = yes
+				dynasty = random
+				female = no
+				attributes = {
+					martial = 10
+					diplomacy = 2
+					stewardship = 2
+					intrigue = 2
+					learning = 2
+				}
+			}
+		}
+		20 = {
+			create_random_steward = {
+				culture = ashkenazi
+				religion = jewish
+				random_traits = yes
+				dynasty = random
+				female = no
+				attributes = {
+					martial = 2
+					diplomacy = 2
+					stewardship = 12
+					intrigue = 2
+					learning = 2
+				}
+			}
+		}
+		20 = {
+			create_random_intriguer = {
+				culture = ashkenazi
+				religion = jewish
+				random_traits = yes
+				dynasty = random
+				female = no
+				attributes = {
+					martial = 2
+					diplomacy = 2
+					stewardship = 2
+					intrigue = 12
+					learning = 2
+				}
+			}
+		}
+		20 = {
+			create_random_priest = {
+				culture = ashkenazi
+				religion = jewish
+				random_traits = yes
+				dynasty = random
+				female = no
+				attributes = {
+					martial = 2
+					diplomacy = 2
+					stewardship = 2
+					intrigue = 2
+					learning = 10
+				}
+				add_trait = physician
+			}
+		}
+	}
+	new_character = { save_event_target_as = invited_jew }
+}

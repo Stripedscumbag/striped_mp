@@ -47,3 +47,8 @@ TITLE_NOR1;Formation of the Danelaw;;;;;;;;;;;;;x
 DESC_NOR1;With the invasion of England by the Norsemen we have found ourselves settled on the lands of the Saxons. Ever since we departed from Scandinavia many brave warriors came along to find fame and riches, however there were also men who found their way onto the land that the Saxons had left behind. Finding ourselves in a period of peace we have decided to officially form the Danelaw on the lands that we first made contact with. \n \nNot so long after settling down have our men gone around and pillaged Britannia and beyond, finding themselves kidnapping many slaves. Some even find true love in their property and are embracing certain traditions that the Saxons once used to practice on these lands. It is up to me to embrace this new way of life that has spawned itself within my realm.;;;;;;;;;;;;;x
 OPTA_NOR1;The time for a Anglo-Norse king has come.;;;;;;;;;;;;;x
 OPTB_NOR1;Surely it's nothing.;;;;;;;;;;;;;x
+TITLE_INV3;Stranger from far away.;;;;;;;;;;;;;x
+DESC_INV3;This morning my courtiers had notified me of a man appearing my gates. He says he is from a land far away and after being persecuted there seeks a new life in my realm.;;;;;;;;;;;;;x
+OPTA_INV3;Thank you for your gift!;;;;;;;;;;;;;x
+OPTB_INV3;You are welcome to stay.;;;;;;;;;;;;;x
+OPTC_INV3;Get this trash out of my sight!;;;;;;;;;;;;;x

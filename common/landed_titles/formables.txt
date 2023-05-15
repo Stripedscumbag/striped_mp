@@ -23,3 +23,13 @@ k_danelaw = {
 	
 	culture = anglo_norse
 }
+
+e_plc = {
+	color = { 200 40 50 }
+	color2 = { 70 70 255 }
+	
+	capital = 528
+	
+	culture = polish
+	short_name = yes
+}

@@ -20,7 +20,6 @@ enforce_danegeld_cb = {
 		
 		FROM = {
 			any_demesne_province = {
-				show_scope_change = no
 				region = world_europe_west_brittania
 			}
 		}
@@ -50,7 +49,15 @@ enforce_danegeld_cb = {
 			independent = yes
 		}
 		
+		ROOT = {
+			culture = anglo_norse
+		}
 		
+		FROM = {
+			any_demesne_province = {
+				region = world_europe_west_brittania
+			}
+		}
 		
 		FROM = {
 			HIGHER_REAL_TIER_THAN = BARON

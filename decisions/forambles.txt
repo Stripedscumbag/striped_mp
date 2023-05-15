@@ -169,10 +169,7 @@ decisions = {
 		ai_check_interval = 12
 		
 		potential = {
-			OR = {
-				culture = norse
-				culture = anglo_norse
-			}
+			culture_group = north_germanic
 			LOWER_REAL_TIER_THAN = KING
 			any_realm_province = {
 				is_capital = yes
@@ -220,6 +217,80 @@ decisions = {
 				k_danelaw = { de_jure_liege = e_britannia }
 			}
 			set_global_flag = danelaw_formed
+		}
+	}
+	
+	form_commonwealth = {
+		is_high_prio = yes
+		ai_check_interval = 36
+		only_rulers = yes
+		
+		potential = {
+			OR = {
+				has_landed_title = k_poland
+				has_landed_title = k_lithuania
+			}
+			OR = {
+				culture = polish
+				culture = lithuanian
+			}
+			NOT = { has_global_flag = commonwealth_formed }
+			LOWER_REAL_TIER_THAN = EMPEROR
+		}
+		
+		allow = {
+			prestige = 2500
+			wealth = 500
+			has_landed_title = k_poland
+			has_landed_title = k_lithuania
+			has_landed_title = k_ruthenia
+			has_landed_title = k_galicia-volhynia
+		}
+		
+		effect = {
+			wealth = -500
+			prestige = 1000
+			
+			primary_title = {
+				save_event_target_as = formable
+			}
+			
+			activate_title = {
+				title = e_plc
+				status = yes
+			}
+			
+			e_plc = {
+				show_scope_change = no
+				grant_title = ROOT
+				copy_title_laws = event_target:formable
+			}
+			
+			set_global_flag = { commonwealth_formed }
+			
+			create_bloodline = {
+				type = plc_bloodline
+				inheritance = patrilineal
+			}
+			
+			if = {
+				limit = {
+					NOT = {
+						528 = { num_of_max_settlements = 7 } 
+					}
+				}
+				528 = {
+					add_holding_slot = 1
+				}
+				528 = {
+					build_holding = {
+						type = castle
+						holder = root
+					}
+				}
+			}
+			
+			528 = { set_name = "Warsaw" }
 		}
 	}
 }

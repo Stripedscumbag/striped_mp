@@ -1,2 +1,4 @@
-cabbage_bloodline;[This.Founder.GetFirstName] the Cabbage Sage.;[This.Founder.GetFirstName] the Cabbage Sage.;[This.Founder.GetFirstName] the Cabbage Sage.;;[This.Founder.GetFirstName] the Cabbage Sage.;;;;;;;;;x
-cabbage_bloodline_desc;[This.Founder.GetFirstName] managed to pass all the trials of the Cabbage Sage and became one himself. :cabbage:;[This.Founder.GetFirstName] managed to pass all the trials of the Cabbage Sage and became one himself. :cabbage:;[This.Founder.GetFirstName] managed to pass all the trials of the Cabbage Sage and became one himself. :cabbage:;;[This.Founder.GetFirstName] managed to pass all the trials of the Cabbage Sage and became one himself. :cabbage:;;;;;;;;;x
+cabbage_bloodline;[This.Founder.GetFirstName] the Cabbage Sage.;;;;;;;;;;;;;x
+cabbage_bloodline_desc;[This.Founder.GetFirstName] managed to pass all the trials of the Cabbage Sage and became one himself. :cabbage:;;;;;;;;;;;;;x
+plc_bloodline;Blood of [This.Founder.GetFirstNameWithNick];;;;;;;;;;;;;x
+plc_bloodline_desc;[This.Founder.GetFirstName] united the crowns of the Poland and Lithuania under their own might and set the stage for Polish-Lithuanian domination.;;;;;;;;;;;;;x

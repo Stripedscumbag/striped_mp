@@ -79,3 +79,83 @@ character_event = {
 		}
 	}
 }
+
+#PLC jews
+character_event = {
+	id = INV.3
+	title = TITLE_INV3
+	desc = DESC_INV3
+	picture = GFX_evt_emissary_byzantine
+	is_triggered_only = yes
+	
+	trigger = {
+		HIGHER_REAL_TIER_THAN = BARON
+	}
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 5
+			trait = kind
+		}
+		modifier = {
+			factor = 5
+			trait = humble
+		}
+		modifier = {
+			factor = 0.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+		modifier = {
+			factor = 3
+			trait = cynical
+		}
+		modifier = {
+			factor = 10
+			trait = sympathy_judaism
+		}
+		modifier = {
+			factor = 0.00001
+			has_character_modifier = no_jews
+		}
+	}
+	
+	immediate = {
+		create_random_skilled_jew = yes
+	}
+	
+	option = {
+		name = OPTA_INV3
+		wealth = 20
+	}
+	
+	option = {
+		name = OPTB_INV3
+		piety = 50
+		random = {
+			chance = 30
+			add_trait = humble
+		}
+	}
+	
+	option = {
+		name = OPTC_INV3
+		piety = -10
+		random = {
+			chance = 15
+			add_trait = zealous
+		}
+		hidden_tooltip = {
+			event_target:invited_jew = {
+				death = yes
+			}
+		}
+	}
+}
