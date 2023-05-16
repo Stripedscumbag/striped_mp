@@ -18,7 +18,9 @@ targetted_decisions = {
 				limit = {
 					FROM = { wealth = 50 }
 				}
-				character_event = { id = CG.2 }
+				FROM = {
+					character_event = { id = CG.2 }
+				}
 			}
 		}
 		revoke_allowed = {

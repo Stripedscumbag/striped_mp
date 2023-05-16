@@ -12,6 +12,7 @@ narrative_event = {
 	trigger = {
 		is_multiplayer_host_character = yes
 		multiplayer = no
+		start_date >= 1066.1.1
 	}
 	
 	immediate = {
@@ -32,13 +33,6 @@ narrative_event = {
 		prestige = 0.01
 		narrative_event = { id = CREDIT.2 }
 	}
-	
-	after = {
-		any_player = {
-			limit = { is_multiplayer_host_character = no }
-			narrative_event = { id = CREDIT.1 }
-		}
-	}
 }
 
 narrative_event = {
@@ -49,6 +43,48 @@ narrative_event = {
 	is_triggered_only = yes
 	
 	potrait = event_target:striped_portait
+	
+	option = {
+		name = OPTA_CREDIT
+	}
+}
+
+narrative_event = {
+	id = CREDIT.3
+	title = CREDIT_TITLE
+	desc = CREDIT_DESC
+	picture = GFX_evt_credit_event
+	is_triggered_only = yes
+	
+	ai = no
+	hide_from = yes
+	
+	trigger = {
+		is_multiplayer_host_character = yes
+		multiplayer = no
+		start_date <= 1066.1.1
+	}
+	
+	option = {
+		name = OPTA_CREDIT
+		prestige = 0.01
+	}
+	
+	option = {
+		name = OPTB_CREDIT
+		prestige = 0.01
+		narrative_event = { id = CREDIT.4 }
+	}
+}
+
+narrative_event = {
+	id = CREDIT.4
+	title = CREDIT_TITLE2
+	desc = CREDIT_DESC2
+	picture = GFX_evt_credit_event
+	is_triggered_only = yes
+	
+	hide_from = yes
 	
 	option = {
 		name = OPTA_CREDIT

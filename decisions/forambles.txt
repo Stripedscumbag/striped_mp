@@ -266,6 +266,11 @@ decisions = {
 				copy_title_laws = event_target:formable
 			}
 			
+			e_plc = {
+				show_scope_change = no
+				succession = feudal_elective
+			}
+			
 			set_global_flag = { commonwealth_formed }
 			
 			create_bloodline = {
@@ -276,7 +281,8 @@ decisions = {
 			if = {
 				limit = {
 					NOT = {
-						528 = { num_of_max_settlements = 7 } 
+						528 = { num_of_max_settlements = 7 }
+						is_feudal = yes
 					}
 				}
 				528 = {
@@ -288,6 +294,19 @@ decisions = {
 						holder = root
 					}
 				}
+			}
+			
+			else_if = {
+				limit = {
+					NOT = {
+						528 = { num_of_max_settlements = 7 }
+						is_tribal = yes
+					}
+				}
+				528 = {
+					add_holding_slot = 1
+				}
+				prestige = 500
 			}
 			
 			528 = { set_name = "Warsaw" }

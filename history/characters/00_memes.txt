@@ -5,16 +5,16 @@
 	culture = kurdish 
 	dna = chcdb0haa00
  	properties = r00jcf00000000000000000000000000000000
-	1.1.2={
+	1.1.2 = {
 		birth=yes
 	}
-	learning=60
-	diplomacy=15
-	stewardship=13
-	intrigue=40
-	martial=30
+	learning = 60
+	diplomacy = 15
+	stewardship = 13
+	intrigue = 40
+	martial = 30
 	61.1.1 = {
-		add_trait=immortal
+		add_trait = immortal
 	}
 	add_trait = genius
 	add_trait = stutter
@@ -56,7 +56,7 @@
 	1048.1.1 = {
 		birth = yes
 		employer = 9952
-		effect = {
+		effect_even_if_dead = {
 			set_graphical_culture = cabbage
 		}
 	}
@@ -68,10 +68,10 @@
 	easter_egg=yes
 	dna = cedcbkfcbcx 
 	
-	martial=8
-	diplomacy=2
-	intrigue=2
-	stewardship=8
+	martial = 8
+	diplomacy = 4
+	intrigue = 2
+	stewardship = 8
 	learning = 8
 	disallow_random_add_traits = yes
 	
@@ -87,11 +87,11 @@
 		birth = yes
 	}
 	1066.1.1={
-		employer = 106520
+		employer = 106520 #D. of Holland
 		effect = {
 			add_claim = d_holland
 		}
-		effect = {
+		effect_even_if_dead = {
 			set_graphical_culture = duck_culture
 		}
 	}
@@ -120,9 +120,179 @@
 	1066.1.1 = {
 		effect = { give_nickname = nick_the_black }
 		effect = { add_claim = d_bosnia }
-		employer = 20381
+		employer = 20381 #D. of Bosnia
 	}
 	1100.1.1 = {
+		death = yes
+	}
+}
+
+30000005 = {
+	name = "Sun_Revolver"
+	properties = fe0jjjj
+	religion = catholic
+	secret_religion = norse_pagan
+	culture = saxon
+	random_traits = no
+	martial = 7
+	trait = tough_soldier
+	trait = viking
+	trait = unyielding_leader
+	trait = kind
+	trait = just
+	trait = humble
+	trait = adventurer
+	838.1.1 = {
+		birth = yes
+		effect_even_if_dead = {
+			set_graphical_culture = manden
+		}
+	}
+	867.1.1 = {
+		effect = {
+			give_nickname = nick_the_fearless
+			add_claim = d_york
+			wealth = 200
+			prestige = 500
+		}
+		employer = 163112 #Jòrvik
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+
+30000006 = {
+	name = "Archidamos"
+	religion = shia
+	culture = kurdish
+	random_traits = no
+	martial = 4
+	intrigue = 12
+	trait = skilled_tactician
+	trait =	mujahid
+	trait = deceitful
+	trait =	stubborn
+	trait = arbitrary
+	trait = cynical
+	trait = envious
+	740.1.1 = {
+		birth = yes
+	}
+	769.1.1 = {
+		effect = {
+			add_claim = d_kurdistan
+		}
+		employer = 188658
+	}
+	796.1.1 = {
+		death = yes
+	}
+}
+
+30000007 = {
+	name = "MohammadSC"
+	religion = sunni
+	culture = panjabi
+	random_traits = no
+	martial = 5
+	stewardship = 8
+	trait = mastermind_theologian
+	trait =	temperate
+	trait = honest
+	trait =	sympathy_christendom
+	trait = organizer
+	trait = cynical
+	trait = hafiz
+	1040.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		effect = {
+			add_claim = d_bedford
+		}
+		employer = 107500
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+30000008 = {
+	name = "Alphadog"
+	religion = catholic
+	culture = scottish
+	random_traits = no
+	martial = 8
+	trait = skilled_tactician
+	trait =	slothful
+	trait = greedy
+	trait =	zealous
+	trait = proud
+	trait = brave
+	trait = aggressive_leader
+	910.1.1 = {
+		birth = yes
+	}
+	936.1.1 = {
+		effect = {
+			add_claim = k_scotland
+		}
+		employer = 6026
+	}
+	988.1.1 = {
+		death = yes
+	}
+}
+
+30000009 = {
+	name = "Hydralisk"
+	religion = finnish_pagan
+	culture = bulgarian
+	random_traits = no
+	martial = 6
+	trait = fortune_builder
+	trait =	slothful
+	trait = dull
+	trait =	zealous
+	trait = content
+	trait = ukkos_shield
+	trait = winter_soldier
+	745.1.1 = {
+		birth = yes
+	}
+	769.1.1 = {
+		effect = {
+			add_claim = k_finland
+		}
+		employer = 170316
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+30000010 = {
+	name = "Terry"
+	religion = catholic
+	culture = saxon
+	random_traits = no
+	martial = 6
+	trait = thrifty_clerk
+	trait =	diligent
+	trait = quick
+	trait =	zealous
+	trait = ambitious
+	trait = humble
+	trait = born_in_the_purple
+	840.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		effect = {
+			add_claim = k_england
+		}
+	}
+	936.1.1 = {
 		death = yes
 	}
 }

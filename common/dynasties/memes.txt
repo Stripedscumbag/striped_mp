@@ -5,8 +5,15 @@
 30000002 = {
 	name = "van Striped"
 	used_for_random = no
-	coat_of_arms = {
-		data = { 0 0 29 3 2 1 0 0 29 3 2 1 0 0 29 3 2 1 0 0 29 3 2 1 0 }
-		religion = catholic
-	}
+	coat_of_arms= {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}	
 }
