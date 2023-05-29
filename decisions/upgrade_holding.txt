@@ -11,6 +11,7 @@ title_decisions = {
 				has_province_modifier = prosperity_modifier_3
 				NOT = { has_province_modifier = increased_holding }
 			}
+			holder = FROM
 		}
 		
 		allow = {
@@ -38,6 +39,11 @@ title_decisions = {
 		
 		ai_will_do = {
 			factor = 50
+			
+			additive_modifier = {
+				factor = 45
+				is_tribal = yes
+			}
 		}
 	}
 }

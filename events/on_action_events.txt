@@ -6598,3 +6598,21 @@ character_event = {
 		}
 	}
 }
+
+character_event = {
+	id = 690
+	hide_window = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		character = c_205730
+		has_landed_title = c_bordeaux
+		is_save_game = no
+	}
+	immediate = {
+		grant_title_no_opinion = d_aquitaine
+		grant_title_no_opinion = d_poitou
+		grant_title_no_opinion = d_gascogne
+	}
+}

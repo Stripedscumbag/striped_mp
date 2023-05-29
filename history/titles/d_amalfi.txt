@@ -13,6 +13,7 @@
 {
 	liege = "e_byzantium"
 	holder=145889 #Leon Amalfinos
+	de_jure_liege = k_sicily
 }
 793.1.1=
 {
@@ -83,7 +84,7 @@
 {
 	holder=168421 #Leone I
 	liege = e_byzantium
-	de_jure_liege = k_sicily
+	
 }
 931.6.25=
 {

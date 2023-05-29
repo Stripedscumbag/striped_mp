@@ -28,8 +28,13 @@ b_ancona_bologna = {
 	culture = italian
 	religion = catholic
 }
-#936? holstein/dithmarsch
+#936 holstein/dithmarschen
 b_swampmarsch = {
 	culture = german
+	religion = catholic
+}
+#1066 ragusa
+b_prodanelli = {
+	culture = dalmatian
 	religion = catholic
 }

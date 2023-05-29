@@ -13,6 +13,7 @@ narrative_event = {
 		is_multiplayer_host_character = yes
 		multiplayer = no
 		start_date >= 1066.1.1
+		is_save_game = no
 	}
 	
 	immediate = {
@@ -63,6 +64,7 @@ narrative_event = {
 		is_multiplayer_host_character = yes
 		multiplayer = no
 		start_date <= 1066.1.1
+		is_save_game = no
 	}
 	
 	option = {

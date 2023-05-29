@@ -12,14 +12,25 @@ decisions = {
 				culture = andalusian_arabic
 			}
 			LOWER_REAL_TIER_THAN = KING
+			capital_scope = {
+				OR = {
+					de_jure_liege = d_alger
+					de_jure_liege = d_kabylia
+					de_jure_liege = d_mzab
+					de_jure_liege = d_tlemcen
+					de_jure_liege = d_tahert
+				}
+			}
 		}
 		
 		allow = {
 			completely_controls = d_alger
 			completely_controls = d_kabylia
-			completely_controls = d_mzab
-			completely_controls = d_tlemcen
-			completely_controls = d_tahert
+			OR = {
+				completely_controls = d_tlemcen
+				completely_controls = d_tahert
+				completely_controls = d_mzab
+			}
 			independent = yes
 			wealth = 250
 			prestige = 500
@@ -60,8 +71,8 @@ decisions = {
 				culture = english
 				culture = norman
 				culture = french
-				NOT = { has_global_flag = angevin_formed }
 			}
+			NOT = { has_global_flag = angevin_formed }
 		}
 		
 		allow = {
@@ -310,6 +321,290 @@ decisions = {
 			}
 			
 			528 = { set_name = "Warsaw" }
+		}
+	}
+	
+	hansa_thankmar_rebellion = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 120
+
+		potential = {
+			religion_group = christian
+			has_global_flag = hre_removed
+			is_republic = yes
+			has_dlc = "The Republic"
+			NOT = {
+				higher_tier_than = KING
+			}
+			OR = {
+				culture = german
+				culture = old_saxon
+				culture = pommeranian
+				culture = dutch
+				culture = danish
+			}
+			has_landed_title = d_holstein
+			k_hansa = {
+				has_holder = no
+			}
+			k_hansa = {
+				is_titular = yes
+			}
+			NOR = {
+				has_alternate_start_setting = {
+					setting = dejure
+					value = random
+				}
+				has_alternate_start_setting = {
+					setting = title_names
+					value = random
+				}
+				has_alternate_start_setting = {
+					setting = title_names
+					value = random_including_duchies
+				}
+			}
+		}
+
+		allow = {
+			is_adult = yes
+			independent = yes
+			war = no
+			prestige = 1000
+			wealth = 1000
+			has_landed_title = d_mecklemburg
+			has_landed_title = d_holstein
+			has_landed_title = d_bremen
+			has_landed_title = c_dithmarschen
+		}
+
+		effect = {
+			custom_tooltip = { text = create_the_hansa_tooltip }
+			wealth = -1000
+			hidden_tooltip = {
+				if = {
+					limit = {
+						NOT = {
+							c_lubeck = {
+								capital_holding = {
+									holding_type = city
+								}
+							}
+						}
+						b_lubeck = {
+							holding_type = city
+						}
+						is_title_active = b_lubeck
+					}
+					ROOT = {
+						b_lubeck = {
+							grant_title = PREV						
+							make_capital_holding = yes
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							c_lubeck = {
+								capital_holding = {
+									holding_type = city
+								}
+							}
+						}
+						b_ratzeburg = {
+							holding_type = city
+						}
+						is_title_active = b_ratzeburg
+					}
+					ROOT = {
+						b_ratzeburg = {
+							grant_title = PREV
+							make_capital_holding = yes
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							c_lubeck = {
+								capital_holding = {
+									holding_type = city
+								}
+							}
+						}
+						b_travemunde = {
+							holding_type = city
+						}
+						is_title_active = b_travemunde
+					}
+					ROOT = {
+						b_travemunde = {
+							grant_title = PREV
+							make_capital_holding = yes
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							c_lubeck = {
+								capital_holding = {
+									holding_type = city
+								}
+							}
+						}
+						b_schlutup = {
+							holding_type = city
+						}
+						is_title_active = b_schlutup
+					}
+					ROOT = {
+						b_schlutup = {
+							grant_title = PREV
+							make_capital_holding = yes
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							c_lubeck = {
+								capital_holding = {
+									holding_type = city
+								}
+							}
+						}
+						b_starigard = {
+							holding_type = city
+						}
+						is_title_active = b_starigard
+					}
+					ROOT = {
+						b_starigard = {
+							grant_title = PREV
+							make_capital_holding = yes
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							c_lubeck = {
+								capital_holding = {
+									holding_type = city
+								}
+							}
+						}
+						b_weslo = {
+							holding_type = city
+						}
+						is_title_active = b_weslo
+					}
+					ROOT = {
+						b_weslo = {
+							grant_title = PREV
+							make_capital_holding = yes
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							c_lubeck = {
+								capital_holding = {
+									holding_type = city
+								}
+							}
+						}
+						b_bucu = {
+							holding_type = city
+						}
+						is_title_active = b_bucu
+					}
+					ROOT = {
+						b_bucu = {
+							grant_title = PREV
+							make_capital_holding = yes
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							c_lubeck = {
+								capital_holding = {
+									holding_type = city
+								}
+							}
+						}
+						b_wulfsdorf = {
+							holding_type = city
+						}
+					}
+					ROOT = {
+						b_wulfsdorf = {
+							grant_title = PREV
+							make_capital_holding = yes
+						}
+					}
+				}
+				
+				if = {
+					limit = {
+						c_dithmarschen = {
+							num_of_max_settlements < 7
+						}
+					}
+					c_dithmarschen = {
+						add_holding_slot = 1
+					}
+				}
+				
+				capital_scope = {
+					build_holding = {
+						type = city
+						holder = ROOT
+					}
+				}
+
+				primary_title = {
+					k_hansa = {
+						copy_title_laws = PREV
+					}
+				}
+				k_hansa = {
+					grant_title_no_opinion = ROOT
+				}
+				k_hansa = {
+					make_primary_title = yes
+				}
+				d_mecklemburg = {
+					de_jure_liege = k_hansa
+				}
+				d_bremen = {
+					de_jure_liege = k_hansa
+				}
+				d_holstein = {
+					de_jure_liege = k_hansa
+				}
+				k_hansa = {
+					de_jure_liege = e_germany
+				}
+				narrative_event = { id = HFP.40000 }
+
+				set_global_flag = hansa_formed
+
+				any_player = {
+					limit = {
+						NOT = {
+							has_landed_title = k_hansa
+						}
+					}
+					narrative_event = { id = HFP.40001 days = 1 }
+				}
+			}
 		}
 	}
 }
