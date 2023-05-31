@@ -13,39 +13,39 @@ letter_event = {
 	option = {
 		name = OPTA_CG1
 		trigger = { wealth = 10 }
-		FROM = {
-			wealth = 10
-			letter_event = { id = CG.3 }
-		}
 		ROOT = { wealth = -10 }
 		hidden_tooltip = {
 			set_variable = { which = cg_var value = 10 }
+		}
+		FROM = {
+			wealth = 10
+			letter_event = { id = CG.3 }
 		}
 	}
 	
 	option = {
 		name = OPTB_CG1
 		trigger = { wealth = 20 }
-		FROM = {
-			wealth = 20
-			letter_event = { id = CG.3 }
-		}
 		ROOT = { wealth = -20 }
 		hidden_tooltip = {
 			set_variable = { which = cg_var value = 20 }
+		}
+		FROM = {
+			wealth = 20
+			letter_event = { id = CG.3 }
 		}
 	}
 	
 	option = {
 		name = OPTC_CG1
 		trigger = { wealth = 40 }
-		FROM = {
-			wealth = 40
-			letter_event = { id = CG.3 }
-		}
 		ROOT = { wealth = -40 }
 		hidden_tooltip = {
 			set_variable = { which = cg_var value = 40 }
+		}
+		FROM = {
+			wealth = 40
+			letter_event = { id = CG.3 }
 		}
 	}
 	
@@ -63,39 +63,39 @@ letter_event = {
 	option = {
 		name = OPTA_CG2
 		trigger = { wealth = 50 }
-		FROM = {
-			wealth = 50
-			letter_event = { id = CG.3 }
-		}
 		ROOT = { wealth = -50 }
 		hidden_tooltip = {
 			set_variable = { which = cg_var value = 50 }
+		}
+		FROM = {
+			wealth = 50
+			letter_event = { id = CG.3 }
 		}
 	}
 	
 	option = {
 		name = OPTB_CG2
 		trigger = { wealth = 100 }
-		FROM = {
-			wealth = 100
-			letter_event = { id = CG.3 }
-		}
 		ROOT = { wealth = -100 }
 		hidden_tooltip = {
 			set_variable = { which = cg_var value = 100 }
+		}
+		FROM = {
+			wealth = 100
+			letter_event = { id = CG.3 }
 		}
 	}
 	
 	option = {
 		name = OPTC_CG2
 		trigger = { wealth = 200 }
-		FROM = {
-			wealth = 200
-			letter_event = { id = CG.3 }
-		}
 		ROOT = { wealth = -200 }
 		hidden_tooltip = {
 			set_variable = { which = cg_var value = 200 }
+		}
+		FROM = {
+			wealth = 200
+			letter_event = { id = CG.3 }
 		}
 	}
 	

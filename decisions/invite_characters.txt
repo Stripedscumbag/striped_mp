@@ -2,6 +2,7 @@ decisions = {
 	
 	invite_diplomat = {
 		only_playable = yes
+		ai_check_interval = 24
 		
 		potential = {}
 		
@@ -38,6 +39,7 @@ decisions = {
 	
 	invite_spy = {
 		only_playable = yes
+		ai_check_interval = 24
 		
 		potential = {}
 		

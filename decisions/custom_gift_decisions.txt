@@ -3,6 +3,7 @@ targetted_decisions = {
 	custom_gift = {
 		filter = all
 		ai_target_filter = self
+		ai_check_interval = 1200
 	   
 		allow = {
 			FROM = {
