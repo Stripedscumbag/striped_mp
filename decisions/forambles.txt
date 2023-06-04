@@ -653,7 +653,7 @@ decisions = {
 						has_landed_title = d_dalmatia
 					}
 					d_dalmatia = { de_jure_liege = k_ragusa }
-					d_dalmatia = { set_name = "Dalmatia"
+					d_dalmatia = { set_name = "Dalmatia" }
 				}
 				if = {
 					limit = {
