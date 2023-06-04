@@ -694,8 +694,8 @@ RETTYPE_CUL_SOUTH_SLA =
 
 RETTYPE_CUL_DUTCH = 
 {
-	first_type = 0
-	first_amount = 300
+	first_type = 1
+	first_amount = 150
 	
 	second_type = 2
 	second_amount = 100
@@ -706,9 +706,9 @@ RETTYPE_CUL_DUTCH =
 	}
 	
 	modifier = {
-		light_infantry_offensive = 0.2
-		light_infantry_defensive = 0.2
-		light_infantry_morale = 0.1
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_defensive = 0.2
+		heavy_infantry_morale = 0.1
 		pikemen_offensive = 0.3
 		pikemen_defensive = 0.2
 		pikemen_morale = 0.1

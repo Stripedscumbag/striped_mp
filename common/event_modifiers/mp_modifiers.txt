@@ -33,3 +33,28 @@ angevin_fervor = {
 	archers_offensive = 0.2
 	monthly_character_prestige = 0.5
 }
+
+focusing_on_wl = {
+	icon = 20
+	martial = 1
+	learning = -2
+}
+
+focusing_on_wl_stewardship = {
+	icon = 22
+	martial = 1
+	stewardship = -2
+}
+
+focusing_on_wl_diplo = {
+	icon = 21
+	martial = 1
+	diplomacy = -2
+}
+
+focusing_on_wl_intrigue = {
+	icon = 23
+	martial = 1
+	intrigue = -2
+}
+

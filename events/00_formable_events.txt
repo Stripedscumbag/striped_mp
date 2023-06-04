@@ -1,0 +1,32 @@
+namespace = FORM
+
+#ragusa
+narrative_event= {
+	id = FORM.1
+	title = TITLE_FORM1
+	desc = DESC_FORM1
+	picture = GFX_evt_busy_trading_dock_republic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = A_FORM1
+		k_ragusa = { de_jure_liege = e_italy }
+	}
+	
+	option = {
+		trigger = {
+			NOT = { has_global_flag = rome_restored }
+		}
+		name = B_FORM1
+		k_ragusa = { de_jure_liege = e_byzantium }
+	}
+	
+	option = {
+		trigger = {
+			has_global_flag = rome_restored
+		}
+		name = C_FORM1
+		k_ragusa = { de_jure_liege = e_roman_empire }
+	}
+}

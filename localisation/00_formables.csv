@@ -20,3 +20,24 @@ e_plc;Commonwealth;;;;;;;;;;;;;x
 e_plc_adj;Polish-Lithuanian;;;;;;;;;;;;;x
 form_commonwealth;Form the Polish-Lithuanian Commonwealth;;;;;;;;;;;;;x
 form_commonwealth_desc;The unification of the crowns of Poland and Lithuania sets a new dawn upon Eastern Europe. Together we are stronger than all of them!;;;;;;;;;;;;;x
+form_serene_ragusa;Form the Serene Kingdom of Ragusa;;;;;;;;;;;;;x
+form_serene_ragusa_desc;The Ragusan republic has long sat between the rich trade routes of Italy and the Byzantines. By using our cunning we have been able to gain more control over these routes. We are strong enough to proclaim ourselves a kingdom!;;;;;;;;;;;;;x
+form_serene_gotland;Form the Serene Kingdom of Gotland;;;;;;;;;;;;;x
+form_serene_gotland_desc;Gotland has been an important harbour for many in Baltic. Its walls protecting them from raids and pirates it is a great place to conduct trade. Over time we have expanded our borders and broken free from the Swedish kingdom. It would be wise to proclaim our kingdom to strengthen our sovereignty.;;;;;;;;;;;;;x
+form_serene_ancona;Form the Serene Kingdom of Ancona;;;;;;;;;;;;;x
+form_serene_ancona_desc;The republic of Ancona has operated under the Germans for long enough. Being in Italy we have been building up our strength and broken free from any foreign rule to conduct our trade. Just like Venetians it is time to proclaim our own kingdom.;;;;;;;;;;;;;x
+form_serene_pechina;Form the Serene Sultanate of Pechina;;;;;;;;;;;;;x
+form_serene_pechina_desc;Pechina has kneeled too long to the boots of the Cordoban Emirate! Breaking away was our best course of action. The decadent Caliphs have fallen from grace and now it's time for us to proclaim a Sultanate to strengthen our sovereignty!;;;;;;;;;;;;;x
+TITLE_FORM1;Ragusan Republic;;;;;;;;;;;;;x
+DESC_FORM1;With our indepence and growth over the Adriatic, we have proclaimed our selves more than a mere republic, we are now Serene! \n With the Venetians to our west and the Romans to our east we must decide what our next step will be. \n\n Our Dalmatian roots indicate that we are of Italian descent. Should we incorporate ourselves amongst the other city-states of the Italian Peninsula, or do we keep our connections with the Roman Emperors and keep them as our guardian?;;;;;;;;;;;;;x
+A_FORM1;Viva Italia!;;;;;;;;;;;;;x
+B_FORM1;The Byzantines are not yet defeated.;;;;;;;;;;;;;x
+C_FORM1;Rome for us all!;;;;;;;;;;;;;x
+k_ragusa;Ragusa;;;;;;;;;;;;;x
+k_ragusa_adj;Ragusan;;;;;;;;;;;;;x
+k_gotland;Gotland;;;;;;;;;;;;;x
+k_gotland_adj;Gutnish;;;;;;;;;;;;;x
+k_ancona;Ancona;;;;;;;;;;;;;x
+k_ancona_adj;Anconan;;;;;;;;;;;;;x
+k_pechina;Pechina;;;;;;;;;;;;;x
+k_pechina_adj;Pechinan;;;;;;;;;;;;;x

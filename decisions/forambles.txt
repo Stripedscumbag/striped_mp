@@ -607,6 +607,210 @@ decisions = {
 			}
 		}
 	}
+	
+	form_serene_ragusa = {
+		is_high_prio = yes
+		only_rulers = yes
+		ai_check_interval = 24
+		
+		potential = {
+			LOWER_REAL_TIER_THAN = KING
+			has_landed_title = d_ragusa
+			is_republic = yes
+		}
+		
+		allow = {
+			wealth = 300
+			prestige = 500
+			num_of_duke_titles = 2
+			independent = yes
+		}
+		
+		effect = {
+			wealth = -300
+			prestige = 500
+			
+			primary_title = {
+				save_event_target_as = formable
+			}
+			
+			activate_title = {
+				title = k_ragusa
+				status = yes
+			}
+			
+			k_ragusa = {
+				show_scope_change = no
+				grant_title = ROOT
+				copy_title_laws = event_target:formable
+			}
+			
+			d_ragusa = { de_jure_liege = k_ragusa }
+			
+			hidden_tooltip = {
+				if = {
+					limit = {
+						has_landed_title = d_dalmatia
+					}
+					d_dalmatia = { de_jure_liege = k_ragusa }
+					d_dalmatia = { set_name = "Dalmatia"
+				}
+				if = {
+					limit = {
+						has_landed_title = d_croatia
+					}
+					d_croatia = { de_jure_liege = k_ragusa }
+				}
+				else_if = {
+					limit = {
+						has_landed_title = d_dioclea
+					}
+					d_dioclea = { de_jure_liege = k_ragusa }
+				}
+			}
+			
+			narrative_event = { id = FORM.1 }
+		}
+	}
+	
+	form_serene_gotland = {
+		is_high_prio = yes
+		only_rulers = yes
+		ai_check_interval = 24
+		
+		potential = {
+			LOWER_REAL_TIER_THAN = KING
+			has_landed_title = d_gotland
+			is_republic = yes
+		}
+		
+		allow = {
+			wealth = 300
+			prestige = 500
+			num_of_duke_titles = 2
+			independent = yes
+		}
+		
+		effect = {
+			wealth = -300
+			prestige = 500
+			
+			primary_title = {
+				save_event_target_as = formable
+			}
+			
+			activate_title = {
+				title = k_gotland
+				status = yes
+			}
+			
+			k_gotland = {
+				show_scope_change = no
+				grant_title = ROOT
+				copy_title_laws = event_target:formable
+			}
+			
+			hidden_tooltip = {
+				d_gotland = { de_jure_liege = k_gotland }
+				k_gotland = { de_jure_liege = e_scandinavia }
+			}
+		}
+	}
+	
+	form_serene_pechina = {
+		is_high_prio = yes
+		only_rulers = yes
+		ai_check_interval = 24
+		
+		potential = {
+			LOWER_REAL_TIER_THAN = KING
+			has_landed_title = d_pechina
+			is_republic = yes
+		}
+		
+		allow = {
+			wealth = 300
+			prestige = 500
+			num_of_duke_titles = 2
+			independent = yes
+		}
+		
+		effect = {
+			wealth = -300
+			prestige = 500
+			
+			primary_title = {
+				save_event_target_as = formable
+			}
+			
+			activate_title = {
+				title = k_pechina
+				status = yes
+			}
+			
+			k_gotland = {
+				show_scope_change = no
+				grant_title = ROOT
+				copy_title_laws = event_target:formable
+			}
+			
+			hidden_tooltip = {
+				c_almeria = { de_jure_liege = d_pechina }
+				d_pechina = { de_jure_liege = k_pechina }
+				k_pechina = { de_jure_liege = e_spain }
+				if = {
+					limit = {
+						has_landed_title = d_murcia
+					}
+					d_murcia = { de_jure_liege = k_pechina }
+				}
+			}
+		}
+	}
+	
+	form_serene_ancona = {
+		is_high_prio = yes
+		only_rulers = yes
+		ai_check_interval = 24
+		
+		potential = {
+			LOWER_REAL_TIER_THAN = KING
+			has_landed_title = d_ancona
+			is_republic = yes
+		}
+		
+		allow = {
+			wealth = 300
+			prestige = 500
+			num_of_duke_titles = 2
+			independent = yes
+		}
+		
+		effect = {
+			wealth = -300
+			prestige = 500
+			
+			primary_title = {
+				save_event_target_as = formable
+			}
+			
+			activate_title = {
+				title = k_ancona
+				status = yes
+			}
+			
+			k_gotland = {
+				show_scope_change = no
+				grant_title = ROOT
+				copy_title_laws = event_target:formable
+			}
+			
+			hidden_tooltip = {
+				d_ancona = { de_jure_liege = k_ancona }
+				k_ancona = { de_jure_liege = e_italy }
+			}
+		}
+	}
 }
 
 targetted_decisions = {
@@ -636,33 +840,6 @@ targetted_decisions = {
 			any_child = {
 				culture = anglo_norse
 			}
-		}
-	}
-	
-	nerf_wali = {
-		ai = no
-		ai_check_interval = 1200
-		
-		from_potential = {
-			is_multiplayer_host_character = yes
-			NOT = { has_global_flag = wali_nerfed }
-		}
-		
-		potential = {
-			character = c_30000001
-		}
-		
-		allow = {
-			always = yes
-		}
-		
-		effect = {
-			change_learning = -55
-			change_diplomacy = -10
-			change_stewardship = -8
-			change_intrigue = -35
-			change_martial = -30
-			set_global_flag = wali_nerfed
 		}
 	}
 }

@@ -8,11 +8,11 @@
 	1.1.2 = {
 		birth=yes
 	}
-	learning = 60
-	diplomacy = 15
-	stewardship = 13
-	intrigue = 40
-	martial = 30
+	learning = 4
+	diplomacy = 4
+	stewardship = 4
+	intrigue = 4
+	martial = 4
 	61.1.1 = {
 		add_trait = immortal
 	}
