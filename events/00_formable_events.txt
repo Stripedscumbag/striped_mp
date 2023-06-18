@@ -1,5 +1,5 @@
 namespace = FORM
-
+## Reserving 100-999 for Bloodlines
 #ragusa
 narrative_event= {
 	id = FORM.1

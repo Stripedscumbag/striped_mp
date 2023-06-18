@@ -23,21 +23,6 @@
 	add_trait = brave
 	add_trait = just
 	add_trait = adventurer
-	769.1.1 = {
-		health = 100
-	}
-	867.1.1 = {
-		health = 20
-	}
-	936.1.1 = {
-		health = 20
-	}
-	1066.1.1 = {
-		health = 20
-	}
-	1337.1.1 = {
-		health = 20
-	}
 }
 30000002 = {
 	name = "Swimmer"
@@ -49,7 +34,7 @@
 	intrigue = 4
 	learning = 6
 	stewardship = 5
-	add_trait = poet
+	add_trait = brilliant_strategist
 	add_trait = gardener
 	add_trait = proud
 	add_trait = cannibal_trait
@@ -141,6 +126,7 @@
 	trait = kind
 	trait = just
 	trait = humble
+	trait = poet
 	trait = adventurer
 	838.1.1 = {
 		birth = yes
@@ -155,7 +141,7 @@
 			wealth = 200
 			prestige = 500
 		}
-		employer = 163112 #JÃ²rvik
+		employer = 163112 #Jòrvik
 	}
 	901.1.1 = {
 		death = yes
@@ -293,6 +279,76 @@
 		}
 	}
 	936.1.1 = {
+		death = yes
+	}
+}
+
+30000011 = {
+	name = "Hæsteinn" #FatPastaMan
+	religion = norse_germanic
+	culture = italian
+	random_traits = no
+	martial = 4
+	stewardship = 2
+	trait = adventurer
+	trait =	skilled_tactician
+	trait = robust
+	trait =	gregarious
+	trait = kind
+	trait = humble
+	trait = seaking
+	trait = mujahid
+	trait = inspiring_leader
+	trait = gluttonous
+	840.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		employer = 6878
+		effect = {
+			add_claim = k_italy
+			give_nickname = nick_the_culture
+		}
+	}
+	936.1.1 = {
+		death = yes
+	}
+}
+
+30000012 = {
+	name = "Alex"
+	easter_egg = yes
+	dna=cfggabacddk
+	properties=we0clk00000000000000000000000000000000
+	
+	martial = 5
+	diplomacy = 2
+	intrigue = 3
+	stewardship = 3
+	learning = 5
+	random_traits = no
+	
+	religion = catholic
+	culture = english
+	
+	add_trait = lustful
+	add_trait = strong
+	add_trait = quick
+	add_trait = ambitious
+	add_trait = aggressive_leader
+	add_trait = just
+	add_trait = uncouth
+	
+	1050.9.16 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		wealth = 100
+		effect = {
+			add_claim = d_warwick
+		}
+	}
+	1100.1.1 = {
 		death = yes
 	}
 }

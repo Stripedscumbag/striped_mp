@@ -13,21 +13,19 @@ north_germanic = {
 		
 		color = { 0.2 0.25 0.67 }
 		
-		# Ã 222 Ã¾ 254 Ã 208 Ã° 240 Ã¦
-		
 		male_names = {
-			Ale Alfr_Alf Alfgeir Anders_Andrew Anlaufr Anundr_Anund ArnbjÃ¶rn Arngrimr Arni_Arne Arnfast AsbjÃ¶rn_AsbjÃ¶rn Bagge Baldr_Balder Barid Bengt_Benedict Bersi Bertil_Berthold Birger BjÃ¶rn_Beorn Bo Borkvard Botulfr_Botulf Bragi_Brage BuÃ°li
-			Dag Dan Dyre Eilif Egill_Egil Emund Einarr_Einar Eirikr_Erik Eskild Falki Faste Filip_Philip Fredrik_Frederick Frirek FroÃ°i_Frode Freyr_Frej Folki_Folke Gandalfr Geirr Georg_George Gnupa_Gnupa Gorm_Gorm Greger_Gregory Grimr_Grim GuÃ°friÃ°_Godfrey GuÃ°mundr_Gudmund GuÃ°rÃ¶Ã°r_GudrÃ¶d Gunnarr_Gunnar Hakon_Hakon Halsten Haraldr_Harold Haukr Helgi_Helge
-			Hemming Holmger Hrafn Hrolfr_Rolf Hrane HÃ¦steinn Hjalmar_Hjalmar HroÃ°gar HroÃ°ulfr HrÃ¶rekr_Rurik Hysing IngÃ³lfr_Ingolf Ingemar Ingjald Ivar_Ivar Jedvard_Edward Jon_John Karl_Charles Kettil Kettilmund Kjartan Klas_Nicholas Knut_Knut Kol KolbjÃ¶rn Magnus_Magnus Markus_Marcus 
-			Magni_Magne Mats_Matthew Nils_Nicholas Niklas_Nicholas Oddr_Odd Ofeig Olafr_Olaf Ormr_Orm Ottarr_Ottar Refr Refil Ragnarr_Rainer Rikulfr RÃ¶gnvaldr_Ragnvald Skuli_Skule Snorri SigbjÃ¶rn Sigtrygg SigurÃ°r_Sigurd StarkaÃ°r_Starkad Steinn_Sten Sturla StyrbjÃ¶rn Styrkar SumarliÃ°i_Somerled Suni_Sune Sveinn_Sven
-			Sverker SÃ¦mundr_SÃ¤mund SÃ¶lvi_SÃ¶lve SÃ¶rkver Tjudmund_Tjudmund Toke_Toke Tolir ÃorbjÃ¶rn_TorbjÃ¶rn Ãorfinn_Torfinn Ãorbrandr_Torbrand Ãordr_Tord Ãorgil_Torkel Ãorsteinn_Torsten Ãorolfr_Thorolf Toste Totil Tryggve Tyke Ulfr_Ulf Vagn Valdemar_Vladimir Ã…ke Yngvar_Ingvar Ã–rvar_Orvar Ã–ysteinn_Eysteinn
+			Ale Alfr_Alf Alfgeir Anders_Andrew Anlaufr Anundr_Anund Arnbjörn Arngrimr Arni_Arne Arnfast Asbjörn_Asbjörn Bagge Baldr_Balder Barid Bengt_Benedict Bersi Bertil_Berthold Birger Björn_Beorn Bo Borkvard Botulfr_Botulf Bragi_Brage Buğli
+			Dag Dan Dyre Eilif Egill_Egil Emund Einarr_Einar Eirikr_Erik Eskild Falki Faste Filip_Philip Fredrik_Frederick Frirek Froği_Frode Freyr_Frej Folki_Folke Gandalfr Geirr Georg_George Gnupa_Gnupa Gorm_Gorm Greger_Gregory Grimr_Grim Guğfriğ_Godfrey Guğmundr_Gudmund Guğröğr_Gudröd Gunnarr_Gunnar Hakon_Hakon Halsten Haraldr_Harold Haukr Helgi_Helge
+			Hemming Holmger Hrafn Hrolfr_Rolf Hrane Hæsteinn Hjalmar_Hjalmar Hroğgar Hroğulfr Hrörekr_Rurik Hysing Ingólfr_Ingolf Ingemar Ingjald Ivar_Ivar Jedvard_Edward Jon_John Karl_Charles Kettil Kettilmund Kjartan Klas_Nicholas Knut_Knut Kol Kolbjörn Magnus_Magnus Markus_Marcus 
+			Magni_Magne Mats_Matthew Nils_Nicholas Niklas_Nicholas Oddr_Odd Ofeig Olafr_Olaf Ormr_Orm Ottarr_Ottar Refr Refil Ragnarr_Rainer Rikulfr Rögnvaldr_Ragnvald Skuli_Skule Snorri Sigbjörn Sigtrygg Sigurğr_Sigurd Starkağr_Starkad Steinn_Sten Sturla Styrbjörn Styrkar Sumarliği_Somerled Suni_Sune Sveinn_Sven
+			Sverker Sæmundr_Sämund Sölvi_Sölve Sörkver Tjudmund_Tjudmund Toke_Toke Tolir Şorbjörn_Torbjörn Şorfinn_Torfinn Şorbrandr_Torbrand Şordr_Tord Şorgil_Torkel Şorsteinn_Torsten Şorolfr_Thorolf Toste Totil Tryggve Tyke Ulfr_Ulf Vagn Valdemar_Vladimir Åke Yngvar_Ingvar Örvar_Orvar Öysteinn_Eysteinn
 		}
 		female_names = {
-			Aleta Alfhildr_Alfhild AlfriÃ°_Alfridh AlvÃ¶r Anna_Anna Asa_Ã…sa Aslaug Asta_Asta Astrid_Astrid Beata Birgitta_Brigid BjÃ¶rg Bodil Bothildr_Bothild Cecilia_Cecilia
-			Edla Elin Elisabet_Elizabeth Freyja_Freja GerÃ°r GloÃ° Grima Gunnhildr_Gunhild Gurli GuÃ°run_Gudrun Gyla GyriÃ° GyÃ°a_Gytha Hafrid Halla Helena_Helen Holmfrid
-			Iliana Inga_Inge Ingfrid IngibjÃ¶rg_Ingeborg IngjerÃ°r_Ingegerd Ingrid_Ingrid Karin_Catherine Katarina_Catherine Kraka Kristina_Christina Linda Maer
-			MalmfriÃ°_Malmfrid Margareta_Margaret Maria_Maria Rikissa RÃ¶gnfriÃ°_Ragnfrid RÃ¶gnhildr_Ragnhild Saga Sara_Sarah Sif Sigrid_Sigrid Skuld Sofia_Sophia
-			Svanhildr_Svanhild Ulfhildr_Ulvhilde Vigdis Ylva_Ylva Yrsa_Ursula Ãora_Thora Ãordis_Thordis Ãyra_Thyra
+			Aleta Alfhildr_Alfhild Alfriğ_Alfridh Alvör Anna_Anna Asa_Åsa Aslaug Asta_Asta Astrid_Astrid Beata Birgitta_Brigid Björg Bodil Bothildr_Bothild Cecilia_Cecilia
+			Edla Elin Elisabet_Elizabeth Freyja_Freja Gerğr Gloğ Grima Gunnhildr_Gunhild Gurli Guğrun_Gudrun Gyla Gyriğ Gyğa_Gytha Hafrid Halla Helena_Helen Holmfrid
+			Iliana Inga_Inge Ingfrid Ingibjörg_Ingeborg Ingjerğr_Ingegerd Ingrid_Ingrid Karin_Catherine Katarina_Catherine Kraka Kristina_Christina Linda Maer
+			Malmfriğ_Malmfrid Margareta_Margaret Maria_Maria Rikissa Rögnfriğ_Ragnfrid Rögnhildr_Ragnhild Saga Sara_Sarah Sif Sigrid_Sigrid Skuld Sofia_Sophia
+			Svanhildr_Svanhild Ulfhildr_Ulvhilde Vigdis Ylva_Ylva Yrsa_Ursula Şora_Thora Şordis_Thordis Şyra_Thyra
 		}
 		
 		dukes_called_kings = yes

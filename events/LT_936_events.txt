@@ -228,12 +228,30 @@ narrative_event = {
                     OR = {
                         de_jure_liege = k_germany
                         de_jure_liege = k_frisia
+						de_jure_liege = k_bavaria
+						de_jure_liege = k_carinthia
                     }
                 }
                 narrative_event = { id = LT.40006 }
             }
             narrative_event = { id = LT.40007 }
         }
+		if = {
+			limit = { ai = yes }
+			add_random_commander_trait_effect = yes
+			spawn_unit = {
+				owner = ROOT
+				province = capital_scope
+				home = ROOT
+				match_character = 1282
+				match_mult = 0.5
+				
+				attrition = 1.0
+				disband_on_peace = yes
+				maintenance = no
+			}
+		}
+		ai_chance = { factor = 80 }
     }
 
     option = {
@@ -246,6 +264,7 @@ narrative_event = {
                 }
             }
         }
+		ai_chance = { factor = 20 }
     }
 }
 
@@ -382,7 +401,7 @@ narrative_event = {
     option = {
         name = EVTOPTA_LT_40009
         prestige = 250
-		ai_chance = { factor = 20 }
+		ai_chance = { factor = 10 }
     }
 
     option = {
@@ -674,6 +693,7 @@ narrative_event = {
                             de_jure_liege = k_saxony
                             de_jure_liege = k_pomerania
 							de_jure_liege = k_frisia
+							de_jure_liege = k_lotharingia
                         }
                     }
                 }
@@ -746,7 +766,7 @@ narrative_event = {
             }
             set_global_flag = hre_removed
         }
-		ai_chance = { factor = 80 }
+		ai_chance = { factor = 90 }
     }
 }
 

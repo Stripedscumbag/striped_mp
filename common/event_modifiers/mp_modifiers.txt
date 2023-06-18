@@ -58,3 +58,35 @@ focusing_on_wl_intrigue = {
 	intrigue = -2
 }
 
+studying_quran = {
+	icon = 8
+	monthly_character_piety = 0.1
+}
+
+studying_quran_cooldown = {
+	icon = 1
+}
+
+decadence_negotiation_cooldown = {
+	icon = 1
+}
+
+studied_old_text = {
+	icon = 2
+	learning = 1
+}
+
+scholarly_discussion = {
+	icon = 3
+	diplomacy = 1
+}
+
+field_work = {
+	icon = 4
+	stewardship = 1
+}
+
+lessons_of_war = {
+	icon = 1
+	martial = 1
+}

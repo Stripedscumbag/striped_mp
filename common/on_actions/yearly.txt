@@ -1,5 +1,0 @@
-on_bi_year_pulse = {
-	random_events = {
-		10 = INV.3
-	}
-}

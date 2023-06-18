@@ -7,6 +7,22 @@ character_event = {
 	picture = GFX_evt_emissary_byzantine
 	is_triggered_only = yes
 	
+	immediate = {
+		event_target:invited_diplomat = {
+			random_list = {
+				20 = {
+					change_diplomacy = 3
+				}
+				30 = {
+					change_diplomacy = 2
+				}
+				40 = {
+					change_diplomacy = 1
+				}
+			}
+		}
+	}
+	
 	option = {
 		name = OPTA_INV1
 		trigger = {
@@ -46,6 +62,22 @@ character_event = {
 	desc = DESC_INV2
 	picture = GFX_evt_emissary_byzantine
 	is_triggered_only = yes
+	
+	immediate = {
+		event_target:invited_spy = {
+			random_list = {
+				20 = {
+					change_intrigue = 3
+				}
+				30 = {
+					change_intrigue = 2
+				}
+				40 = {
+					change_intrigue = 1
+				}
+			}
+		}
+	}
 	
 	option = {
 		name = OPTA_INV1

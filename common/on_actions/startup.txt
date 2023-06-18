@@ -1,7 +1,0 @@
-on_startup = {
-	events = {
-		CREDIT.1
-		CREDIT.3
-		690
-	}
-}

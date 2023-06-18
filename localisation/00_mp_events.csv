@@ -35,7 +35,7 @@ CREDIT_DESC;Thank you for playing with this mod! It is still new and alot of cha
 OPTA_CREDIT;Exit;;;;;;;;;;;;;x
 OPTB_CREDIT;See Changelog;;;;;;;;;;;;;x
 CREDIT_TITLE2;Changelog;;;;;;;;;;;;;x
-CREDIT_DESC2;\n\n* Added formable kingdoms for:\n- Ragusa \n- Gotland \n- Ancona \n- Pechina \n* Changed WL child events  \n\n If you want to help mod, join the discord(.gg/ECVXJPgAjK). Otherwise all credits go to me: Striped#7789 \n Also subscribe to my YT channel found on my discord profile!;;;;;;;;;;;;;x
+CREDIT_DESC2;\n\n* Starting work on Title Creation Bloodlines \n* Added a society to Ibadi so they're worthwhile \n* Can't go secretly Shia when joining assassins \n* Thankmar AI gets event spawns if he revolts \n* Fixed Anglo-Norse naming  \n\n If you want to help mod, join the discord(.gg/ECVXJPgAjK). Otherwise all credits go to me: Striped#7789 \n Also subscribe to my YT channel found on my discord profile!;;;;;;;;;;;;;x
 TITLE_INV1;Invited Diplomat;;;;;;;;;;;;;x
 DESC_INV1;The diplomat you ordered has arrived at your court. What will you plan to do with him?;;;;;;;;;;;;;x
 OPTA_INV1;I will offer him a job.;;;;;;;;;;;;;x
@@ -66,3 +66,134 @@ NEXT;Next;;;;;;;;;;;;;x
 BACK;Back;;;;;;;;;;;;;x
 DESC_Custom_gift_received;[From.GetBestName] has graciously decided to sent us a sum of [From.cg_var.GetValue]¤ out of their own treasury.;;;;;;;;;;;;;x
 RECEIVED;We thank them for their donation.;;;;;;;;;;;;;x
+DESC_MUSLIM3;Alhamdullilah my friend! We at the order would love for you to join our order. May you find yourself in Allah's wisdom.;;;;;;;;;;;;;x
+A_MUSLIM3;Welcome!;;;;;;;;;;;;;x
+TITLE_MUSLIM10;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM10;To start of my studies I will have to find a time and place in order to carry out my tasks now that I am taking this mission.;;;;;;;;;;;;;x
+A_MUSLIM10;By Allah, I will put in my all!;;;;;;;;;;;;;x
+B_MUSLIM10;I am not rushed to get this done.;;;;;;;;;;;;;x
+TITLE_MUSLIM11;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM11;I have worked hard enough and after reading the same passage over and over again I finally understand the meaning of the word of Allah.;;;;;;;;;;;;;x
+A_MUSLIM11;Insh'allah!;;;;;;;;;;;;;x
+TITLE_MUSLIM12;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM12;After trying to work hard for a while some courtiers came up to me and I used it as an excuse to get away from my studies. ;;;;;;;;;;;;;x
+A_MUSLIM12;The word of God can wait.;;;;;;;;;;;;;x
+TITLE_MUSLIM13;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM13;My court Imam has advised me to fast so that I become more clear minded. He believes by doing so I can more properly interpret the words of the Quran and therefore God's words.;;;;;;;;;;;;;x
+A_MUSLIM13;He is right!;;;;;;;;;;;;;x
+B_MUSLIM13;What?! I am [Root.GetTitle] and I do as I say!;;;;;;;;;;;;;x
+TITLE_MUSLIM14;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM14;The fast really worked well on me and now I feel like a wiser man. With no distractions and decadancies holding me back the word of Allah seems ever so more inspiring.;;;;;;;;;;;;;x
+A_MUSLIM14;Alhamdullilah!;;;;;;;;;;;;;x
+TITLE_MUSLIM15;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM15;Some time ago my Imam told me to lay off all the food and actually focus on my studies, but who does he think he is?! I am a [Root.GetTitle] and no one bosses me around at my court!;;;;;;;;;;;;;x
+A_MUSLIM15;Another plate please!;;;;;;;;;;;;;x
+TITLE_MUSLIM16;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM16;One day while walking around the castle town, I spot a poor man wearing ragged clothes laying on the street. He says he has lived this way for a long time and lives off the generosity from other people.;;;;;;;;;;;;;x
+A_MUSLIM16;May Allah bless you, take this.;;;;;;;;;;;;;x
+B_MUSLIM16;Lazy rat!;;;;;;;;;;;;;x
+TITLE_MUSLIM17;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM17;The old man thanked me for my charity and he told me about his life and after a war he was severly injured and couldn't work anymore. ;;;;;;;;;;;;;x
+A_MUSLIM17;May you rest in heaven.;;;;;;;;;;;;;x
+TITLE_MUSLIM18;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM18;As I ordered the guards to take care of the homeless man, he would scream and shout for mercy. Clearly he doesn't understand that he is a filth upon my wonderful streets.;;;;;;;;;;;;;x
+A_MUSLIM18;Stay away you beggar.;;;;;;;;;;;;;x
+TITLE_MUSLIM19;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM19;One night as I am returning from surveying my countryside, a small caravan was holding up the Castle gates. After more time passed I walked up to see what the problem was, the man was already banned from the city, but his wife was sick and needed medical attention.;;;;;;;;;;;;;x
+A_MUSLIM19;I am fine with letting him in.;;;;;;;;;;;;;x
+B_MUSLIM19;I have waited long enough!;;;;;;;;;;;;;x
+TITLE_MUSLIM20;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM20;After helping the man out he thanked me and gave me some money to pay for my court physician to come help his wife. ;;;;;;;;;;;;;x
+A_MUSLIM20;Allah guided me through this.;;;;;;;;;;;;;x
+TITLE_MUSLIM21;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM21;After getting back at the court, my court Imam scolded me for being so harsh with the man. It is not of a ruler to treat his subjects in such a way.;;;;;;;;;;;;;x
+A_MUSLIM21;Whatever he says.;;;;;;;;;;;;;x
+TITLE_MUSLIM22;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM22;Today a noble came to my court to ask for my help. Bandits have completely taken over his towns and he begged me for help.;;;;;;;;;;;;;x
+A_MUSLIM22;You may take some of my troops.;;;;;;;;;;;;;x
+B_MUSLIM22;Who do you think you are talking to?;;;;;;;;;;;;;x
+TITLE_MUSLIM23;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM23;The man came back with my troops and told me that he managed to root out all the bandits thanks to my help.;;;;;;;;;;;;;x
+A_MUSLIM23;You are welcome.;;;;;;;;;;;;;x
+TITLE_MUSLIM24;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM24;The noble came back some time later to tell that he has lost all his possessions and that his town was burned down to the ground;;;;;;;;;;;;;x
+A_MUSLIM24;Serves him right for being weak.;;;;;;;;;;;;;x
+TITLE_MUSLIM25;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM25;An Imam came to check on my Quran study and asked how I was doing. I told him about my progress and he wrote down what I had. He told me that he was gonna report back to the Head Imam of the Society and he would judge my work.;;;;;;;;;;;;;x
+A_MUSLIM25;I've worked very hard!;;;;;;;;;;;;;x
+B_MUSLIM25;I did as much as needed.;;;;;;;;;;;;;x
+C_MUSLIM25;I have failed as a muslim.;;;;;;;;;;;;;x
+TITLE_MUSLIM30;Master of the Law;;;;;;;;;;;;;x
+DESC_MUSLIM30;The Head Imam commended me for my astounding work and even said as much that I am worthy of being a Faqih.;;;;;;;;;;;;;x
+A_MUSLIM30;My work paid off.;;;;;;;;;;;;;x
+TITLE_MUSLIM31;Quran Memorised;;;;;;;;;;;;;x
+DESC_MUSLIM31;The Head Imam congratulated me after hearing I could recite the entire Quran from memory, I am now able to call myself a Hafiz.;;;;;;;;;;;;;x
+A_MUSLIM31;Allah will thank me.;;;;;;;;;;;;;x
+TITLE_MUSLIM32;Quran Study;;;;;;;;;;;;;x
+DESC_MUSLIM32;The Head Imam was happy with my overall study and that I should be proud of my progress.;;;;;;;;;;;;;x
+A_MUSLIM32;Bismillah;;;;;;;;;;;;;x
+TITLE_MUSLIM100;Pick a lifestyle.;;;;;;;;;;;;;x
+DESC_MUSLIM100;Being an Imam in the society I can use my power and resources to take on a lifestyle.;;;;;;;;;;;;;x
+A_MUSLIM100;I will learn the mystic way.;;;;;;;;;;;;;x
+B_MUSLIM100;Knowledge is power.;;;;;;;;;;;;;x
+C_MUSLIM100;The study of gods is important for a pious man.;;;;;;;;;;;;;x
+D_MUSLIM100;Nevermind.;;;;;;;;;;;;;x
+TITLE_MUSLIM101;My teacher.;;;;;;;;;;;;;x
+DESC_MUSLIM101;In order to get started on my lifestyle's education I will need someone to help me in endeavor.;;;;;;;;;;;;;x
+A_MUSLIM101;I'll pay someone to come teach me.;;;;;;;;;;;;;x
+B_MUSLIM101;I think I know someone who could help me.;;;;;;;;;;;;;x
+TITLE_MUSLIM102;Starting to learn.;;;;;;;;;;;;;x
+DESC_MUSLIM102;My new tutor has advised me to go the a big Muslim court and find scholars and library there.;;;;;;;;;;;;;x
+A_MUSLIM102;The library contains many truths.;;;;;;;;;;;;;x
+B_MUSLIM102;Debating removes the lies.;;;;;;;;;;;;;x
+TITLE_MUSLIM103;Planning my lifestyle.;;;;;;;;;;;;;x
+DESC_MUSLIM103;My friend [Root.tutor_ibadi.GetName] has told me that we are going out today to talk to some of his Imam friends. One of them is a gardener and the other a retired general. Both have alot to teach me.;;;;;;;;;;;;;x
+A_MUSLIM103;Working a garden is alot of maintenance.;;;;;;;;;;;;;x
+B_MUSLIM103;A retired general must be wise.;;;;;;;;;;;;;x
+TITLE_MUSLIM104;Finished Lifestyle Education.;;;;;;;;;;;;;x
+DESC_MUSLIM104;After some more intensive studying my tutor told me that I am done and know enough to proclaim myself a professional.;;;;;;;;;;;;;x
+A_MUSLIM104;I am done!;;;;;;;;;;;;;x
+TITLE_MUSLIM200;Change Lifestyle;;;;;;;;;;;;;x
+DESC_MUSLIM200;My current lifestyle doesn't fit me, I think I will try something else.;;;;;;;;;;;;;x
+A_MUSLIM200;Mystisicism sounds interesting.;;;;;;;;;;;;;x
+B_MUSLIM200;A scholarship has never been bad.;;;;;;;;;;;;;x
+C_MUSLIM200;God can guide me through life.;;;;;;;;;;;;;x
+D_MUSLIM200;Nevermind.;;;;;;;;;;;;;x
+TITLE_MUSLIM400;Decadence Negotiation;;;;;;;;;;;;;x
+DESC_MUSLIM400;[From.GetName] has become decadent, tarnishing the family name. As the responsible man that I am I will tell him that he musn't do what he is currently doing.;;;;;;;;;;;;;x
+A_MUSLIM400;I will try just talking to him.;;;;;;;;;;;;;x
+B_MUSLIM400;The society teaches good negotiation tactics.;;;;;;;;;;;;;x
+C_MUSLIM400;I will handle this in a smart way.;;;;;;;;;;;;;x
+TITLE_MUSLIM401;Convinced;;;;;;;;;;;;;x
+DESC_MUSLIM401;[From.GetName] told me that he will turn his life around and stop being decadent in the name of our family and Allah.;;;;;;;;;;;;;x
+A_MUSLIM401;Mash'allah;;;;;;;;;;;;;x
+TITLE_MUSLIM402;Rejected offer;;;;;;;;;;;;;x
+DESC_MUSLIM402;[From.GetName] rejected all my offers and told me that he will not give up his nice decadent lifestyle.;;;;;;;;;;;;;x
+A_MUSLIM402;Invoke tafkir on this dog!;;;;;;;;;;;;;x
+TITLE_MUSLIM500;Invited Imam;;;;;;;;;;;;;x
+DESC_MUSLIM500;[Root.invited_imam.GetName] has come from the society to assist me at me at my court and to help with other religious tasks.;;;;;;;;;;;;;x
+A_MUSLIM500;Welcome!;;;;;;;;;;;;;x
+TITLE_FORM100;Norwegian Blood;;;;;;;;;;;;;x
+DESC_FORM100;[Root.GetBestName] has united the tribes of Norway in a brilliant display of military strategy. Fending off the Danes and Swedes [Root.GetSheHe] was able to get recognized by [Root.GetHerHis] Norwegian vassals as the one true King of Norway! \n\nWith new lands aligned perfectly to the west Norway has a bright future ahead of it and [Root.GetBestName] will surely lead Norway into a time of grandeur!;;;;;;;;;;;;;x
+A_FORM100;King of the Northmen!;;;;;;;;;;;;;x
+TITLE_FORM101;Saxon Blood;;;;;;;;;;;;;x
+DESC_FORM101;[Root.GetTitledFirstName] has united the Kingdoms of England and is now the supreme reign over all the Anglo-Saxons. Withstanding the Vikings from the West [Root.GetSheHe] managed to become famous among the Saxon peoples. Uniting the Kingdoms of Mercia, East-Anglia, Essex, Wessex and Northumbria under [Root.GetHersHis] hold [Root.GetSheHe] will be remembered into the future as a [Root.GetManWoman] of great importance to England.;;;;;;;;;;;;;x
+A_FORM101;I will make sure England is rid of Vikings.;;;;;;;;;;;;;x
+TITLE_FORM102;[Root.GetAdjective] Blood;;;;;;;;;;;;;x
+DESC_FORM102;[Root.GetBestName] has triumped over the Castillians, Leonese and the Moors! The people of Portucale have now advanced themselves and are starting to take hold in Iberia. Under the leader of [Root.GetBestName] they were able to fend off foreigners from taking anymore of their land and now Portugal will starting marching forth on it's offensive! The Muslims still hold large chunks of Iberia and the West Coast is vunerable to the Portuguese army. \n\nPortugal stands in the way of the Muslim mights!;;;;;;;;;;;;;x
+A_FORM102;Long live Portugal!;;;;;;;;;;;;;x
+TITLE_NOR2;Culture Change;;;;;;;;;;;;;x
+DESC_NOR2;The peasants of [Root.GetName] have over time finally accepted the Anglo-Norse customs and traditions.;;;;;;;;;;;;;x
+A_NOR2;Good.;;;;;;;;;;;;;x
+TITLE_FORM103;Burgundian Blood;;;;;;;;;;;;;x
+DESC_FORM103;[Root.GetBestName] has managed to unite the two parts of Burgundy. Now the Cisjuranians, Transjuranians and the Provencals shall be united under one reigning monarch, no longer devided by the arbitary lines of the Carolingians. With connections to both Occitans and Germans we shall be a stepping stone for prosperity in between the two cultural regions. ;;;;;;;;;;;;;x
+A_FORM103;Long live [Root.GetTitledFirstName]!;;;;;;;;;;;;;x
+TITLE_FORM104;Magyar Blood;;;;;;;;;;;;;x
+DESC_FORM104;Our people have come from away to the Pannonian Basin. Roaming the Steppes for centuries, fighting off many enemies we have managed to make ourselves present in Europe. Defeating Bulgars and Bolghars alike and withstanding the Turkic tribes on our way we are a hardened people ready to take on anyone who is willing to take our land from us. The Magyar shall not budge infront of any foreign power and with our Horse Lord heritage we have a culture of fearsome warriors dominating the plains.;;;;;;;;;;;;;x
+A_FORM104;Hungary on top!;;;;;;;;;;;;;x
+TITLE_FORM106;The Defender of Islam;;;;;;;;;;;;;x
+DESC_FORM106;After defeating the Catholics in the recent Crusade, [Root.GetFirstName] has become famous as being the defender of the faith. With the heartlands of Islam at ease the [Root.GetRulerTitle] of [Root.GetBaseName] now is known to be ferocious in battle. \n\nWith the Franks and Germans sent back from whence they came, the holy city of Jerusalem is firmly under Muslim influence.;;;;;;;;;;;;;x
+A_FORM106;Allah has blessed me.;;;;;;;;;;;;;x
+TITLE_FORM107;Polish Blood;;;;;;;;;;;;;x
+DESC_FORM107;Through [Root.GetBestName]'s bravery, the realms of Poland have been united under one dynasty. Beating the Bohemians and Russians who had encroached onto the sacred lands of Poland [Root.GetSheHe] managed to gain the trust of the Polish tribes ensuring their loyalty and vassalge to him. \n\nWith Poland being filled with fertile lands and a warrior-like tribe culture which stems from their pagan roots, it is inevitable that we will dominate the rest of Europe!;;;;;;;;;;;;;x
+A_FORM107;Polska Gurom!;;;;;;;;;;;;;x
