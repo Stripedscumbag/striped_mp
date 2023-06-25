@@ -631,8 +631,10 @@ blessed_mantle = {
 sword_of_mohammad = {
 	monthly_character_prestige = 0.5
 	monthly_character_piety = 0.5
-	religious_enemy = 0.15
-	morale_defence = 0.05
+	command_modifier = {
+		religious_enemy = 0.15
+		morale_defence = 0.1
+	}
 	martial = 3
 	combat_rating = 16
 	active = { 

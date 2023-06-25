@@ -48,7 +48,7 @@ DESC_NOR1;With the invasion of England by the Norsemen we have found ourselves s
 OPTA_NOR1;The time for a Anglo-Norse king has come.;;;;;;;;;;;;;x
 OPTB_NOR1;Surely it's nothing.;;;;;;;;;;;;;x
 TITLE_INV3;Stranger from far away.;;;;;;;;;;;;;x
-DESC_INV3;This morning my courtiers had notified me of a man appearing my gates. He says he is from a land far away and after being persecuted there seeks a new life in my realm.;;;;;;;;;;;;;x
+DESC_INV3;This morning my courtiers had notified me of a man appearing at my gates. He says he is from a land far away and after being persecuted there seeks a new life in my realm.;;;;;;;;;;;;;x
 OPTA_INV3;Thank you for your gift!;;;;;;;;;;;;;x
 OPTB_INV3;You are welcome to stay.;;;;;;;;;;;;;x
 OPTC_INV3;Get this trash out of my sight!;;;;;;;;;;;;;x
@@ -197,3 +197,12 @@ A_FORM106;Allah has blessed me.;;;;;;;;;;;;;x
 TITLE_FORM107;Polish Blood;;;;;;;;;;;;;x
 DESC_FORM107;Through [Root.GetBestName]'s bravery, the realms of Poland have been united under one dynasty. Beating the Bohemians and Russians who had encroached onto the sacred lands of Poland [Root.GetSheHe] managed to gain the trust of the Polish tribes ensuring their loyalty and vassalge to him. \n\nWith Poland being filled with fertile lands and a warrior-like tribe culture which stems from their pagan roots, it is inevitable that we will dominate the rest of Europe!;;;;;;;;;;;;;x
 A_FORM107;Polska Gurom!;;;;;;;;;;;;;x
+TITLE_FORM109;The Knight [Root.GetDynName];;;;;;;;;;;;;x
+DESC_FORM109;[Root.GetDynName] has fought valianty against the Scottish enemies in brave displays of combat. Many times holding his stance till his last man, he never left the battlefield till every last of his enemies was beaten. Showing the rest of the British Isles the genius of this leader in battle, Scotland is to remain a menacing foe in the fields and hills. \nWith many men idolising [Root.GetDynName], his fame from previous battles inspires the soldiers to hold out just as he did.;;;;;;;;;;;;;x
+A_FORM109;Scotland brave and free!;;;;;;;;;;;;;x
+TITLE_FORM110;The Knight [From.GetDynName];;;;;;;;;;;;;x
+DESC_FORM110;[From.GetDynName] has fought valianty against the Scottish enemies in brave displays of combat. Many times holding his stance till his last man, he never left the battlefield till every last of his enemies was beaten. Showing the rest of the British Isles the genius of this leader in battle, Scotland is to remain a menacing foe in the fields and hills. \nWith many men idolising [From.GetDynName], his fame from previous battles inspires the soldiers to hold out just as he did.;;;;;;;;;;;;;x
+A_FORM110;Scotland brave and free!;;;;;;;;;;;;;x
+TITLE_FORM11;The heir to Boudica's legacy;;;;;;;;;;;;;x
+DESC_FORM111;[Root.GetBestName] has under her immaculate diplomacy and strategy managed to unite the whole of Britannia under their rule! The Kings and Clans of Ireland, Scotland, Wales and England have been subjugated and integrated into one realm. Claiming a legacy equal to Boudica, who fought the Romans in a great revolt, [Root.GetBestName] has managed to unite the whole of the British Isles under her iron fist.\nNow that the Celts are the dominant force back in Britain it is time to start sending the Saxons back from whence they came and set upon a revival of Celtic traditions!;;;;;;;;;;;;;x
+A_FORM111;I fought for the realm!;;;;;;;;;;;;;x

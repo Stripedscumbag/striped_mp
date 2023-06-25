@@ -6,7 +6,7 @@ namespace = MUSLIM
 ## 100-200 Learning Lifestyles
 ## 400 Decadence Negotiation
 ## 500 Invited Imam
-
+## 1000 Spawn AI
 character_event = {
 	id = MUSLIM.1
 	hide_window = yes
@@ -1037,6 +1037,46 @@ character_event = {
 		reverse_opinion = {
 			who = event_target:invited_imam
 			modifier = opinion_loyal_servant
+		}
+	}
+}
+
+character_event = { #spawn in new guy if not enough
+	id = MUSLIM.1000
+	hide_window = yes
+	is_triggered_only = yes #society bi-yearly
+	
+	trigger = {
+		monastic_order_ibadi = {
+			num_of_society_members < 10
+		}
+		is_society_grandmaster = yes
+	}
+	
+	immediate = {
+		random_playable_ruler = {
+			limit = { religion_group = muslim }
+			create_random_priest = {
+				random_traits = yes
+				dynasty = random
+				religion = ibadi
+				culture = PREV
+				female = no
+
+				attributes = {
+					learning = 9
+				}
+			}
+			
+			new_character = {
+				join_society = monastic_order_ibadi
+				
+				random_list = {
+					85 = {}
+					10 = { society_rank_up = 1 }
+					5 = { society_rank_up = 2 }
+				}
+			}
 		}
 	}
 }

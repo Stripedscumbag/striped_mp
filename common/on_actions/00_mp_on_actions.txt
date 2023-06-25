@@ -31,16 +31,23 @@ on_society_bi_yearly_pulse = {
 }
 on_create_title = {
 	events = {
-		FORM.100
+		FORM.100 # Title Bloodlines
 		FORM.101
 		FORM.102
 		FORM.103
 		FORM.104
 		FORM.107
+		FORM.111
 	}
 }
 on_crusade_failure = {
 	events = {
 		FORM.105 #Saladin
+	}
+}
+
+on_major_battle_won_leader = {
+	events = {
+		FORM.108 # William Wallace
 	}
 }

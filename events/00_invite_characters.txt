@@ -122,6 +122,9 @@ character_event = {
 	
 	trigger = {
 		HIGHER_REAL_TIER_THAN = BARON
+		any_owned_bloodline = {
+			has_bloodline_flag = plc_bloodlineflag
+		}
 	}
 	weight_multiplier = {
 		days = 1
