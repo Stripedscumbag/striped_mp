@@ -206,3 +206,10 @@ A_FORM110;Scotland brave and free!;;;;;;;;;;;;;x
 TITLE_FORM11;The heir to Boudica's legacy;;;;;;;;;;;;;x
 DESC_FORM111;[Root.GetBestName] has under her immaculate diplomacy and strategy managed to unite the whole of Britannia under their rule! The Kings and Clans of Ireland, Scotland, Wales and England have been subjugated and integrated into one realm. Claiming a legacy equal to Boudica, who fought the Romans in a great revolt, [Root.GetBestName] has managed to unite the whole of the British Isles under her iron fist.\nNow that the Celts are the dominant force back in Britain it is time to start sending the Saxons back from whence they came and set upon a revival of Celtic traditions!;;;;;;;;;;;;;x
 A_FORM111;I fought for the realm!;;;;;;;;;;;;;x
+TITLE_MUSLIM2000;The House of Islam under threat;;;;;;;;;;;;;x
+DESC_MUSLIM2000;With Christians and other faiths trekking further into the proper Muslim lands, the Jihad grows ever weaker. The leaders of the Bektashi and the Hashshahins prepare themselves to help more of their Islamic bretheren. They call for a new Jihad capabable of pushing back the invaders and renewing the Muslim dominance over the world.\n\nCaliphs and Imams alike support the zealoutry of the many men that are willing to send themselves to the battlegrounds in Arabia and the Levant. With the Jihad preparing itself for the onslaught of Crusaders and other invaders alike, the Muslim world gets ready to reconquer the lands lost to the foreigners.;;;;;;;;;;;;;x
+A_MUSLIM2000;A Jihadist renaissance.;;;;;;;;;;;;;x
+B_MUSLIM2000;Those Muslims know not what we have in store for them!;;;;;;;;;;;;;x
+TITLE_FORM112;King of the Croats;;;;;;;;;;;;;x
+DESC_FORM112;[Root.GetBestName] has united the core regions of Croatia and Slavonia into one kingdom. With this feat comes time to prosper and grow as a folk. Now standing on equal footing as the Serbs, we have become a fearsome foe to any that try to encroach on our freedom.\n\nThe Panonnian basin has long been inhabited by peoples from the Steppes, perhaps a more settled culture should take its place in their stead.;;;;;;;;;;;;;x
+A_FORM112;Croatia stands united!;;;;;;;;;;;;;x

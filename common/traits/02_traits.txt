@@ -6762,7 +6762,7 @@ norse_leader = {
 	leader = yes
 	random = no
 	command_modifier = {
-		heavy_infantry = 0.1
+		heavy_infantry = 0.2
 	}
 }
 tengri_leader = {

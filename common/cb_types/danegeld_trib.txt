@@ -51,6 +51,7 @@ enforce_danegeld_cb = {
 		
 		ROOT = {
 			culture = anglo_norse
+			religion_group = pagan_group
 		}
 		
 		FROM = {

@@ -491,3 +491,38 @@ narrative_event = {
 	}
 }
 
+narrative_event = {
+	id = FORM.112
+	title = TITLE_FORM112
+	desc = DESC_FORM112
+	picture = GFX_evt_joust
+	is_triggered_only = yes #on_create_title
+	
+	trigger = {
+		start_date < 1066.1.1
+		k_croatia = { is_primary_holder_title = yes }
+		culture = croatian
+		NOT = { has_global_flag = croatia_blood_fired }
+		has_game_rule = { name = title_bloodlines_rule value = enabled }
+	}
+	
+	option = {
+		name = A_FORM112
+		prestige = 500
+		if = {
+			limit = { is_female = yes }
+			create_bloodline = {
+				type = zvonimir
+				inheritance = matrilineal
+			}
+		}
+		else = {
+			create_bloodline = {
+				type = zvonimir
+				inheritance = patrilineal
+			}
+		}
+		set_global_flag = croatia_blood_fired
+	}
+}
+
