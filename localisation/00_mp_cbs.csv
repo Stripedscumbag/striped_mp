@@ -4,3 +4,6 @@ enforce_danegeld_cb_desc;By enforcing the Danegeld we get payed what we would no
 CB_DANEGELD;Enforce the Danegeld;;;;;;;;;;;;;x
 WAR_DANEGELD;War to make $DEFENDER$ pay the Danegeld;;;;;;;;;;;;;x
 TRIBUTARY_DANEGELD_TRIBUTE;Heregeld;;;;;;;;;;;;;x
+CB_NAME_SHATTER_HRE;Shatter the Holy Roman Empire.;;;;;;;;;;;;;x
+shatter_hre_cb_desc;An end shall finally be brought to the heretical empire of the Germans! They claim to Holy and Roman while they lack both qualities. We shall liberate them from their idiotic Kaiser and bring forth our own true Holy nature to the seamingly barbaric peoples of Germania. ;;;;;;;;;;;;;x
+WAR_NAME_SHATTER_HRE;War to dismantle the Holy Roman Empire;;;;;;;;;;;;;x

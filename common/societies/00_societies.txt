@@ -3093,7 +3093,7 @@ the_assassins = {
 	potential = {
 		OR = {
 			religion = shiite
-			secret_religion = shiite
+			#secret_religion = shiite
 		}
 	}
 

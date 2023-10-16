@@ -13,14 +13,14 @@ targetted_decisions = {
 		}
 
 		effect = {
-			FROM = { character_event = { id = CG.1 } }
+			FROM = { letter_event = { id = CG.1 } }
 			
 			if = {
 				limit = {
 					FROM = { wealth = 50 }
 				}
 				FROM = {
-					character_event = { id = CG.2 }
+					letter_event = { id = CG.2 }
 				}
 			}
 		}

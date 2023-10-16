@@ -10,6 +10,9 @@ character_event = {
 	immediate = {
 		event_target:invited_diplomat = {
 			random_list = {
+				10 = {
+					change_diplomacy = 4
+				}
 				20 = {
 					change_diplomacy = 3
 				}
@@ -66,6 +69,9 @@ character_event = {
 	immediate = {
 		event_target:invited_spy = {
 			random_list = {
+				10 = {
+					change_intrigue = 4
+				}
 				20 = {
 					change_intrigue = 3
 				}

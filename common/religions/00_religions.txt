@@ -286,7 +286,6 @@ christian = {
 		
 		character_modifier = {
 			learning = 3
-			global_tax_modifier  = 0.15
 		}
 	}
 	

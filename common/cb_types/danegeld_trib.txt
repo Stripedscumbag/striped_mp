@@ -1,5 +1,5 @@
 enforce_danegeld_cb = {
-	name = CB_DANEGELD
+	name = CB_DANEGELD #this cb sucks dick but oh well
 	war_name = WAR_DANEGELD
 	sprite = 36
 	truce_days = 1825
@@ -154,13 +154,13 @@ enforce_danegeld_cb = {
 	
 	on_add = {
 		# Chance to surrender early
-		ROOT = { save_event_target_as = tribute_war_suzerain }
-		FROM = {
-			show_scope_change = no
-			save_event_target_as = tribute_war_target
-			set_character_flag = surrender_tributary_cb
-			character_event = { id = JD.2500 days = 5 tooltip = surrender_tributary_tt }
-		}
+		#ROOT = { save_event_target_as = tribute_war_suzerain }
+		#FROM = {
+		#	show_scope_change = no
+		#	save_event_target_as = tribute_war_target
+		#	set_character_flag = surrender_tributary_cb
+		#	#character_event = { id = JD.2500 days = 5 tooltip = surrender_tributary_tt }
+		#}
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 	}
 	

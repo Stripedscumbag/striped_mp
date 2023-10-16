@@ -73,8 +73,10 @@
 	}
 	1066.1.1={
 		employer = 106520 #D. of Holland
+		
 		effect = {
 			add_claim = d_holland
+			set_character_flag = no_court_invites
 		}
 		effect_even_if_dead = {
 			set_graphical_culture = duck_culture
