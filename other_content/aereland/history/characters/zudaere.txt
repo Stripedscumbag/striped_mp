@@ -1,0 +1,1543 @@
+3030001 = {
+	name = "Hadrus"
+	dynasty = 20200001
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	add_trait = adventurer
+	add_trait = humble
+	
+	600.1.1 = { birth = yes }
+	660.1.1 = { death = yes }
+}
+3030002 = {
+	name = "Bjork"
+	dynasty = 20200001
+	
+	father = 3030001
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	add_trait = kind
+	add_trait = fair
+	
+	640.1.1 = { birth = yes }
+	690.1.1 = { death = yes }
+}
+3030003 = {
+	name = "Janus"
+	dynasty = 20200001
+	
+	father = 3030002
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	add_trait = cruel
+	add_trait = cynical
+	
+	670.1.1 = { birth = yes }
+	730.1.1 = { death = yes }
+}
+3030015 = { #15!!
+	name = "Noah"
+	dynasty = 20200001
+	
+	father = 3030003
+	
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = zealous
+	add_trait = wroth
+	
+	700.1.1 = { birth = yes }
+	765.1.1 = { death = yes }
+}
+3030004 = { #luxur split off
+	name = "Clotaire"
+	dynasty = 20200002
+	
+	father = 3030003
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	add_trait = quick
+	add_trait = viking
+	add_trait = zealous
+	
+	705.1.1 = { birth = yes }
+	750.1.1 = { death = yes }
+}
+3030005 = {
+	name = "Michael"
+	dynasty = 20200001
+	
+	father = 3030015
+	
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = dull
+	add_trait = strong
+	
+	730.1.1 = { birth = yes }
+	780.1.1 = { death = yes }
+}
+3030006 = {
+	name = "Remus"
+	dynasty = 20200001
+	
+	father = 3030005
+	
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = hunter
+	add_trait = patient
+	
+	755.1.1 = { birth = yes }
+	810.1.1 = { death = yes }
+}
+3030007 = {
+	name = "Leo"
+	dynasty = 20200001
+	
+	father = 3030006
+	
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = envious
+	add_trait = proud
+	
+	790.1.1 = { birth = yes }
+	850.1.1 = { death = yes }
+}
+3030008 = {
+	name = "Aal"
+	dynasty = 20200001
+	
+	father = 3030007
+	
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = homosexual
+	add_trait = hedonist
+	
+	815.1.1 = { birth = yes }
+	870.1.1 = { death = yes }
+}
+3030009 = {
+	name = "Jon"
+	dynasty = 20200001
+	
+	father = 3030008
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	add_trait = cynical
+	add_trait = humble
+	
+	840.1.1 = { birth = yes }
+	905.1.1 = { death = yes }
+}
+3030010 = {
+	name = "Thom"
+	dynasty = 20200001
+	
+	father = 3030009
+	
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = slothful
+	add_trait = is_fat
+	
+	863.1.1 = { birth = yes }
+	930.1.1 = { death = yes }
+}
+3030011 = {
+	name = "Marianus"
+	dynasty = 20200001
+	
+	father = 3030010
+	
+	culture = zudaere
+	religion = catholic
+	
+	stewardship = 12
+	martial = 10
+	
+	add_trait = hunchback
+	add_trait = groomed
+	add_trait = skilled_tactician
+	add_trait = administrator
+	
+	900.1.1 = { birth = yes }
+	936.1.1 = {
+		add_spouse = 3030087
+		effect_even_if_dead = {
+			create_bloodline = {
+				type = marianus_zudaer_bloodline
+				inheritance = patrilinial 
+			}
+			give_nickname = nick_the_great
+		}
+	}
+	966.1.1 = { death = yes }
+}
+3030096 = {
+	name = "Rennus"
+	dynasty = 20200001
+	
+	father = 3030011
+	mother = 3030087
+	
+	culture = zudaere
+	religion = catholic
+	
+	945.1.1 = { birth = yes }
+	999.1.1 = { death = yes }
+}
+3030012 = {
+	name = "Shimon"
+	dynasty = 20200001
+	
+	father = 3030096
+	
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = quick
+	add_trait = midas_touched
+	
+	990.1.1 = { birth = yes }
+	1043.1.1 = { death = yes }
+}
+3030013 = {
+	name = "Roland"
+	dynasty = 20200001
+	
+	father = 3030012
+	
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = diligent
+	add_trait = skilled_tactician
+	
+	1013.1.1 = { birth = yes }
+	1066.1.1 = { death = yes }
+}
+3030014 = {
+	name = "Ebraun"
+	dynasty = 20200001
+	
+	father = 3030013
+	
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = ambitious
+	add_trait = just
+	
+	1041.1.1 = { birth = yes }
+	1090.1.1 = { death = yes }
+}
+3030016 = {
+	name = "Grimr"
+	dynasty = 20200002
+	
+	father = 3030004
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	learning = 9
+	
+	add_trait = sturdy
+	add_trait = poet
+	
+	729.1.1 = { birth = yes }
+	801.1.1 = { death = yes }
+}
+3030017 = {
+	name = "Petr"
+	dynasty = 20200002
+	
+	father = 3030016
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	add_trait = midas_touched
+	add_trait = content
+	
+	766.1.1 = { birth = yes }
+	821.1.1 = { death = yes }
+}
+3030018 = {
+	name = "Clotaire"
+	dynasty = 20200002
+	
+	father = 3030017
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	add_trait = strong
+	add_trait = brave
+	
+	798.1.1 = { birth = yes }
+	855.1.1 = { death = yes }
+}
+3030019 = {
+	name = "Harald"
+	dynasty = 20200002
+	
+	father = 3030018
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	add_trait = slow
+	add_trait = one_eyed
+	
+	820.1.1 = { birth = yes }
+	866.1.1 = { death = yes }
+}
+3030020 = {
+	name = "Markus"
+	dynasty = 20200002
+	
+	father = 3030019
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	add_trait = brilliant_strategist
+	add_trait = impaler
+	
+	844.1.1 = { birth = yes }
+	867.1.1 = { capital = c_hegelsplat }
+	890.1.1 = { death = yes }
+}
+3030021 = {
+	name = "Wemnos"
+	dynasty = 20200002
+	
+	father = 3030020
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	add_trait = patient
+	add_trait = cruel
+	
+	867.1.1 = { birth = yes }
+	920.1.1 = { death = yes }
+}
+3030022 = {
+	name = "Lannus"
+	dynasty = 20200002
+	
+	father = 3030021
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	add_trait = sympathy_christendom
+	add_trait = kind
+	
+	899.1.1 = { birth = yes }
+	936.1.1 = { capital = c_hegelsplat }
+	950.1.1 = { death = yes }
+}
+3030023 = {
+	name = "Ruurt"
+	dynasty = 20200002
+	
+	father = 3030022
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	add_trait = aggressive_leader
+	add_trait = wroth
+	
+	930.1.1 = { birth = yes }
+	986.1.1 = { death = yes }
+}
+3030024 = {
+	name = "Clovis"
+	dynasty = 20200002
+	
+	father = 3030023
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	add_trait = paranoid
+	add_trait = intricate_webweaver
+	
+	954.1.1 = { birth = yes }
+	1001.1.1 = { death = yes }
+}
+3030025 = {
+	name = "Neill"
+	dynasty = 20200002
+	
+	father = 3030024
+	
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = cynical
+	add_trait = sympathy_pagans
+	
+	972.1.1 = { birth = yes }
+	1041.1.1 = { death = yes }
+}
+3030026 = {
+	name = "Hadrian"
+	dynasty = 20200002
+	
+	father = 3030025
+	
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = sympathy_pagans
+	add_trait = cynical
+	
+	999.1.1 = { birth = yes }
+	1064.1.1 = { death = yes }
+}
+3030027 = {
+	name = "Jann"
+	dynasty = 20200002
+	
+	father = 3030026
+	
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = holy_warrior
+	add_trait = honest
+	
+	1050.1.1 = { birth = yes }
+	1101.1.1 = { death = yes }
+}
+3030028 = {
+	name = "Jan"
+	dynasty = 20200024
+	
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = midas_touched
+	add_trait = drunkard
+	add_trait = gardener
+	
+	741.1.1 = { birth = yes }
+	769.1.1 = { capital = c_kelderbier } 
+	789.1.1 = { death = yes }
+}
+3030029 = {
+	name = "Herlos"
+	dynasty = 20200024
+	
+	culture = zudaere
+	religion = catholic
+	
+	father = 3030028
+	
+	add_trait = temperate
+	add_trait = just
+	
+	766.1.1 = { birth = yes }
+	789.1.1 = { capital = c_kelderbier }
+	831.1.1 = { death = yes }
+}
+3030030 = {
+	name = "Gherman"
+	dynasty = 20200024
+	
+	culture = zudaere
+	religion = catholic
+	
+	father = 3030029
+	
+	add_trait = lustful
+	add_trait = shy
+	
+	790.1.1 = { birth = yes }
+	831.1.1 = { capital = c_kelderbier }
+	866.1.1 = { death = yes }
+}
+3030031 = {
+	name = "Rene"
+	dynasty = 20200024
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	father = 3030030
+	
+	add_trait = cynical
+	add_trait = sympathy_christendom
+	
+	811.1.1 = { birth = yes }
+	866.1.1 = { capital = c_kelderbier }
+	880.1.1 = { death = yes }
+}
+3030032 = {
+	name = "Ghuzer"
+	dynasty = 20200024
+	
+	culture = zudaere
+	religion = catholic
+	
+	father = 3030031
+	
+	add_trait = zealous
+	add_trait = quick
+	
+	838.1.1 = { birth = yes }
+	880.1.1 = { capital = c_kelderbier }
+	889.1.1 = { death = yes }
+}
+3030033 = {
+	name = "Haenk"
+	dynasty = 20200024
+	
+	culture = zudaere
+	religion = catholic
+	
+	father = 3030032
+	
+	add_trait = drunkard
+	add_trait = strong
+	
+	862.1.1 = { birth = yes }
+	889.1.1 = { capital = c_kelderbier }
+	941.1.1 = { death = yes }
+}
+3030034 = {
+	name = "Jan"
+	dynasty = 20200024
+	
+	culture = zudaere
+	religion = catholic
+	
+	father = 3030033
+	
+	add_trait = ambitious
+	add_trait = stubborn
+	add_trait = brilliant_strategist
+	
+	901.1.1 = { birth = yes }
+	941.1.1 = { capital = c_kelderbier }
+	977.1.1 = { death = yes }
+}
+3030035 = {
+	name = "Jan"
+	dynasty = 20200024
+	
+	culture = zudaere
+	religion = catholic
+	
+	father = 3030034
+	
+	add_trait = gregarious
+	add_trait = cruel
+	
+	935.1.1 = { birth = yes }
+	977.1.1 = { capital = c_kelderbier }
+	999.1.1 = { death = yes }
+}
+3030036 = {
+	name = "Haenk"
+	dynasty = 20200024
+	
+	culture = zudaere
+	religion = catholic
+	
+	father = 3030035
+	
+	add_trait = slothful
+	add_trait = hunter
+	
+	966.1.1 = { birth = yes }
+	1022.1.1 = { death = yes }
+}
+3030037 = {
+	name = "Karanisc"
+	dynasty = 20200024
+	
+	culture = zudaere
+	religion = catholic
+	
+	father = 3030036
+	
+	add_trait = architect
+	add_trait = poet
+	
+	1001.1.1 = { birth = yes }
+	1069.1.1 = { death = yes }
+}
+3030038 = {
+	name = "Leoen"
+	dynasty = 20200024
+	
+	culture = zudaere
+	religion = catholic
+	
+	father = 3030037
+	
+	add_trait = kind
+	add_trait = sturdy
+	
+	1033.1.1 = { birth = yes }
+	1105.1.1 = { death = yes }
+}
+3030039 = {
+	name = "Frankis"
+	dynasty = 20200025
+	
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = mystic
+	
+	740.1.1 = { birth = yes }
+	790.1.1 = { death = yes }
+}
+3030040 = {
+	name = "Willtebrent"
+	dynasty = 20200026
+	
+	culture = zudaere
+	religion = catholic
+	
+	730.1.1 = { birth = yes }
+	805.1.1 = { death = yes }
+}
+3030041 = {
+	name = "Millen"
+	dynasty = 20200026
+	
+	father = 3030040
+	
+	culture = zudaere
+	religion = catholic
+	
+	788.1.1 = { birth = yes }
+	844.1.1 = { death = yes }
+}
+3030042 = {
+	name = "Markes"
+	dynasty = 20200026
+	
+	father = 3030041
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	813.1.1 = { birth = yes }
+	844.1.1 = { capital = c_middelspunt }
+	877.1.1 = { death = yes }
+}
+3030043 = {
+	name = "Niant"
+	dynasty = 20200026
+	
+	father = 3030042
+	
+	add_trait = sympathy_christendom
+	
+	culture = zudaere
+	religion = catholic
+	
+	856.1.1 = { birth = yes }
+	902.1.1 = { death = yes }
+}
+3030044 = {
+	name = "Lodewyk"
+	dynasty = 20200026
+	
+	father = 3030043
+	
+	culture = zudaere
+	religion = catholic
+	
+	889.1.1 = { birth = yes }
+	902.1.1 = { capital = c_middelspunt }
+	940.1.1 = { death = yes }
+}
+3030045 = {
+	name = "Reliss"
+	dynasty = 20200026
+	
+	father = 3030044
+	
+	culture = zudaere
+	religion = catholic
+	
+	920.1.1 = { birth = yes }
+	978.1.1 = { death = yes }
+}
+3030046 = {
+	name = "Willtebrent"
+	dynasty = 20200026
+	
+	father = 3030045
+	
+	culture = zudaere
+	religion = catholic
+	
+	956.1.1 = { birth = yes }
+	1007.1.1 = { death = yes }
+}
+3030047 = {
+	name = "Allebarre"
+	dynasty = 20200026
+	
+	father = 3030046
+	
+	culture = zudaere
+	religion = catholic
+	
+	991.1.1 = { birth = yes }
+	1066.1.1 = { death = yes }
+}
+3030048 = {
+	name = "Pollte"
+	dynasty = 20200026
+	
+	father = 3030047
+	
+	culture = zudaere
+	religion = catholic
+	
+	1031.1.1 = { birth = yes }
+	1089.1.1 = { death = yes }
+}
+3030049 = {
+	name = "Uirni"
+	dynasty = 20200026
+	
+	father = 3030048
+	
+	culture = zudaere
+	religion = catholic
+	
+	1066.1.1 = { birth = yes }
+	1111.1.1 = { death = yes }
+}
+3030050 = {
+	name = "Gninth"
+	dynasty = 20200027
+	
+	culture = zudaere
+	religion = catholic
+	
+	722.1.1 = { birth = yes }
+	798.1.1 = { death = yes }
+}
+3030051 = {
+	name = "Rethord"
+	dynasty = 20200027
+	
+	father = 3030050
+	
+	culture = zudaere
+	religion = catholic
+	
+	768.1.1 = { birth = yes }
+	809.1.1 = { death = yes }
+}
+3030052 = {
+	name = "Lasus"
+	dynasty = 20200027
+	
+	father = 3030051
+	
+	culture = zudaere
+	religion = catholic
+	
+	788.1.1 = { birth = yes }
+	844.1.1 = { death = yes }
+}
+3030053 = {
+	name = "Karel"
+	dynasty = 20200028
+	
+	culture = zudaere
+	religion = catholic
+	
+	745.1.1 = { birth = yes }
+	799.1.1 = { death = yes }
+}
+3030054 = {
+	name = "Lodewyk"
+	dynasty = 20200028
+	
+	father = 3030053
+	
+	culture = zudaere
+	religion = catholic
+	
+	769.1.1 = { birth = yes }
+	833.1.1 = { death = yes }
+}
+3030055 = {
+	name = "Magern"
+	dynasty = 20200028
+	
+	father = 3030054
+	
+	culture = zudaere
+	religion = catholic
+	
+	799.1.1 = { birth = yes }
+	855.1.1 = { death = yes }
+}
+3030056 = {
+	name = "Oetern"
+	dynasty = 20200028
+	
+	father = 3030054
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	801.1.1 = { birth = yes }
+	878.1.1 = { death = yes }
+}
+3030057 = {
+	name = "Lennsu"
+	dynasty = 20200028
+	
+	father = 3030055
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	822.1.1 = { birth = yes }
+	888.1.1 = { death = yes }
+}
+3030058 = {
+	name = "Karl"
+	dynasty = 20200028
+	
+	father = 3030056
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	825.1.1 = { birth = yes }
+	900.1.1 = { death = yes }
+}
+3030059 = {
+	name = "Karl"
+	dynasty = 20200028
+	
+	father = 3030057
+	
+	culture = zudaere
+	religion = catholic
+	
+	850.1.1 = { birth = yes }
+	923.1.1 = { death = yes }
+}
+3030060 = {
+	name = "Allemn"
+	dynasty = 20200028
+	
+	father = 3030059
+	
+	culture = zudaere
+	religion = catholic
+	
+	877.1.1 = { birth = yes }
+	956.1.1 = { death = yes }
+}
+3030061 = {
+	name = "Noah"
+	dynasty = 20200028
+	
+	father = 3030060
+	
+	culture = zudaere
+	religion = catholic
+	
+	902.1.1 = { birth = yes }
+	976.1.1 = { death = yes }
+}
+3030062 = {
+	name = "Karl"
+	dynasty = 20200028
+	
+	father = 3030061
+	
+	culture = zudaere
+	religion = catholic
+	
+	940.1.1 = { birth = yes }
+	1004.1.1 = { death = yes }
+}
+3030063 = {
+	name = "Ebraun"
+	dynasty = 20200028
+	
+	father = 3030062
+	
+	culture = zudaere
+	religion = catholic
+	
+	976.1.1 = { birth = yes }
+	1019.1.1 = { death = yes }
+}
+3030064 = {
+	name = "Jann"
+	dynasty = 20200028
+	
+	father = 3030063
+	
+	culture = zudaere
+	religion = catholic
+	
+	1006.1.1 = { birth = yes }
+	1078.1.1 = { death = yes }
+}
+3030065 = {
+	name = "Jonatan"
+	dynasty = 20200029
+	
+	culture = zudaere
+	religion = catholic
+	
+	748.1.1 = { birth = yes }
+	802.1.1 = { death = yes }
+}
+3030066 = {
+	name = "Markus"
+	dynasty = 20200030
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	830.1.1 = { birth = yes }
+	892.1.1 = { death = yes }
+}
+3030067 = {
+	name = "Leo"
+	dynasty = 20200031
+	
+	culture = zudaere
+	religion = catholic
+	
+	1021.1.1 = { birth = yes }
+	1078.1.1 = { death = yes }
+}
+3030068 = {
+	name = "Piedter"
+	dynasty = 20200032
+	
+	stewardship = 12
+	add_trait = midas_touched
+	
+	culture = zudaere
+	religion = catholic
+	
+	720.1.1 = { birth = yes }
+	801.1.1 = { death = yes }
+}
+3030069 = {
+	name = "Marionr"
+	dynasty = 20200032
+	
+	father = 3030068
+	
+	culture = zudaere
+	religion = catholic
+	
+	769.1.1 = { birth = yes }
+	833.1.1 = { death = yes }
+}
+3030070 = {
+	name = "Gennus"
+	dynasty = 20200032
+	
+	father = 3030069
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	820.1.1 = { birth = yes }
+	873.1.1 = { death = yes }
+}
+3030071 = {
+	name = "Semmon"
+	dynasty = 20200032
+	
+	father = 3030070
+	
+	culture = zudaere
+	religion = catholic
+	
+	853.1.1 = { birth = yes }
+	910.1.1 = { death = yes }
+}
+3030072 = {
+	name = "Brutr"
+	dynasty = 20200032
+	
+	father = 3030071
+	
+	culture = zudaere
+	religion = catholic
+	
+	889.1.1 = { birth = yes }
+	944.1.1 = { death = yes }
+}
+3030073 = {
+	name = "Pfilip"
+	dynasty = 20200033
+	
+	add_trait = envious
+	add_trait = slothful
+	add_trait = proud
+	add_trait = gluttonous
+	
+	culture = zudaere
+	religion = catholic
+	
+	910.1.1 = { birth = yes }
+	966.1.1 = { death = yes }
+}
+3030074 = {
+	name = "Gunther"
+	dynasty = 20200034
+	
+	culture = zudaere
+	religion = catholic
+	
+	710.1.1 = { birth = yes }
+	788.1.1 = { death = yes }
+}
+3030075 = {
+	name = "Grimr"
+	dynasty = 20200034
+	
+	father = 3030074
+	
+	culture = zudaere
+	religion = catholic
+	
+	744.1.1 = { birth = yes }
+	810.1.1 = { death = yes }
+}
+3030076 = {
+	name = "Gherman"
+	dynasty = 20200034
+	
+	father = 3030075
+	
+	culture = zudaere
+	religion = catholic
+	
+	789.1.1 = { birth = yes }
+	850.1.1 = { death = yes }
+}
+3030077 = {
+	name = "Odeus"
+	dynasty = 20200034
+	
+	father = 3030076
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	820.1.1 = { birth = yes }
+	871.1.1 = { death = yes }
+}
+3030078 = {
+	name = "Gninth"
+	dynasty = 20200034
+	
+	father = 3030077
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	855.1.1 = { birth = yes }
+	911.1.1 = { death = yes }
+}
+3030079 = {
+	name = "Garneus"
+	dynasty = 20200035
+	
+	culture = zudaere
+	religion = catholic
+	
+	899.1.1 = { birth = yes }
+	967.1.1 = { death = yes }
+}
+3030080 = {
+	name = "Hamelion"
+	dynasty = 20200035
+	
+	father = 3030079
+	
+	culture = zudaere
+	religion = catholic
+	
+	931.1.1 = { birth = yes }
+	999.1.1 = { death = yes }
+}
+3030081 = {
+	name = "Gunther"
+	dynasty = 20200035
+	
+	father = 3030080
+	
+	culture = zudaere
+	religion = catholic
+	
+	966.1.1 = { birth = yes }
+	1020.1.1 = { death = yes }
+}
+3030082 = {
+	name = "Karl"
+	dynasty = 20200035
+	
+	father = 3030081
+	
+	culture = zudaere
+	religion = catholic
+	
+	1001.1.1 = { birth = yes }
+	1077.1.1 = { death = yes }
+}
+3030083 = {
+	name = "Filip"
+	dynasty = 20200036
+	
+	culture = zudaere
+	religion = catholic
+	
+	730.1.1 = { birth = yes }
+	810.1.1 = { death = yes }
+}
+3030084 = {
+	name = "Lugunnus"
+	dynasty = 20200039
+	
+	culture = zudaere
+	religion = catholic
+	
+	722.1.1 = { birth = yes }
+	799.1.1 = { death = yes }
+}
+3030085 = {
+	name = "Magnen"
+	dynasty = 20200037
+	
+	culture = zudaere
+	religion = catholic
+	
+	741.1.1 = { birth = yes }
+	812.1.1 = { death = yes }
+}
+3030086 = {
+	name = "Hriono"
+	dynasty = 20200038
+	
+	culture = zudaere
+	religion = catholic
+	
+	709.1.1 = { birth = yes }
+	776.1.1 = { death = yes }
+}
+3030087 = { 
+	name = "Freyae"
+	dynasty = 20200024
+	father = 3030033
+	female = yes
+	
+	culture = zudaere
+	religion = catholic
+	
+	910.1.1 = { birth = yes }
+	970.1.1 = { death = yes }
+}
+3030088 = {
+	name = "Harald"
+	dynasty = 20200040
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	822.1.1 = { birth = yes }
+	870.1.1 = { death = yes }
+}
+3030089 = {
+	name = "Markus"
+	dynasty = 20200040
+	
+	father = 3030088
+	
+	culture = zudaere
+	religion = catholic
+	
+	851.1.1 = { birth = yes }
+	912.1.1 = { death = yes }
+}
+3030090 = {
+	name = "Wallenbrech"
+	dynasty = 20200040
+	
+	father = 3030089
+	
+	culture = zudaere
+	religion = catholic
+	
+	876.1.1 = { birth = yes }
+	933.1.1 = { death = yes }
+}
+3030091 = {
+	name = "Jann"
+	dynasty = 20200040
+	
+	father = 3030090
+	
+	culture = zudaere
+	religion = catholic
+	
+	910.1.1 = { birth = yes }
+	978.1.1 = { death = yes }
+}
+3030092 = {
+	name = "Kairl"
+	dynasty = 20200040
+	
+	father = 3030091
+	
+	culture = zudaere
+	religion = catholic
+	
+	945.1.1 = { birth = yes }
+	1010.1.1 = { death = yes }
+}
+3030093 = {
+	name = "Aszar"
+	dynasty = 20200040
+	
+	father = 3030092
+	
+	add_trait = eunuch
+	
+	culture = zudaere
+	religion = catholic
+	
+	989.1.1 = { birth = yes }
+	1044.1.1 = { death = yes }
+}
+3030094 = {
+	name = "Naill"
+	dynasty = 20200041
+	
+	add_trait = quick
+	
+	culture = zudaere
+	religion = catholic
+	
+	1000.1.1 = { birth = yes }
+	1055.1.1 = { death = yes }
+}
+3030095 = {
+	name = "Khemre"
+	dynasty = 20200041
+	
+	father = 3030094
+	
+	culture = zudaere
+	religion = catholic
+	
+	1032.1.1 = { birth = yes }
+	1095.1.1 = { death = yes }
+}
+3030097 = {
+	name = "Hermus"
+	dynasty = 20200042
+	
+	culture = zudaere
+	religion = catholic
+	
+	950.1.1 = { birth = yes }
+	1025.1.1 = { death = yes }
+}
+3030098 = {
+	name = "Zetus"
+	dynasty = 20200042
+	
+	father = 3030097
+	
+	culture = zudaere
+	religion = catholic
+	
+	978.1.1 = { birth = yes }
+	1043.1.1 = { death = yes }
+}
+3030099 = {
+	name = "Niesnse"
+	dynasty = 20200042
+	
+	father = 3030098
+	
+	culture = zudaere
+	religion = catholic
+	
+	1003.1.1 = { birth = yes }
+	1068.1.1 = { death = yes }
+}
+3030100 = {
+	name = "Niesnse"
+	dynasty = 20200042
+	
+	father = 3030099
+	
+	culture = zudaere
+	religion = catholic
+	
+	1029.1.1 = { birth = yes }
+	1088.1.1 = { death = yes }
+}
+30300101 = {
+	name = "Freya"
+	dynasty = 20200046
+	
+	female = yes 
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = genius
+	add_trait = fair
+	add_trait = seductress
+	
+	780.1.1 = { birth = yes }
+	822.1.1 = { death = yes }
+}
+30300102 = {
+	name = "Helene"
+	dynasty = 20200046
+	
+	mother = 30300101
+	
+	female = yes 
+	culture = zudaere
+	religion = norse_pagan
+	
+	802.1.1 = { birth = yes }
+	857.1.1 = { death = yes }
+}
+30300103 = {
+	name = "Jaeme"
+	dynasty = 20200046
+	
+	mother = 30300102
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	832.1.1 = { birth = yes }
+	890.1.1 = { death = yes }
+}
+30300104 = {
+	name = "Onnon"
+	dynasty = 20200043
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	812.1.1 = { birth = yes }
+	878.1.1 = { death = yes }
+}
+30300105 = {
+	name = "Rolant"
+	dynasty = 20200044
+	
+	culture = zudaere
+	religion = catholic
+	
+	870.1.1 = { birth = yes }
+	931.1.1 = { death = yes }
+}
+30300106 = {
+	name = "Gherman"
+	dynasty = 20200044
+	
+	father = 30300105
+	
+	culture = zudaere
+	religion = catholic
+	
+	897.1.1 = { birth = yes }
+	967.1.1 = { death = yes }
+}
+30300107 = {
+	name = "Julios"
+	dynasty = 20200044
+	
+	father = 30300105
+	
+	culture = zudaere
+	religion = catholic
+	
+	903.1.1 = { birth = yes }
+	970.1.1 = { death = yes }
+}
+30300108 = {
+	name = "Addelena"
+	dynasty = 20200045
+	
+	female = yes 
+	culture = zudaere
+	religion = catholic
+	
+	add_trait = fair
+	add_trait = elusive_shadow
+	add_trait = chaste
+	
+	888.1.1 = { birth = yes }
+	945.1.1 = { death = yes }
+}
+30300109 = {
+	name = "Ardauin"
+	dynasty = 20200045
+
+	mother = 30300108
+
+	culture = zudaere
+	religion = catholic
+	
+	912.1.1 = { birth = yes }
+	968.1.1 = { death = yes }
+}
+30300110 = {
+	name = "Karl"
+	dynasty = 20200036
+	
+	father = 3030083
+	
+	culture = zudaere
+	religion = catholic
+	
+	775.1.1 = { birth = yes }
+	844.1.1 = { death = yes }
+}
+30300111 = {
+	name = "Lodwyk"
+	dynasty = 20200036
+	
+	father = 30300110
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	813.1.1 = { birth = yes }
+	871.1.1 = { death = yes }
+}
+30300112 = {
+	name = "Filip"
+	dynasty = 20200036
+	
+	father = 30300111
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	855.1.1 = { birth = yes }
+	920.1.1 = { death = yes }
+}
+30300113 = {
+	name = "Lodewyk"
+	dynasty = 20200036
+	
+	father = 30300112
+	
+	culture = zudaere
+	religion = catholic
+	
+	903.1.1 = { birth = yes }
+	978.1.1 = { death = yes }
+}
+30300114 = {
+	name = "Renrild"
+	dynasty = 20200037
+	
+	father = 3030085
+	
+	culture = zudaere
+	religion = catholic
+	
+	769.1.1 = { birth = yes }
+	833.1.1 = { death = yes }
+}
+30300115 = {
+	name = "Jann"
+	dynasty = 20200037
+	
+	father = 30300114
+	
+	culture = zudaere
+	religion = catholic
+	
+	812.1.1 = { birth = yes }
+	865.1.1 = { death = yes }
+}
+30300116 = {
+	name = "Karloman"
+	dynasty = 20200037
+	
+	father = 30300115
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	836.1.1 = { birth = yes }
+	901.1.1 = { death = yes }
+}
+30300117 = {
+	name = "Magnus"
+	dynasty = 20200037
+	
+	father = 30300116
+	
+	culture = zudaere
+	religion = norse_pagan
+	
+	867.1.1 = { birth = yes }
+	933.1.1 = { death = yes }
+}
+30300118 = {
+	name = "Karllus"
+	dynasty = 20200037
+	
+	father = 30300117
+	
+	culture = zudaere
+	religion = catholic
+	
+	903.1.1 = { birth = yes }
+	977.1.1 = { death = yes }
+}
+	

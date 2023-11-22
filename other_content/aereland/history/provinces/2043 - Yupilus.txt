@@ -1,0 +1,27 @@
+# 2043 yupilus
+
+# County Title
+title = c_yupilus
+
+# Settlements
+max_settlements = 5
+b_yupilus = castle
+b_pannas = city
+b_latder = temple
+
+#b_grovestein = castle
+#b_helmderi = castle
+#b_retohri = castle
+#b_darsbom = castle
+
+
+# Misc
+culture = zudaere
+religion = catholic
+
+
+# History
+
+800.1.1 = { religion = norse_pagan culture = norse }
+
+900.1.1 = { religion = catholic culture = zudaere }

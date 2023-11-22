@@ -1,0 +1,39 @@
+# 2017 knytsill
+
+# County Title
+title = c_knytsill
+
+# Settlements
+max_settlements = 5
+b_knytsill = castle
+b_haraldsland = city
+b_sveinndorp = temple
+
+#b_skoljudung = castle
+#b_estridsborg = castle
+#b_ludvif = castle
+#b_sjaellsburg = castle
+
+
+# Misc
+culture = zudaere
+religion = catholic
+terrain = farmlands
+
+# History
+
+800.1.1 = { religion = norse_pagan }
+
+900.1.1 = { religion = catholic }
+
+936.1.1 = {
+	b_knytsill = ca_wall_1
+	b_knytsill = ca_wall_2
+	b_knytsill = ca_barracks_1
+	b_knytsill = ca_barracks_2
+	b_knytsill = ca_barracks_3
+	b_knytsill = ca_zudaere
+
+}
+
+1000.1.1 = { b_skoljudung = castle }

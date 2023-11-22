@@ -1,0 +1,28 @@
+# 2028 montstadt
+
+# County Title
+title = c_montstadt
+
+# Settlements
+max_settlements = 2
+b_montstadt = tribal
+b_grieffen = city
+#b_cambiol = temple
+
+#b_gratus = castle
+#b_martuslaen = castle
+#b_challus = castle
+#b_uonus = castle
+
+
+# Misc
+culture = nordaere
+religion = norse_pagan
+
+
+# History
+
+800.1.1 = { b_montstadt = city b_grieffen = castle }
+
+1066.1.1 = { religion = catholic }
+

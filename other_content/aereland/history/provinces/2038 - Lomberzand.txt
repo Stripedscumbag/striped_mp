@@ -1,0 +1,28 @@
+# 2038 lomberzand
+
+# County Title
+title = c_lomberzand
+
+# Settlements
+max_settlements = 5
+b_lomberzand = tribal
+#b_stuhl = city
+b_tafel = temple
+
+#b_ovenvuur = castle
+#b_bradnstep = castle
+#b_maggetu = castle
+#b_opevni = castle
+
+
+# Misc
+culture = nordaere
+religion = norse_pagan
+
+
+# History
+
+800.1.1 = { b_lomberzand = castle b_stuhl = city }
+
+900.1.1 = { religion = catholic }
+

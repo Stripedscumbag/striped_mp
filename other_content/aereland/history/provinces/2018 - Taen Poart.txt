@@ -1,0 +1,27 @@
+# 2018 taen port
+
+# County Title
+title = c_taen_poart
+
+# Settlements
+max_settlements = 5
+b_taen_port = castle
+b_orlog = city
+b_makkergoon = temple
+
+#b_rutgerplek = castle
+#b_gozerkerel = castle
+#b_pohwijn = castle
+#b_kurkman = castle
+
+
+# Misc
+culture = zudaere
+religion = catholic
+
+
+# History
+
+800.1.1 = { religion = norse_pagan }
+
+900.1.1 = { religion = catholic }

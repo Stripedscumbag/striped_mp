@@ -1,0 +1,1067 @@
+4040001 = {
+	name = "Mark"
+	dynasty = 20100001
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = robust
+	add_trait = quick
+	
+	750.1.1 = { birth = yes }
+	810.1.1 = { death = yes }
+}
+4040002 = {
+	name = "Gunther"
+	dynasty = 20100001
+	
+	father = 4040001
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = shrewd
+	add_trait = patient
+	
+	780.1.1 = { birth = yes }
+	840.1.1 = { death = yes }
+}
+4040003 = {
+	name = "Svend"
+	dynasty = 20100001
+	
+	father = 4040002
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = architect
+	add_trait = wroth
+	
+	825.1.1 = { birth = yes }
+	890.1.1 = { death = yes }
+}
+4040004 = {
+	name = "Karl"
+	dynasty = 20100001
+	
+	father = 4040003
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = brilliant_strategist
+	add_trait = fair
+	
+	850.1.1 = { birth = yes }
+	920.1.1 = { death = yes }
+}
+4040005 = {
+	name = "Luther"
+	dynasty = 20100001
+	
+	father = 4040004
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = cynical
+	add_trait = patient
+	
+	875.1.1 = { birth = yes }
+	950.1.1 = { religion = catholic death = yes }
+}
+4040006 = {
+	name = "Erik"
+	dynasty = 20100001
+	
+	father = 4040005
+	
+	culture = nordaere
+	religion = catholic
+	
+	add_trait = mastermind_theologian
+	add_trait = chaste
+	
+	900.1.1 = { birth = yes }
+	960.1.1 = { death = yes }
+}
+4040007 = {
+	name = "Mark"
+	dynasty = 20100001
+	
+	father = 4040006
+	
+	culture = nordaere
+	religion = catholic
+	
+	add_trait = varangian
+	add_trait = cruel
+	add_trait = skilled_tactician
+	
+	925.1.1 = { birth = yes }
+	1000.1.1 = { death = yes }
+}
+4040008 = {
+	name = "Bjorn"
+	dynasty = 20100001
+	
+	father = 4040007
+	
+	culture = nordaere
+	religion = catholic
+	
+	add_trait = patient
+	add_trait = kind
+	
+	955.1.1 = { birth = yes }
+	1025.1.1 = { death = yes }
+}
+4040009 = {
+	name = "Nicolas"
+	dynasty = 20100001
+	
+	father = 4040008
+	
+	culture = nordaere
+	religion = catholic
+	
+	add_trait = zealous
+	add_trait = erudite
+	
+	1000.1.1 = { birth = yes }
+	1070.1.1 = { death = yes }
+}
+4040010 = {
+	name = "Gunther"
+	dynasty = 20100002
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = mystic
+	add_trait = scholar
+	
+	700.1.1 = { birth = yes }
+	766.1.1 = { death = yes }
+}
+4040011 = {
+	name = "Vimnos"
+	dynasty = 20100002
+	
+	father = 4040010
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = shy
+	add_trait = craven
+	
+	733.1.1 = { birth = yes }
+	804.1.1 = { death = yes }
+	766.1.1 = { capital = c_groengrun }
+}
+4040023 = { # 23
+	name = "Frirk"
+	dynasty = 20100002
+	
+	father = 4040010
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	learning = 10
+	
+	add_trait = envious
+	add_trait = giant
+	
+	754.1.1 = { birth = yes }
+	804.1.1 = { death = yes }
+}
+4040012 = {
+	name = "Sallaus"
+	dynasty = 20100002
+	
+	father = 4040011
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = strong
+	add_trait = brave
+	
+	768.1.1 = { birth = yes }
+	832.1.1 = { death = yes }
+	804.1.1 = { capital = c_groengrun }
+}
+4040013 = {
+	name = "Mershull"
+	dynasty = 20100002
+	
+	father = 4040012
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = proud
+	add_trait = duelist
+	
+	789.1.1 = { birth = yes }
+	832.1.1 = { capital = c_groengrun }
+	878.1.1 = { death = yes }
+}
+4040014 = {
+	name = "Bjiorn"
+	dynasty = 20100002
+	
+	father = 4040013
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = dull
+	add_trait = trickster
+	
+	866.9.9 = { birth = yes }
+	878.1.1 = { capital = c_groengrun }
+	956.1.1 = { death = yes }
+}
+4040015 = {
+	name = "Ghor"
+	dynasty = 20100002
+	
+	father = 4040014
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = deceitful
+	add_trait = theologian
+	
+	945.1.1 = { birth = yes }
+	956.1.1 = { capital = c_groengrun }
+	999.1.1 = { death = yes }
+}
+4040016 = {
+	name = "Derron"
+	dynasty = 20100002
+	
+	father = 4040015
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = arbitrary
+	add_trait = lustful
+	
+	966.1.1 = { birth = yes }
+	999.1.1 = { capital = c_groengrun }
+	1032.1.1 = { death = yes }
+}
+4040017 = {
+	name = "Derron"
+	dynasty = 20100002
+	
+	father = 4040016
+	
+	culture = nordaere
+	religion = catholic
+	
+	add_trait = sympathy_pagans
+	add_trait = cynical
+	
+	1001.1.1 = { birth = yes }
+	1032.1.1 = { capital = c_groengrun }
+	1069.1.1 = { death = yes }
+}
+4040018 = {
+	name = "Derron"
+	dynasty = 20100002
+	
+	father = 4040017
+	
+	culture = nordaere
+	religion = catholic
+	
+	add_trait = quick
+	add_trait = mystic
+	
+	1030.1.1 = { birth = yes }
+	1069.1.1 = { capital = c_groengrun }
+	1088.1.1 = { death = yes }
+}
+4040019 = {
+	name = "Markus"
+	dynasty = 20100002
+	
+	father = 4040018
+	
+	culture = nordaere
+	religion = catholic
+	
+	add_trait = brilliant_strategist
+	add_trait = brave
+	
+	1065.1.1 = { birth = yes }
+	1088.1.1 = { capital = c_groengrun }
+	1102.1.1 = { death = yes }
+}
+4040020 = {
+	name = "Waltun"
+	dynasty = 20100002
+	
+	father = 4040019
+	
+	culture = nordaere
+	religion = catholic
+	
+	add_trait = kind
+	add_trait = diligent
+	
+	1095.1.1 = { birth = yes }
+	1102.1.1 = { capital = c_groengrun }
+	1153.1.1 = { death = yes }
+}
+4040021 = {
+	name = "Batis"
+	dynasty = 20100002
+	
+	father = 4040020
+	
+	culture = nordaere
+	religion = catholic
+	
+	add_trait = proud
+	add_trait = lunatic
+	
+	1122.1.1 = { birth = yes }
+	1153.1.1 = { capital = c_groengrun }
+	1188.1.1 = { death = yes }
+}
+4040022 = {
+	name = "Jol"
+	dynasty = 20100002
+	
+	father = 4040021
+	
+	culture = nordaere
+	religion = catholic
+	
+	add_trait = zealous
+	add_trait = genius
+	
+	1177.1.1 = { birth = yes }
+	1188.1.1 = { capital = c_groengrun }
+	1213.1.1 = { death = yes }
+}
+
+4040024 = {
+	name = "Johan"
+	dynasty = 20100038
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	750.1.1 = { birth = yes }
+	800.1.1 = { death = yes }
+}
+4040025 = {
+	name = "Romman"
+	
+	culture nordaere
+	religion = norse_pagan
+	
+	850.1.1 = { birth = yes }
+	910.1.1 = { death = yes }
+}
+4040026 = {
+	name = "Magnur"
+	
+	culture = nordaere
+	religion = catholic
+	
+	910.1.1 = { birth = yes }
+	970.1.1 = { death = yes }
+}
+4040027 = {
+	name = "Hollu"
+	
+	culture nordaere
+	religion = catholic
+	
+	1030.1.1 = { birth = yes }
+	1100.1.1 = { death = yes }
+}
+4040028 = {
+	name = "Erran"
+	
+	culture = nordaere
+	religion = catholic
+	
+	1075.1.1 = { birth = yes }
+	1111.1.1 = { death = yes }
+}
+4040029 = {
+	name = "Zullr"
+	dynasty = 20100027
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = wroth
+	add_trait = lunatic
+	
+	743.1.1 = { birth = yes }
+	790.1.1 = { death = yes }
+}
+4040030 = {
+	name = "Amai"
+	dynasty = 20100027
+	
+	father = 4040029
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = slow
+	add_trait = sturdy
+	
+	768.1.1 = { birth = yes }
+	822.1.1 = { death = yes }
+}
+4040031 = {
+	name = "Yunus"
+	dynasty = 20100027
+	
+	father = 4040030
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = quick
+	add_trait = feeble
+	
+	799.1.1 = { birth = yes }
+	877.1.1 = { death = yes }
+}
+4040032 = {
+	name = "Macinos"
+	dynasty = 20100027
+	
+	father = 4040031
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = erudite
+	add_trait = proud
+	
+	831.1.1 = { birth = yes }
+	898.1.1 = { death = yes }
+}
+4040033 = {
+	name = "Dorranus"
+	dynasty = 20100028
+	
+	father = 4040032
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = patient
+	add_trait = diligent
+	add_trait = bastard
+	
+	856.1.1 = { birth = yes }
+	911.1.1 = { death = yes }
+}
+4040034 = {
+	name = "Zullten"
+	dynasty = 20100028
+	
+	father = 4040033
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = greedy
+	add_trait = slothful
+	
+	888.1.1 = { birth = yes }
+	944.1.1 = { death = yes }
+}
+4040035 = {
+	name = "Dorranus"
+	dynasty = 20100028
+	
+	father = 4040034
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = cynical
+	add_trait = sturdy
+	
+	913.1.1 = { birth = yes }
+	977.1.1 = { death = yes }
+}
+4040036 = {
+	name = "Loopjn"
+	dynasty = 20100028
+	
+	father = 4040035
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = sympathy_christendom
+	add_trait = cynical
+	
+	946.1.1 = { birth = yes }
+	1003.1.1 = { death = yes }
+}
+4040037 = {
+	name = "Shonei"
+	dynasty = 20100028
+	
+	father = 4040036
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	add_trait = strong
+	add_trait = architect
+	
+	987.1.1 = { birth = yes }
+	1032.1.1 = { death = yes }
+}
+4040038 = {
+	name = "Ransnm"
+	dynasty = 20100028
+	
+	father = 4040037
+	
+	culture = nordaere
+	religion = catholic
+	
+	add_trait = arbitrary
+	add_trait = sympathy_pagans
+	
+	1013.1.1 = { birth = yes }
+	1055.1.1 = { death = yes }
+}
+4040039 = {
+	name = "Aert"
+	dynasty = 20100028
+	
+	father = 4040038
+	
+	culture = nordaere
+	religion = catholic
+	
+	add_trait = fair
+	add_trait = sturdy
+	
+	1044.1.1 = { birth = yes }
+	1109.1.1 = { death = yes }
+}
+4040040 = {
+	name = "Blof"
+	dynasty = 20100029
+	
+	culture = nordaere
+	religion = catholic
+	
+	martial = 10
+	diplomacy = 10
+	
+	add_trait = poet
+	add_trait = seducer
+	add_trait = grey_eminence
+	
+	740.1.1 = { birth = yes }
+	769.1.1 = { add_spouse = 4040041 }
+	822.1.1 = { death = yes }
+}
+4040041 = {
+	name = "Geike"
+	dynasty = 20100030
+	female = yes
+	
+	culture = zudaere
+	religion = catholic
+	
+	740.1.1 = { birth = yes }
+	821.1.1 = { death = yes }
+}
+4040042 = {
+	name = "Blof"
+	dynasty = 20100029
+	
+	father = 4040040
+	mother = 4040041
+	
+	culture = nordaere
+	religion = catholic
+	
+	770.1.1 = { birth = yes }
+	843.1.1 = { death = yes }
+}
+4040043 = {
+	name = "Blof"
+	dynasty = 20100029
+	
+	father = 4040042
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	831.1.1 = { birth = yes }
+	889.1.1 = { death = yes }
+}
+4040044 = {
+	name = "Blof"
+	dynasty = 20100029
+	
+	father = 4040043
+	
+	culture = nordaere
+	religion = catholic
+	
+	877.1.1 = { birth = yes }
+	931.1.1 = { death = yes }
+}
+4040045 = {
+	name = "Blof"
+	dynasty = 20100029
+	
+	father = 4040044
+	
+	culture = nordaere
+	religion = catholic
+	
+	898.1.1 = { birth = yes }
+	945.1.1 = { death = yes }
+}
+4040046 = {
+	name = "Blof"
+	dynasty = 20100029
+	
+	father = 4040045
+	
+	culture = nordaere
+	religion = catholic
+	
+	921.1.1 = { birth = yes }
+	978.1.1 = { death = yes }
+}
+4040047 = {
+	name = "Blof"
+	dynasty = 20100029
+	
+	father = 4040046
+	
+	culture = nordaere
+	religion = catholic
+	
+	955.1.1 = { birth = yes }
+	1008.1.1 = { death = yes }
+}
+4040048 = {
+	name = "Blof"
+	dynasty = 20100029
+	
+	father = 4040047
+	
+	culture = nordaere
+	religion = catholic
+	
+	998.1.1 = { birth = yes }
+	1043.1.1 = { death = yes }
+}
+4040049 = {
+	name = "Blof"
+	dynasty = 20100029
+	
+	father = 4040048
+	
+	culture = nordaere
+	religion = catholic
+	
+	1025.1.1 = { birth = yes }
+	1066.1.1 = { death = yes }
+}
+4040050 = {
+	name = "Blof"
+	dynasty = 20100029
+	
+	father = 4040049
+	
+	culture = nordaere
+	religion = catholic
+	
+	1044.1.1 = { birth = yes }
+	1110.1.1 = { death = yes }
+}
+4040051 = {
+	name = "Ruurd"
+	dynasty = 20100031
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	732.1.1 = { birth = yes }
+	788.1.1 = { death = yes }
+}
+4040052 = {
+	name = "Jeltos"
+	dynasty = 20100031
+	
+	father = 4040051
+	
+	culture = nordaere
+	religion = catholic
+	
+	759.1.1 = { birth = yes }
+	811.1.1 = { death = yes }
+}
+4040053 = {
+	name = "Erlin"
+	dynasty = 20100031
+	
+	father = 4040052
+	
+	culture = nordaere
+	religion = catholic
+	
+	786.1.1 = { birth = yes }
+	834.1.1 = { death = yes }
+}
+4040054 = {
+	name = "Kinnoe"
+	dynasty = 20100031
+	
+	father = 4040053
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	812.1.1 = { birth = yes }
+	866.1.1 = { death = yes }
+}
+4040055 = {
+	name = "Sanni"
+	dynasty = 20100031
+	
+	father = 4040054
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	845.1.1 = { birth = yes }
+	888.1.1 = { death = yes }
+}
+4040056 = {
+	name = "Terrin"
+	dynasty = 20100031
+	
+	father = 4040055
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	867.1.1 = { birth = yes }
+	913.1.1 = { death = yes }
+}
+4040057 = {
+	name = "Magnus"
+	dynasty = 20100031
+	
+	father = 4040056
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	899.1.1 = { birth = yes }
+	936.1.1 = { death = yes }
+}
+4040058 = {
+	name = "Grifr"
+	dynasty = 20100031
+	
+	father = 4040057
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	924.1.1 = { birth = yes }
+	999.1.1 = { death = yes }
+}
+4040059 = {
+	name = "Chrisn"
+	dynasty = 20100031
+	
+	father = 4040058
+	
+	culture = nordaere
+	religion = catholic
+	
+	970.1.1 = { birth = yes }
+	1031.1.1 = { death = yes }
+}
+4040060 = {
+	name = "Kaktus"
+	dynasty = 20100031
+	
+	father = 4040059
+	
+	culture = nordaere
+	religion = catholic
+	
+	1005.1.1 = { birth = yes }
+	1069.1.1 = { death = yes }
+}
+4040061 = {
+	name = "Loifen"
+	dynasty = 20100031
+	
+	father = 4040060
+	
+	culture = nordaere
+	religion = catholic
+	
+	1037.1.1 = { birth = yes }
+	1100.1.1 = { death = yes }
+}
+4040062 = {
+	name = "Mikeal"
+	dynasty = 20100032
+	
+	culture = nordaere
+	religion = catholic
+	
+	733.1.1 = { birth = yes }
+	800.1.1 = { death = yes }
+}
+4040063 = {
+	name = "Pretor"
+	dynasty = 20100033
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	844.1.1 = { birth = yes }
+	901.1.1 = { death = yes }
+}
+4040064 = {
+	name = "Derrman"
+	dynasty = 20100034
+	
+	culture = nordaere
+	religion = catholic
+	
+	911.1.1 = { birth = yes }
+	966.1.1 = { death = yes }
+}
+4040065 = {
+	name = "Waltera"
+	dynasty = 20100035
+	
+	culture = nordaere
+	religion = catholic
+	
+	1051.1.1 = { birth = yes }
+	1104.1.1 = { death = yes }
+}
+4040066 = {
+	name = "Gaenne"
+	dynasty = 20100036
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	733.1.1 = { birth = yes }
+	822.1.1 = { death = yes }
+}
+4040067 = {
+	name = "Pittrn"
+	dynasty = 20100037
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	755.1.1 = { birth = yes }
+	808.1.1 = { death = yes }
+}
+4040068 = {
+	name = "Ross"
+	dynasty = 20100039
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	740.1.1 = { birth = yes }
+	790.1.1 = { death = yes }
+}
+4040069 = {
+	name = "Lotarei"
+	dynasty = 20100040
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	730.1.1 = { birth = yes }
+	788.1.1 = { death = yes }
+}
+4040070 = {
+	name = "Kelling"
+	dynasty = 20100041
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	840.1.1 = { birth = yes }
+	910.1.1 = { death = yes }
+}
+4040071 = {
+	name = "Thoman"
+	dynasty = 20100042
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	914.1.1 = { birth = yes }
+	1000.1.1 = { death = yes }
+}
+4040072 = {
+	name = "Erik"
+	dynasty = 20100043
+	
+	culture = nordaere
+	religion = catholic
+	
+	1055.1.1 = { birth = yes }
+	1109.1.1 = { death = yes }
+}
+4040073 = {
+	name = "Bjorn"
+	dynasty = 20100044
+	
+	father = 163119
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	870.1.1 = { birth = yes }
+	933.1.1 = { death = yes }
+}
+4040074 = {
+	name = "Erik"
+	dynasty = 20100044
+	
+	father = 4040073
+	
+	culture = nordaere
+	religion = catholic
+	
+	910.1.1 = { birth = yes }
+	973.1.1 = { death = yes }
+}
+4040075 = {
+	name = "Sigmund"
+	dynasty = 20100044
+	
+	father = 4040074
+	
+	culture = nordaere
+	religion = catholic
+	
+	935.1.1 = { birth = yes }
+	1000.1.1 = { death = yes }
+}
+4040076 = {
+	name = "Harald"
+	dynasty = 20100044
+	
+	father = 4040075
+	
+	culture = nordaere
+	religion = catholic
+	
+	968.1.1 = { birth = yes }
+	1024.1.1 = { death = yes }
+}
+4040077 = {
+	name = "Ubbo"
+	dynasty = 20100044
+	
+	father = 4040076
+	
+	culture = nordaere
+	religion = catholic
+	
+	1001.1.1 = { birth = yes }
+	1067.1.1 = { death = yes }
+}
+4040078 = {
+	name = "Karl"
+	dynasty = 20100044
+	
+	father = 4040077
+	
+	culture = nordaere
+	religion = catholic
+	
+	1040.1.1 = { birth = yes }
+	1101.1.1 = { death = yes }
+}
+4040079 = {
+ 	name = "Rienn"
+	dynasty = 20100045
+	
+	father = 4040082
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	830.1.1 = { birth = yes }
+	900.1.1 = { death = yes }
+}
+4040080 = {
+ 	name = "Ottern"
+	dynasty = 20100045
+	
+	father = 4040082
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	845.1.1 = { birth = yes }
+	910.1.1 = { death = yes }
+}
+4040081 = {
+ 	name = "Hulles"
+	dynasty = 20100046
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	810.1.1 = { birth = yes }
+	888.1.1 = { death = yes }
+}
+4040082 = {
+ 	name = "Killten"
+	dynasty = 20100045
+	
+	culture = nordaere
+	religion = norse_pagan
+	
+	780.1.1 = { birth = yes }
+	867.1.1 = { death = yes }
+}
+
+
+
+	
+
+	

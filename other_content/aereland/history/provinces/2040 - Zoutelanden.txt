@@ -1,0 +1,28 @@
+# 2040 zoutelanden
+
+# County Title
+title = c_zoutelanden
+
+# Settlements
+max_settlements = 4
+b_zoutelanden = tribal
+#b_blofland = city
+#b_erikvanm = temple
+
+#b_merksmoen = castle
+#b_lied = castle
+#b_tiopon = castle
+#b_hallekj = castle
+
+
+# Misc
+culture = nordaere
+religion = norse_pagan
+
+
+# History
+
+800.1.1 = { b_zoutelanden = castle b_blofland = city b_erikvanm = temple }
+
+900.1.1 = { religion = catholic }
+

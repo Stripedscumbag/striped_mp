@@ -1,0 +1,10 @@
+769.1.1 = { holder = 3030074 }
+788.1.1 = { holder = 3030075 }
+810.1.1 = { holder = 3030076 set_tribute_suzerain = { who = d_zudaer percentage = 0.40 } }
+850.1.1 = { holder = 3030077 }
+871.1.1 = { holder = 3030078 }
+911.1.1 = { holder = 3030079 }
+936.1.1 = { holder = 3030011  clear_tribute_suzerain = d_zudaer }
+950.1.1 = { holder = 3030080 }
+999.1.1 = { holder = 3030081 }
+1020.1.1 = { holder = 3030082 }

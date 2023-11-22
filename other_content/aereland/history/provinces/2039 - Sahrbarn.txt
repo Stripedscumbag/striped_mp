@@ -1,0 +1,28 @@
+# 2039 sahrbarn
+
+# County Title
+title = c_sahrbarn
+
+# Settlements
+max_settlements = 5
+b_sahrbarn = tribal
+#b_rurnburg = city
+b_mallesnun = temple
+
+#b_karkatello = castle
+#b_greane = castle
+#b_trektor = castle
+#b_sikkel = castle
+
+
+# Misc
+culture = nordaere
+religion = norse_pagan
+
+
+# History
+
+800.1.1 = { b_sahrbarn = castle b_rurnburg = city b_karkatello = castle }
+
+900.1.1 = { religion = catholic }
+

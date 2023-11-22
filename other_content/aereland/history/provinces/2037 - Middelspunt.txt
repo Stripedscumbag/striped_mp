@@ -1,0 +1,28 @@
+# 2037 middelspunt
+
+# County Title
+title = c_middelspunt
+
+# Settlements
+max_settlements = 4
+b_middelspunt = castle
+b_burgerij = city
+b_kakkerpoort = temple
+
+#b_hoeknlaan = castle
+#b_mariatop = castle
+#b_geijten = castle
+#b_gurkenas = castle
+
+
+# Misc
+culture = zudaere
+religion = catholic
+
+
+# History
+
+800.1.1 = { religion = norse_pagan }
+
+900.1.1 = { religion = catholic }
+930.1.1 = { b_hoeknlaan = city }

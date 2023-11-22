@@ -1,0 +1,18 @@
+umayyad_caliph = {
+    learning = 2
+}
+
+weak_umayyad_caliph = {
+    monthly_character_piety = -0.5
+    monthly_character_prestige = -1
+    vassal_opinion = -20
+    learning = 1
+}
+
+strong_umayyad_caliph = {
+    monthly_character_piety = 0.5
+    monthly_character_prestige = 1
+    vassal_opinion = 10
+    learning = 3
+    wonder_build_cost_modifier = -0.1
+}

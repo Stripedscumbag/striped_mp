@@ -1,0 +1,27 @@
+# 2018 alpienerburg
+
+# County Title
+title = c_alpienerburg
+
+# Settlements
+max_settlements = 2
+b_alpienerburg = castle
+b_zwits = city
+#b_ghion = temple
+
+#b_chastur = castle
+#b_poliosis = castle
+#b_vineayrb = castle
+#b_sannedoom = castle
+
+
+# Misc
+culture = zudaere
+religion = catholic
+
+
+# History
+
+800.1.1 = { religion = norse_pagan }
+
+900.1.1 = { religion = catholic }

@@ -1,0 +1,15 @@
+k_danelaw = {
+	color = { 220 90 40 }
+	color2 = { 255 255 255 }
+	
+	capital = 57
+	
+	culture = norse
+	
+	allow = {
+		k_danelaw = {
+			show_scope_change = no
+			is_titular = no
+		}
+	}
+}

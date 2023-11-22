@@ -1,0 +1,27 @@
+# 2021 hegelsplat
+
+# County Title
+title = c_hegelsplat
+
+# Settlements
+max_settlements = 6
+b_hegelsplat = castle
+b_stroopfis = city
+b_podsukr = temple
+
+b_eraardbi = castle
+#b_appelslik = castle
+#b_glukos = castle
+#b_stapelbrood = castle
+
+
+# Misc
+culture = zudaere
+religion = catholic
+terrain = farmlands
+
+# History
+
+800.1.1 = { religion = norse_pagan }
+
+900.1.1 = { religion = catholic }

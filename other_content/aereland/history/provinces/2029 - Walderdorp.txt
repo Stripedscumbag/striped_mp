@@ -1,0 +1,28 @@
+# 2029 walderdorp
+
+# County Title
+title = c_walderdorp
+
+# Settlements
+max_settlements = 4
+b_walderdorp = tribal
+#b_apfelbaum = city
+#b_kaktusmark = temple
+
+#b_eichemark = castle
+#b_birkesval = castle
+#b_ahornborg = castle
+#b_haselschluss = castle
+
+
+# Misc
+culture = nordaere
+religion = norse_pagan
+
+
+# History
+
+800.1.1 = { b_walderdorp = castle b_apfelbaum = city b_kaktusmark = temple }
+
+1066.1.1 = { religion = catholic }
+

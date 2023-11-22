@@ -1,0 +1,1163 @@
+namespace = NM
+
+character_event = { #Rollo of Normandy
+	id = NM.1
+	hide_window = yes
+	
+	min_age = 20
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		start_date == 867.1.1
+		character = c_242
+		c_242 = {
+			is_alive = yes
+			is_landed = no
+		}
+		NOT = { has_global_flag = normans_settled }
+	}
+	
+	mean_time_to_happen = {
+		years = 10
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			year = 900
+		}
+	}
+	
+	immediate = {
+		wealth = 200
+		dynasty = 752
+		any_child_even_if_dead = {
+			dynasty = 752
+		}
+		add_trait = viking
+		k_france = {
+			holder_scope = {
+				narrative_event = { id = NM.2 }
+			}
+		}
+		random_list	= { #make him fun to play with
+			1 = { change_martial = 3 }
+			1 = { change_martial = 2 }
+			1 = { change_martial = 1 }
+		}
+		if = {
+			limit = {
+				has_education_martial_trigger = no
+			}
+			remove_education_effect = yes
+			random_list	= {
+				5 = { add_trait = brilliant_strategist }
+				8 = { add_trait = skilled_tactician }
+				4 = { add_trait = tough_soldier }
+				2 = { add_trait = misguided_warrior }
+			}
+		}
+		remove_trait = dull
+		remove_trait = feeble
+		remove_disease_trait_effect = yes
+	}
+}
+
+narrative_event = {
+	id = NM.2
+	title = TITLE_NM2
+	desc = DESC_NM2
+	picture = GFX_evt_longships_at_sea_oldgods
+	is_triggered_only = yes
+	
+	immediate = { set_global_flag = normans_settled } #even if they say no it just wont repeat
+	
+	option = { #accept offer
+		name = A_NM2
+		wealth = 300
+		custom_tooltip = {
+			text = WELCOME_NORMANS
+			d_normandy = {
+				holder_scope = {
+					any_demense_title = {
+						limit = {
+							de_jure_liege_or_above = d_normandy
+						}
+						gain_title = {
+							target = c_242
+							type = grant
+						}
+					}
+				}
+			}
+			any_demense_title = {
+				limit = {
+					de_jure_liege_or_above = d_normandy
+				}
+				gain_title = {
+					target = c_242
+					type = grant
+				}
+			}
+			d_normandy = {
+				grant_title_no_opinion = {
+					target = c_242
+					type = grant
+				}
+			}
+			c_arques = { #rouen
+				grant_title_no_opinion = {
+					target = c_242
+					type = grant
+				}
+			}
+			c_evreux = {
+				grant_title_no_opinion = {
+					target = c_242
+					type = grant
+				}
+			}
+			c_242 = {
+				set_defacto_liege = k_france
+				culture = norman
+				any_child = {
+					culture = norman
+					any_child = { culture = norman } #possible grandchildren
+				}
+				character_event = { id = NM.5 } #start tombola
+			}
+			hidden_effect = {
+				k_france = {
+					holder_scope = {
+						any_realm_lord = {
+							limit = {
+								de_jure_liege = d_normandy
+								NOT = { has_landed_title = c_vexin }
+							}
+							set_defacto_liege = c_242
+						}
+					}
+				}
+				any_player = {
+					limit = {
+						de_facto_liege = k_france
+					}
+					narrative_event = { id = NM.3 days = 2 }
+				}
+			}
+			any_realm_province = {
+        		add_province_modifier = {
+        			name = settled_adventurer
+        			years = 20
+        		}
+        	}
+		}
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+				any_player = {
+					primary_title = { title = d_normandy }
+					OR = {
+						has_landed_title = c_arques
+						has_landed_title = c_evreux
+					}
+				}
+			}
+		}
+	}
+	
+	option = { #decline offer
+		name = B_NM2
+		custom_tooltip = {
+			text = REJECT_NORMANS
+			
+		}
+		ai_chance = { factor = 20 }
+	}
+	
+	option = { #accept and play as
+		name = C_NM2
+		wealth = 300
+		custom_tooltip = {
+			text = BECOME_NORMANS
+			d_normandy = {
+				holder_scope = {
+					any_demense_title = {
+						limit = {
+							de_jure_liege = d_normandy
+						}
+						gain_title = {
+							target = c_242
+							type = grant
+						}
+					}
+				}
+			}
+			any_demense_title = {
+				limit = {
+					de_jure_liege = d_normandy
+				}
+				gain_title = {
+					target = c_242
+					type = grant
+				}
+			}
+			d_normandy = {
+				grant_title_no_opinion = {
+					target = c_242
+					type = grant
+				}
+			}
+			c_arques = {
+				grant_title_no_opinion = {
+					target = c_242
+					type = grant
+				}
+			}
+			c_evreux = {
+				grant_title_no_opinion = {
+					target = c_242
+					type = grant
+				}
+			}
+			hidden_effect = {
+				k_france = {
+					holder_scope = {
+						any_realm_lord = {
+							limit = {
+								de_jure_liege = d_normandy
+								NOT = { has_landed_title = c_vexin }
+							}
+							set_defacto_liege = c_242
+						}
+					}
+				}
+				any_player = {
+					limit = {
+						de_facto_liege = k_france
+					}
+					narrative_event = { id = NM.3 days = 2 }
+				}
+			}
+			any_realm_province = {
+        		add_province_modifier = {
+        			name = settled_adventurer
+        			years = 20
+        		}
+        	}
+		}
+		set_player_character = c_242
+		c_242 = {
+			set_defacto_liege = k_france
+			culture = norman
+			any_child = {
+				culture = norman
+				any_child = { culture = norman } #possible grandchildren
+			}
+			character_event = { id = NM.5 } #start tombola
+		}
+		ai_chance = { factor = 0 }
+	}
+}
+
+narrative_event = {
+	id = NM.3
+	title = TITLE_NM3
+	desc = DESC_NM3
+	picture = GFX_evt_longships_at_sea_oldgods
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM3
+	}
+	
+	option = {
+		name = B_NM3
+		trigger = {
+			d_normandy = { holder_scope = { ai = yes } }
+		}
+		if = { #idk if it checks twice, but just to prevent GOs
+			limit = {
+				d_normandy = { holder_scope = { ai = yes } }
+			}
+			set_player_character = c_242
+		}
+	}
+}
+
+character_event = { #tombola
+	id = NM.5
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		dynasty = 752
+		has_landed_title = d_normandy
+		is_landed = yes
+		is_alive = yes
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				check_variable = { which = global_normandy_var value < 1 }
+			}
+			set_variable = { which = global_normandy_var value = 1 }
+		}
+		if = {
+			limit = {
+				check_variable = { which = global_normandy_var value < 17 }
+			}
+			change_variable = { which = global_normandy_var value = 1 }
+			d_normandy = {
+				holder_scope = {
+					repeat_event = { id = NM.5 years = 3 }
+					current_heir = { character_event = { id = NM.5 years = 3 } } #triggers prevent it firing for both (I HOPE)
+				}
+			}
+			random_list = {
+				50 = { #christianisation
+					character_event = { id = NM.10 }
+					modifier = {
+						factor = 0
+						OR = {
+							liege = { NOT = { religion_group = christian } }
+							religion_group = christian
+						}
+					}
+				}
+				10 = { #family member turns christian
+					random_close_relative = {
+						limit = {
+							dynasty = 752
+							NOT = { religion_group = christian }
+							is_landed = no
+							is_abroad = no
+						}
+						character_event = { id = NM.20 }
+					}
+					modifier = {
+						factor = 0.5
+						religion_group = christian
+					}
+					modifier = {
+						factor = 0
+						any_close_relative = {
+							limit = {
+								is_landed = no
+								is_abroad = no
+								dynasty = 752
+							}
+							NOT = { religion_group = christian }
+						}
+					}
+				}
+				10 = { #invite danes
+					character_event = { id = NM.30 }
+					modifier = {
+						factor = 0
+						has_character_flag = aid_from_denmark_flag
+					}
+				}
+				10 = { #name change to Rollo
+					character_event = { id = NM.40 }
+					modifier = {
+						factor = 0
+						OR = {
+							ai = yes
+							has_character_flag = rollo_name_flag
+							NOT = { character = c_242 }
+						}
+					}
+				}	
+				10 = { #norman noble/warrior shows up
+					character_event = { id = NM.50 }
+				}
+				20 = { #general land improvement
+					character_event = { id = NM.60 }
+				}
+				20 = { #land aquisition in maine/perche
+					character_event = { id = NM.70 }
+					modifier = {
+						factor = 0
+						NAND = {
+							NOR = {
+								c_maine = {
+									any_de_jure_vassal_title = {
+										holder = ROOT
+									}
+									has_empty_holding = no
+								}
+								completely_controls = c_maine
+							}
+							NOR = {
+								c_perche = {
+									any_de_jure_vassal_title = {
+										holder = ROOT
+									}
+									has_empty_holding = no
+								}
+								completely_controls = c_perche
+							}
+						}
+					}
+						
+				}
+				100000 = { # notify end of tombola
+					narrative_event = { id = NM.100 }
+					modifier = {
+						factor = 0 #will fire when it's the last var
+						check_variable = {
+							which = global_normandy_var
+							value < 16
+						}
+					}
+				}
+			}
+		}
+		else = {
+			set_variable = { which = global_normandy_var value = 0 } #clear var (wont reappear, i think)
+		}
+	}
+}
+
+character_event = { #christianisation
+	id = NM.10
+	title = TITLE_NM10
+	desc = DESC_NM10
+	picture = GFX_evt_virgin_mary_icon
+	is_triggered_only = yes
+	
+	trigger = {
+		has_landed_title = d_normandy
+		has_global_flag = normans_settled
+		dynasty = 752
+	}
+	
+	option = {
+		name = A_NM10
+		religion = catholic
+		piety = 50
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				trait = sympathy_christendom
+			}
+			modifier = {
+				factor = 2
+				trait = cynical
+			}
+			modifier = {
+				factor = 0.3
+				trait = zealous
+			}
+		}
+	}
+	
+	option = {
+		name = B_NM10
+		add_trait = sympathy_christendom
+		ai_chance = { factor = 25 }
+	}
+	
+	option = {
+		name = C_NM10
+		random = {
+			chance = 25
+			add_trait = zealous
+		}
+		ai_chance = { factor = 25 }
+	}
+}
+
+character_event = {
+	id = NM.20
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		religion = catholic
+		FROM = { character_event = { id = NM.21 } }
+	}
+}
+
+character_event = {
+	id = NM.21
+	title = TITLE_NM21
+	desc = DESC_NM21
+	picture =  GFX_evt_noble_in_castle
+	is_triggered_only = yes
+	
+	option = {
+		trigger = { religion_group = christian }
+		name = A_NM21
+	}
+	
+	option = {
+		trigger = { NOT = { religion_group = christian } }
+		name = B_NM21
+	}
+}
+
+character_event = {
+	id = NM.30
+	title = TITLE_NM30
+	desc = DESC_NM30
+	picture = GFX_evt_magnificent_castle
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM30
+		random = {
+			chance = 20
+			add_trait = diligent
+		}
+		hidden_effect = {
+			random_list = {
+				1 = { #actual lord
+					k_denmark = {
+						random_direct_de_jure_vassal_title = {
+							save_event_target_as = danish_lord
+							character_event = { id = NM.31 months = 2 }
+						}
+					}
+				}
+				1 = { #spawned in guy
+					create_random_steward = {
+						random_traits = yes
+						dynasty = random
+						religion = germanic_pagan
+						culture = norse
+						female = no
+
+						attributes = {
+							martial = 4
+							diplomacy = 2
+							stewardship = 10
+							intrigue = 4
+							learning = 4
+						}
+					}
+					new_character = { #customise a little
+						remove_lifestyle_trait_effect = yes
+						save_event_target_as = danish_lord
+						random_list = {
+							1 = {
+								add_trait = administrator
+							}
+							1 = {
+								add_trait = architect
+							}
+							1 = {
+								add_trait = gardener
+							}
+						}
+						wealth = 50
+						prestige = 300
+						if = {
+							limit = { year = 950 }
+							culture = danish
+						}
+						random = {
+							chance = 25
+							religion = catholic
+						}
+						random = {
+							chance = 30
+							add_trait = viking
+						}
+						character_event = { id = NM.31 months = 2 }
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = B_NM30
+		prestige = 30
+		ai_chance = { factor = 0 }
+	}
+}
+
+character_event = {
+	id = NM.31
+	title = TITLE_NM31
+	desc = DESC_NM31
+	picture = GFX_evt_magnificent_castle
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM31
+		prestige = 100
+		FROM = { character_event = { id = NM.32 months = 2 } }
+	}
+}
+
+character_event = {
+	id = NM.32
+	title = TITLE_NM32
+	desc = DESC_NM32
+	picture = GFX_evt_magnificent_castle
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM32
+		transfer_scaled_wealth = {
+			to = FROM
+			value = 1
+			min = 100
+			max = 500
+		}
+		hidden_effect = {
+			FROM = {
+				if = { 
+					limit = { is_landed = no }
+					wealth = -50
+					add_character_modifier = {
+						name = lent_guards
+						years = 10
+					}
+				}
+				else = { 
+					any_demense_title = {
+						add_province_modifier = {
+							name = lent_troops
+							years = 10
+						}
+					}
+				}
+			}
+			
+		}
+		custom_tooltip = {
+			text = AID_FROM_DENMARK #explains benefits
+			any_demense_title = {
+				add_province_modifier = {
+					name = aid_from_denmark
+					years = 10
+				}
+			}
+		}
+		set_character_flag = aid_from_denmark_flag
+		character_event = {	id = NM.33 years = 10 }
+	}
+	
+	option = {
+		name = B_NM32
+		prestige = -100
+		ai_chance = { factor = 0 }
+		hidden_effect = { #kill landless noble
+			if = {
+				limit = {
+					event_target:danish_lord = { is_landed = no }
+				}
+				event_target:danish_lord = {
+					death = { 
+						death_reason = death_vanished
+					}
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = NM.33
+	title = TITLE_NM33
+	desc = DESC_NM33
+	picture = GFX_evt_prospering_province
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM33
+		scaled_wealth = 1
+		capital_scope = {
+			increase_prosperity_effect = yes
+		}
+	}
+}
+
+character_event = {
+	id = NM.40
+	title = TITLE_NM40
+	desc = DESC_NM40
+	picture = GFX_evt_pagan
+	is_triggered_only = yes
+	
+	immediate = { set_character_flag = rollo_name_flag }
+	
+	option = {
+		name = A_NM40
+		prestige = 50
+		random = {
+			chance = 10
+			add_trait = proud
+		}
+	}
+	
+	option = {
+		name = B_NM40
+		set_name = "Rollo"
+	}
+	
+	option = {
+		name = C_NM40
+		set_name = "Roullon"
+	}
+	
+	option = {
+		name = D_NM40
+		set_name = "Rou"
+	}
+}
+
+character_event = { #noble will offer to build castle
+	id = NM.50
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		create_random_soldier = {
+			random_traits = yes
+			dynasty = random
+			religion = germanic_pagan
+			culture = norman
+			female = no
+
+			attributes = {
+				martial = 9
+				diplomacy = 3
+				stewardship = 3
+				intrigue = 3
+				learning = 3
+			}
+		}
+		
+		new_character = {
+			character_event = { id = NM.51 } #redirecting
+			save_event_target_as = norman_noble
+			remove_lifestyle_trait_effect = yes
+			random_list = {
+				1 = { add_trait = hunter }
+				1 = { add_trait = strategist }
+				1 = { add_trait = duelist }
+			}
+			random = {
+				chance = 50
+				religion = catholic
+				modifier = { factor = 100 ROOT = { religion = catholic } }
+			}
+			random = {
+				chance = 20
+				add_trait = viking
+			}
+			prestige = 100
+			weath = 20
+		}
+	}
+}
+
+character_event = {
+	id = NM.51
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = { character_event = { id = NM.52 } }
+	}
+}
+
+character_event = {
+	id = NM.52
+	title = TITLE_NM52
+	desc = DESC_NM52
+	picture = GFX_evt_emissary
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM52
+		wealth = 100
+		custom_tooltip = {
+			text = NORMAN_NOBLE
+			random_list = {
+				70 = { #succes
+					repeat_event = { id = NM.54 years = 2 }
+				}
+				30 = { #fail
+					repeat_event = { id = NM.53 years = 1 }
+					modifier = {
+						factor = 1.5
+						event_target:norman_noble = {
+							trait = slothful
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = B_NM52
+		hidden_effect = {
+			event_target:norman_noble = {
+				death = {
+					death_reason = death_vanished
+				}
+			}
+		}
+		ai_chance = { factor = 0 }
+	}
+}
+
+character_event = {
+	id = NM.53
+	title = TITLE_NM53
+	desc = DESC_NM53
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM53
+		wealth = -100
+		custom_tooltip = {
+			text = NORMAN_NOBLE_RETRY
+			repeat_event = { id = NM.54 years = 1 }
+		}
+	}
+	
+	option = {
+		name = B_NM53
+		hidden_effect = {
+			event_target:norman_noble = {
+				death = {
+					death_reason = death_vanished
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = NM.54
+	title = TITLE_NM54
+	desc = DESC_NM54
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM54
+		d_normandy = {
+			show_scope_change = no
+			random_direct_de_jure_vassal_title = {
+				show_scope_change = no
+				location = {
+					show_scope_change = no
+					limit = { has_empty_holding = yes }
+					build_holding = {
+						type = castle
+						holder = event_target:norman_noble
+					}
+				}
+			}
+		}
+	}
+	
+	after = {
+		event_target:norman_noble = {
+			set_defacto_liege = ROOT
+			capital_holding = { #buff my boy up
+				add_building = ca_wall_q_1
+				add_building = ca_wall_1
+				add_building = ca_keep_1
+				add_building = ca_militia_barracks_1
+				add_building = ca_barracks_1
+				add_building = ca_stable_1
+				add_building = ca_stable_2
+				add_building = ca_culture_frank_norman_german_1
+			}
+		}
+	}
+}
+
+character_event = {
+	id = NM.60
+	title = TITLE_NM60
+	desc = DESC_NM60
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM60
+		custom_tooltip = {
+			text = NORMAN_IMPROVEMENT
+			random_demesne_title = { #ADD 4 RANDOM BUILDINGS TO HOLDING (or get money)
+				capital_holding = {
+					add_random_building_castle_low_effect = yes
+					add_random_building_castle_low_effect = yes
+					add_random_building_castle_low_effect = yes
+					add_random_building_castle_low_effect = yes
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = NM.70
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		if = { #maine
+			limit = {
+				NOR = {
+					c_maine = {
+						any_de_jure_vassal_title = {
+							holder = ROOT
+						}
+						has_empty_holding = no
+					}
+					completely_controls = c_maine
+				}
+			}
+			character_event = { id = NM.71 }
+		}
+		else_if = {
+			limit = {
+				NOR = {
+					c_perche = {
+						any_de_jure_vassal_title = {
+							holder = ROOT
+						}
+						has_empty_holding = no
+					}
+					completely_controls = c_perche
+				}
+			}
+			character_event = { id = NM.75 }
+		}
+		else = {
+			character_event = { id = NM.60 years = 1 } #boohoo you already own both of them
+		}
+	}
+}
+
+character_event = {
+	id = NM.71
+	title = TITLE_NM71
+	desc = DESC_NM71
+	picture = GFX_evt_leaning_tower
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM71
+		random = {
+			chance = 30
+			change_stewardship = 1
+		}
+		custom_tooltip = {
+			text = NORMAN_MAINE
+			c_maine = {
+				holder_scope = {
+					character_event = { id = NM.72 months = 3 }
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = B_NM71
+		prestige = 50
+	}
+}
+
+character_event = {
+	id = NM.72
+	title = TITLE_NM72
+	desc = DESC_NM72
+	picture = GFX_evt_leaning_tower
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM72
+		FROM = { wealth = -500 }
+		wealth = 500
+		hidden_effect = { FROM = { wealth = 500 character_event = { id = NM.73 months = 2 } } }
+	}
+	
+	option = {
+		name = B_NM72
+		prestige = 250
+		FROM = { letter_event = { id = NM.79 months = 1 } } 
+	}
+}
+
+character_event = {
+	id = NM.73
+	title = TITLE_NM73
+	desc = DESC_NM73
+	picture = GFX_evt_leaning_tower
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM73
+		wealth = -500
+		character_event = { id = NM.74 years = 2 }
+	}
+}
+
+character_event = {
+	id = NM.74
+	title = TITLE_NM74
+	desc = DESC_NM74
+	picture = GFX_evt_leaning_tower
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM74
+		if = {
+			limit = {
+				b_beaumont = { has_holder = no }
+			}
+			c_maine = {
+				show_scope_change = no
+				location = {
+					show_scope_change = no
+					build_holding = {
+						type = castle
+						title = b_beaumont #preferrably beaumont
+						holder = ROOT
+					}
+				}
+			}
+		}
+		else = {
+			c_maine = {
+				show_scope_change = no
+				location = {
+				show_scope_change = no
+					build_holding = {
+						type = castle
+						holder = ROOT
+					}
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = NM.75
+	title = TITLE_NM75
+	desc = DESC_NM75
+	picture = GFX_evt_leaning_tower
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM75
+		random = {
+			chance = 30
+			change_stewardship = 1
+		}
+		custom_tooltip = {
+			text = NORMAN_PERCHE
+			c_maine = {
+				holder_scope = {
+					character_event = { id = NM.76 months = 3 }
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = B_NM75
+		prestige = 50
+	}
+}
+
+character_event = {
+	id = NM.76
+	title = TITLE_NM76
+	desc = DESC_NM76
+	picture = GFX_evt_leaning_tower
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM76
+		FROM = { wealth = -500 }
+		wealth = 500
+		hidden_effect = { FROM = { wealth = 500 character_event = { id = NM.77 months = 2 } } }
+	}
+	
+	option = {
+		name = B_NM76
+		prestige = 250
+		FROM = { letter_event = { id = NM.79 months = 1 } } 
+	}
+}
+
+character_event = {
+	id = NM.77
+	title = TITLE_NM77
+	desc = DESC_NM77
+	picture = GFX_evt_leaning_tower
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM77
+		wealth = -500
+		character_event = { id = NM.78 years = 2 }
+	}
+}
+
+character_event = {
+	id = NM.78
+	title = TITLE_NM78
+	desc = DESC_NM78
+	picture = GFX_evt_leaning_tower
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM78
+		c_perche = {
+			show_scope_change = no
+			location = {
+				show_scope_change = no
+				build_holding = {
+					type = castle
+					holder = ROOT
+				}
+			}
+		}
+	}
+}
+
+letter_event = {
+	id = NM.79
+	desc = DESC_NM79
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM79
+	}
+}
+
+narrative_event = {
+	id = NM.100
+	title = TITLE_NM100
+	desc = DESC_NM100
+	picture = GFX_evt_large_army
+	is_triggered_only = yes
+	
+	option = {
+		name = A_NM100
+		custom_tooltip = { text = NORMAN_END }
+		prestige = 500
+	}
+}

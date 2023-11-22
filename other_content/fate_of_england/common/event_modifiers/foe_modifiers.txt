@@ -1,0 +1,16 @@
+lent_guards = {
+	icon = 19
+	martial = -3
+}
+
+lent_troops = {
+	icon = 19
+	levy_size = -0.15
+}
+
+aid_from_denmark = {
+	icon = 11
+	local_tax_modifier = 0.2
+	local_build_cost_modifier = -0.1
+	local_build_time_modifier = -0.1
+}

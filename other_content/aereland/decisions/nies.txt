@@ -1,0 +1,28 @@
+decisions = {
+	form_republic_nies = {
+		is_high_prio = yes
+		
+		potential = {
+			is_republic = yes
+			capital_scope = {
+				province = c_nies
+			}
+			d_nies = { has_holder = no }
+		}
+		
+		allow = {
+			wealth = 300
+			LOWER_REAL_TIER_THAN = DUKE
+			OR = {
+				liege = { primary_title = { HIGHER_REAL_TIER_THAN = DUKE  } }
+				independent = yes
+			}	
+		}
+		
+		effect = {
+			grant_title = d_nies
+			wealth = -300
+			prestige = 500
+		}
+	}
+}

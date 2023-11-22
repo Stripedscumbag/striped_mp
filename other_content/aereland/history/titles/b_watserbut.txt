@@ -1,0 +1,6 @@
+867.1.1 = {
+	holding_dynasty = 20200043 #Wasterbut - Dynastic Palace
+	holder = 30300104 #character 
+	liege = d_nies
+}
+900.1.1 = { holder = 0 liege = 0 }

@@ -1,0 +1,10 @@
+769.1.1 = {
+	holding_dynasty = 20200032 #Nicene - Dynastic Palace
+	holder = 3030068 #character 
+}
+801.1.1 = { holder = 3030069 }
+833.1.1 = { holder = 3030070 }
+873.1.1 = { holder = 3030071 }
+910.1.1 = { holder = 3030072 }
+944.1.1 = { holder = 3030073 }
+1000.1.1 = { holder = 0 }

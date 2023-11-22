@@ -1,0 +1,6 @@
+769.1.1 = {
+	holding_dynasty = 20200038 #Midsee - Dynastic Palace
+	holder = 3030086 #character 
+	liege = d_nies
+}
+800.1.1 = { liege = 0 holder = 0 }

@@ -1,0 +1,26 @@
+# 2024 bergberg
+
+# County Title
+title = c_bergberg
+
+# Settlements
+max_settlements = 3
+b_bergborg = castle
+b_bergholm = castle
+b_bergstadt = temple
+
+#b_heavul = castle
+#b_bergmark = castle
+#b_bergkamp = castle
+#b_bergbergberg = castle
+
+
+# Misc
+culture = nordaere
+religion = norse_pagan
+
+
+# History
+
+1066.1.1 = { religion = catholic }
+

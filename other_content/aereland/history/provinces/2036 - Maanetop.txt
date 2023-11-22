@@ -1,0 +1,27 @@
+# 2036 maanetop
+
+# County Title
+title = c_maanetop
+
+# Settlements
+max_settlements = 4
+b_maanetop = castle
+b_aardstoren = city
+b_marsklok = temple
+
+#b_venustra = castle
+#b_mercuriusholm = castle
+#b_zonnekant = castle
+#b_plutowein = castle
+
+
+# Misc
+culture = zudaere
+religion = catholic
+
+
+# History
+
+800.1.1 = { religion = norse_pagan }
+
+900.1.1 = { religion = catholic }

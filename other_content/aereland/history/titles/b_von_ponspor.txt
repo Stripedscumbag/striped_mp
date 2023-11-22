@@ -1,0 +1,6 @@
+936.1.1 = {
+	holding_dynasty = 20200044 #Von Ponspor - Dynastic Palace
+	holder = 30300106 #character 
+	liege = d_nies
+}
+1000.1.1 = { holder = 0 liege = 0 }

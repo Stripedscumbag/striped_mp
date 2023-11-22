@@ -1,0 +1,6 @@
+867.1.1 = {
+	holding_dynasty = 20200046 #Freysdochtir - Dynastic Palace
+	holder = 30300103 #character 
+	liege = d_nies
+}
+900.1.1 = { holder = 0 liege = 0 }

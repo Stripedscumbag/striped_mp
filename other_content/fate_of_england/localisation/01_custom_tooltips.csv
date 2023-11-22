@@ -1,0 +1,14 @@
+TOSTIG_YORK;Reinstate §YTostig§! as the §YEarl of Northumbria§!;;;;;;;;;;;;;x
+TOSTIG_COMPLETE;Grant §YTostig§! the §YKingdom of England§!;;;;;;;;;;;;;x
+TOSTIG_PARTIAL;Grant §YTostig§! the §YKingdom of England§!, but under hefty §Ytribute§!.;;;;;;;;;;;;;x
+TOSTIG_REVENGE;§RTostig will plan his revenge!§!;;;;;;;;;;;;;x
+WELCOME_NORMANS;Grant the §YDuchy of Normandy§! to §YHrolfr de Normandie§! and be immune to viking raids for §Y20§! years.;;;;;;;;;;;;;x
+REJECT_NORMANS;§RReject the offer§!;;;;;;;;;;;;;x
+BECOME_NORMANS;Play the §YDuke of Normandy§! as §YHrolfr de Normandie§!.;;;;;;;;;;;;;x
+AID_FROM_DENMARK;Danish workers have come over to help build up Normandy;;;;;;;;;;;;;
+NORMAN_NOBLE;[From.GetName] will buy a plot of land and build a castle within your domains.;;;;;;;;;;;;;
+NORMAN_NOBLE_RETRY;[From.GetName] needs some extra funds.;;;;;;;;;;;;;
+NORMAN_IMPROVEMENT;Get 4 random buildings on one of your holdings.;;;;;;;;;;;;;
+NORMAN_MAINE;Offer 500¤ to build a castle in Maine.;;;;;;;;;;;;;
+NORMAN_PERCHE;Offer 500¤ to build a castle in Perche.;;;;;;;;;;;;;
+NORMAN_END;You will no longer get Norman buffing events.;;;;;;;;;;;;;

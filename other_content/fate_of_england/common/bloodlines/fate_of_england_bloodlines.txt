@@ -1,0 +1,12 @@
+harold_godwinson = {
+	combat_rating = 5
+	monthly_character_prestige = 0.25
+	saxon_opinion = 5
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_lion
+	flags = { historical_bloodline saxon_bloodline }
+	active = {
+		culture = saxon
+	}
+}

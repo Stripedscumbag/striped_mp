@@ -1,0 +1,28 @@
+# 2033 groengrun
+
+# County Title
+title = c_groengrun
+
+# Settlements
+max_settlements = 5
+b_groengrun = tribal
+#b_gron = city
+b_green = temple
+
+#b_verda = castle
+#b_vert = castle
+#b_zielson = castle
+#b_kanach = castle
+
+
+# Misc
+culture = nordaere
+religion = norse_pagan
+
+
+# History
+
+800.1.1 = { b_groengrun = castle b_gron = city }
+
+900.1.1 = { religion = catholic }
+

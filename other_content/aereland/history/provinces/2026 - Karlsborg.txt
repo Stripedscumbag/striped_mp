@@ -1,0 +1,28 @@
+# 2026 karlsborg
+
+# County Title
+title = c_karlsborg
+
+# Settlements
+max_settlements = 5
+b_karlsborg = tribal
+#b_backerjens = city
+b_mikkruburg = temple
+#b_yurta = castle
+#b_tallonval = castle
+#b_arglevto = castle
+#b_qocuo = castle
+
+
+# Misc
+culture = nordaere
+religion = norse_pagan
+terrain = hills
+
+
+# History
+
+800.1.1 = { b_karlsborg = castle b_backerjens = city }
+
+1066.1.1 = { religion = catholic }
+
