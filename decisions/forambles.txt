@@ -732,15 +732,6 @@ decisions = {
 			}
 			diplomacy = 16
 			trait = ambitious
-			custom_tooltip = {
-				text = tt_german_vassal_like
-				any_de_jure_vassal = {
-					reverse_opinion = {
-						who = ROOT
-						value >= 0
-					}
-				}
-			}
 		}
 		
 		effect = {
