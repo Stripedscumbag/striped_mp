@@ -1,9 +1,0 @@
-769.1.1 = { set_tribute_suzerain = { who = c_kelderbier percentage = 0.40 } holder = 4040068 } 
-#ubbe
-860.1.1 = { clear_tribute_suzerain = c_kelderbier holder = 163119 }
-878.1.1 = { holder = 4040073 }
-933.1.1 = { holder = 4040074 }
-973.1.1 = { holder = 4040075 }
-1000.1.1 = { holder = 4040076 }
-1024.1.1 = { holder = 4040077 }
-1067.1.1 = { holder = 4040078 }

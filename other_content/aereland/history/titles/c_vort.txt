@@ -1,4 +1,0 @@
-769.1.1 = { holder = 3030065 }
-867.1.1 = { holder = 3030066 set_tribute_suzerain = { who = d_zudaer percentage = 0.40 } }
-936.1.1 = { holder = 3030011 clear_tribute_suzerain = d_zudaer }
-1066.1.1 = { holder = 3030067 }

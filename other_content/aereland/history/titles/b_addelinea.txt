@@ -1,6 +1,0 @@
-936.1.1 = {
-	holding_dynasty = 20200045 #Addelinea - Dynastic Palace
-	holder = 30300109 #character 
-	liege = d_nies
-}
-1000.1.1 = { holder = 0 liege = 0 }

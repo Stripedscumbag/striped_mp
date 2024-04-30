@@ -1,4 +1,0 @@
-769.1.1 = { holder = 4040069 set_tribute_suzerain = { who = d_nordaer type = permanent percent = 0.1 } }
-867.1.1 = { holder = 4040070 }
-936.1.1 = { holder = 4040071 }
-1066.1.1 = { holder = 4040072 }

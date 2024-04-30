@@ -1,6 +1,0 @@
-change_years_cooldown = {
-	icon = 1
-}
-spin_cooldown = {
-	icon = 1
-}
